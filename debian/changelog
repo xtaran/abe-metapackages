@@ -1,11 +1,11 @@
 abe-metapackages (9.1~dev) UNRELEASED; urgency=low
 
   * Split source package into two source packages:
-    + abe-desktop contains only the abe-desktop-* binary packages,
-      i.e. all packages which are directly related to my desktop setup.
-    + abe-metapackages contains the remaining packages (including
-      abe-desktop), which are not directly related to my desktop setup and
-      can also used on non-desktops.
+    + abe-desktop contains only the abe-desktop* binary packages, i.e. all
+      packages which are directly related to my desktop setup.
+    + abe-metapackages contains the remaining packages, which are not
+      directly related to my desktop setup and can also used on
+      non-desktops.
   * Split off new metapackage abe-window-managers from abe-desktop and add
     some more window manager and desktop environments to it.
   * Only mention gpm and vidcontrol in abe-console.
