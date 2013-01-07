@@ -1,5 +1,11 @@
-abe-desktop (9.1~dev) UNRELEASED; urgency=low
+abe-metapackages (9.1~dev) UNRELEASED; urgency=low
 
+  * Split source package into two source packages:
+    + abe-desktop contains only the abe-desktop-* binary packages,
+      i.e. all packages which are directly related to my desktop setup.
+    + abe-metapackages contains the remaining packages (including
+      abe-desktop), which are not directly related to my desktop setup and
+      can also used on non-desktops.
   * Only mention gpm and vidcontrol in abe-console.
   * Prefer console-tools over kbd, also accept kbd-compat,
     console-utilities and kbdcontrol as alternatives.
@@ -7,7 +13,7 @@ abe-desktop (9.1~dev) UNRELEASED; urgency=low
   * Revamp dependencies on CLI media players, add package
     abe-commandline-media.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Fri, 04 Jan 2013 00:52:53 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Mon, 07 Jan 2013 02:01:35 +0100
 
 abe-desktop (9) unstable; urgency=low
 

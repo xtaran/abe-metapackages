@@ -1,116 +1,12 @@
-Source: abe-desktop
+Source: abe-metapackages
 Maintainer: Axel Beckert <abe@deuxchevaux.org>
 Section: metapackages
 Priority: extra
-Homepage: https://github.com/xtaran/ratpoison-desktop#readme
-Vcs-Git: git://github.com/xtaran/ratpoison-desktop.git
-Vcs-Browser: https://github.com/xtaran/ratpoison-desktop
+Homepage: https://github.com/xtaran/abe-metapackages#readme
+Vcs-Git: git://github.com/xtaran/abe-metapackages.git
+Vcs-Browser: https://github.com/xtaran/abe-metapackages
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 7)
-
-Package: abe-desktop-common
-Depends: abe-emacs,
-         busybox-syslogd | system-log-daemon,
-         colordiff,
-         conkeror | www-browser,
-         dnsutils | wget,
-         git,
-         gxmessage | x11-utils,
-         i3status,
-         libfile-slurp-perl,
-         libfile-temp-perl,
-         libnotify-bin,
-         lsb-release,
-         sxiv | xv | feh | xzgv,
-         x11-xserver-utils,
-         xfonts-terminus,
-         xmobar,
-         xscreensaver | xtrlock | xlockmore | xlockmore-gl,
-         xterm | rxvt-unicode-256color | rxvt-unicode,
-         yeahconsole,
-         zile,
-         ${misc:Depends}
-Recommends: abe-commandline,
-            autocutsel,
-            dnsutils,
-            equivs,
-            fonts-roboto | fonts-droid | ttf-droid,
-            fonts-mplus | ttf-mplus,
-            gitk,
-            gnome-keyring,
-            gnome-settings-daemon,
-            hsetroot,
-            i3status (>= 2.2),
-            inotail,
-            keynav (>= 0.20101014.3067),
-            openssh-client | dropbear,
-            rxvt-unicode-256color | rxvt-unicode,
-            sxiv,
-            udev-notify,
-            unclutter,
-            x11-xkb-utils,
-            xdotool,
-            xfce4-volumed,
-            xrootconsole | root-tail,
-            xscreensaver,
-            xserver-xorg-input-synaptics,
-            xterm,
-            xtrlock,
-            zsh
-Suggests: abe-gnome,
-          amora-cli | amora-applet,
-          audacious,
-          audacious-plugins,
-          ccze | loco | lwatch | colortail,
-          fonts-droid | ttf-droid,
-          fonts-roboto,
-          ncurses-term,
-          nvi,
-          openssh-server | dropbear,
-          screen | tmux
-Architecture: all
-Description: Common packages for all of Axel's desktop setups
- This metapackage depends on packages common for all of Axel's desktop
- setups.
-
-Package: abe-desktop-ratpoison
-Depends: abe-desktop-common,
-         nawm | xdotool,
-         ratmenu (>= 2.3.20),
-         ratpoison,
-         ${misc:Depends}
-Recommends: notification-daemon | dunst,
-            redshift,
-            suckless-tools | dwm-tools (>= 31-1),
-            wicd-curses | network-manager (>= 0.8.0.999-1) | cnetworkmanager,
-            xclip
-Architecture: all
-Description: Packages necessary for Axel's ratpoison desktop
- This metapackage depends on packages common for Axel's ratpoison
- based desktop setup.
-
-Package: abe-desktop-awesome
-Depends: abe-desktop-common,
-         awesome (>= 3),
-         awesome-extra,
-         hsetroot,
-         xdotool,
-         ${misc:Depends}
-Recommends: fdpowermon,
-            gtk-redshift,
-            smart-notifier,
-            wicd-gtk | network-manager-gnome
-Suggests: amora-applet,
-          clipit | parcellite,
-          qasmixer | volumeicon-alsa | volti,
-          radiotray,
-          shutter,
-          update-notifier,
-          yarssr
-Architecture: all
-Description: Packages necessary for Axel's awesome desktop
- This metapackage depends on packages common for Axel's awesome based
- desktop setup.
 
 Package: abe-desktop
 Depends: abe-console,
