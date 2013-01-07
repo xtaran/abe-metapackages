@@ -471,7 +471,6 @@ Suggests: abe-gnome,
           windowlab,
           wm2,
           wmfs,
-          x-window-manager,
           xmonad | libghc-xmonad-dev
 Enhances: abe-desktop
 Architecture: all
