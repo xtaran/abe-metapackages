@@ -454,8 +454,7 @@ Depends: awesome,
          i3-wm,
          ratpoison,
          ${misc:Depends}
-Recommends: abe-desktop,
-            cinnamon,
+Recommends: cinnamon,
             fvwm,
             lxde | lxde-core | lxsession,
             razorqt,
@@ -474,6 +473,7 @@ Suggests: abe-gnome,
           wmfs,
           x-window-manager,
           xmonad | libghc-xmonad-dev
+Enhances: abe-desktop
 Architecture: all
 Description: Metapackage depending on a bunch of window managers
  This metapackage depends window managers and desktop environments,

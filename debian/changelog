@@ -3,6 +3,8 @@ abe-metapackages (10.1~dev) UNRELEASED; urgency=low
   * Add opencubicplayer to the list of TUI media players alternatives.
   * Add eyed3 as alternative to mp3info.
   * abe-office suggests xserver-xorg-input-wacom.
+  * Don't let abe-window-managers Recommend abe-desktop, let it Enhance it
+    instead.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Mon, 07 Jan 2013 04:17:02 +0100
 
