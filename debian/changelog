@@ -6,6 +6,7 @@ abe-metapackages (10.1~dev) UNRELEASED; urgency=low
   * Don't let abe-window-managers Recommend abe-desktop, let it Enhance it
     instead.
   * abe-window-managers: No more suggest any window manager.
+  * abe-commandline-media suggests abcde.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Mon, 07 Jan 2013 04:17:02 +0100
 
