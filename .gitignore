@@ -1,2 +1,6 @@
 *~
 /*-stamp
+/debian/*.debhelper.log
+/debian/*.substvars
+/debian/abe-*/
+/debian/files
