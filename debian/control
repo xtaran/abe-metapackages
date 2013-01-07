@@ -8,38 +8,6 @@ Vcs-Browser: https://github.com/xtaran/abe-metapackages
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 7)
 
-Package: abe-window-managers
-Depends: awesome,
-         flwm,
-         i3-wm,
-         ratpoison,
-         ${misc:Depends}
-Recommends: abe-desktop,
-            cinnamon,
-            fvwm,
-            lxde | lxde-core | lxsession,
-            razorqt,
-            stumpwm,
-            xfce4
-Suggests: abe-gnome,
-          clfswm,
-          herbstluftwm,
-          notion,
-          spectrwm | scrotwm,
-          subtle,
-          tritium,
-          twm,
-          windowlab,
-          wm2,
-          wmfs,
-          x-window-manager,
-          xmonad | libghc-xmonad-dev
-Architecture: all
-Description: Metapackage depending on a bunch of window managers
- This metapackage depends window managers and desktop environments,
- Axel wants to have on those computers where occassionally other
- people log in, too.
-
 Package: abe-commandline
 Depends: aptitude,
          autossh,
@@ -235,6 +203,20 @@ Description: Metapackage for computers where Axel can play music
  This metapackage depends on packages Axel's usually wants where he
  can listen to music.
 
+Package: abe-console
+Depends: console-setup,
+         gpm | vidcontrol,
+         console-tools | kbd-compat | kbd | console-utilities | kbdcontrol,
+         ${misc:Depends}
+Recommends: linuxlogo,
+            abe-commandline
+Suggests: abe-partitioning,
+          abe-commandline-media
+Architecture: all
+Description: Metapackage for computers where Axel works on the console
+ This metapackage depends on packages Axel's usually needs where he
+ also works on the console and not only remote or under X.
+
 Package: abe-emacs
 Depends: crypt++el,
          debian-el,
@@ -277,38 +259,6 @@ Architecture: all
 Description: Common GNOME applications on Axel's desktops
  This metapackage depends on packages Axel's oftens installs when
  having GNOME libraries installed is not an issue.
-
-Package: abe-office
-Depends: catdoc | antiword | wv,
-         libpaper-utils,
-         libreoffice-calc    | openoffice.org-calc | gnumeric,
-         libreoffice-impress | openoffice.org-impress,
-         libreoffice-writer  | openoffice.org-writer,
-         ${misc:Depends}
-Recommends: dia-gnome | dia | xfig,
-            gnumeric,
-            libreoffice-gnome | libreoffice-gtk | openoffice.org-gnome | openoffice.org-gtk | libreoffice-gtk3,
-            libreoffice-math                    | openoffice.org-math
-Suggests: antiword,
-          catdoc,
-          dia-gnome | dia,
-          gimp,
-          inkscape | scribus,
-          libreoffice                        | openoffice.org,
-          libreoffice-calc                   | openoffice.org-calc,
-          libreoffice-pdfimport              | openoffice.org-pdfimport,
-          libreoffice-presentation-minimizer | openoffice.org-presentation-minimizer,
-          libreoffice-presenter-console      | openoffice.org-presenter-console,
-          markdown | discount | pandoc | ruby-maruku | ruby-redcarpet | ruby-kramdown | ruby-bluecloth | libtext-markdown-perl | libtext-multimarkdown-perl | python-markdown | multimarkdown,
-          mdpress | python-landslide,
-          mypaint,
-          wv,
-          xfig,
-          xlhtml
-Architecture: all
-Description: Common office applications on Axel's desktops
- This metapackage depends on packages Axel's usually needs when he
- want's basic office functionality.
 
 Package: abe-laptop
 Depends: abe-commandline,
@@ -404,24 +354,6 @@ Description: Metapackage to fulfill some hard dependencies of ubuntu-minimal
  It also conflicts with packages, Axel doesn't want to see on any of
  his laptops.
 
-Package: abe-small-disk
-Depends: debconf (>= 1.5.39) | debconf-english,
-         hardlink,
-         localepurge,
-         ${misc:Depends}
-Recommends: busybox-syslogd,
-            unburden-home-dir
-Suggests: abe-laptop-ubuntu,
-          tmpreaper
-Conflicts: debconf-i18n (>= 0)
-Replaces: abe-laptop-small-disk
-Breaks: abe-laptop-small-disk
-Architecture: all
-Description: Keeps some disk-wasting packages off the disk
- This metapackage conflicts with packages Axel considers a waste of
- disk space if disk is sacre. It also pulls in packages which help to
- find waste of disk-space.
-
 Package: abe-monitoring
 Depends: debsums,
          hobbit-plugins,
@@ -434,19 +366,37 @@ Description: Metapackage for computers Axel's wants to be monitored
  This metapackage depends on packages Axel's usually needs on his
  those computers he wants to have monitored.
 
-Package: abe-console
-Depends: console-setup,
-         gpm | vidcontrol,
-         console-tools | kbd-compat | kbd | console-utilities | kbdcontrol,
+Package: abe-office
+Depends: catdoc | antiword | wv,
+         libpaper-utils,
+         libreoffice-calc    | openoffice.org-calc | gnumeric,
+         libreoffice-impress | openoffice.org-impress,
+         libreoffice-writer  | openoffice.org-writer,
          ${misc:Depends}
-Recommends: linuxlogo,
-            abe-commandline
-Suggests: abe-partitioning,
-          abe-commandline-media
+Recommends: dia-gnome | dia | xfig,
+            gnumeric,
+            libreoffice-gnome | libreoffice-gtk | openoffice.org-gnome | openoffice.org-gtk | libreoffice-gtk3,
+            libreoffice-math                    | openoffice.org-math
+Suggests: antiword,
+          catdoc,
+          dia-gnome | dia,
+          gimp,
+          inkscape | scribus,
+          libreoffice                        | openoffice.org,
+          libreoffice-calc                   | openoffice.org-calc,
+          libreoffice-pdfimport              | openoffice.org-pdfimport,
+          libreoffice-presentation-minimizer | openoffice.org-presentation-minimizer,
+          libreoffice-presenter-console      | openoffice.org-presenter-console,
+          markdown | discount | pandoc | ruby-maruku | ruby-redcarpet | ruby-kramdown | ruby-bluecloth | libtext-markdown-perl | libtext-multimarkdown-perl | python-markdown | multimarkdown,
+          mdpress | python-landslide,
+          mypaint,
+          wv,
+          xfig,
+          xlhtml
 Architecture: all
-Description: Metapackage for computers where Axel works on the console
- This metapackage depends on packages Axel's usually needs where he
- also works on the console and not only remote or under X.
+Description: Common office applications on Axel's desktops
+ This metapackage depends on packages Axel's usually needs when he
+ want's basic office functionality.
 
 Package: abe-partitioning
 Depends: ${misc:Depends}
@@ -476,3 +426,53 @@ Description: Metapackage for real computers where Axel may access USB devices
  This metapackage depends on packages Axel's usually needs to
  partition USB sticks or USB disk, i.e. nearly all his real and local
  computers.
+
+Package: abe-small-disk
+Depends: debconf (>= 1.5.39) | debconf-english,
+         hardlink,
+         localepurge,
+         ${misc:Depends}
+Recommends: busybox-syslogd,
+            unburden-home-dir
+Suggests: abe-laptop-ubuntu,
+          tmpreaper
+Conflicts: debconf-i18n (>= 0)
+Replaces: abe-laptop-small-disk
+Breaks: abe-laptop-small-disk
+Architecture: all
+Description: Keeps some disk-wasting packages off the disk
+ This metapackage conflicts with packages Axel considers a waste of
+ disk space if disk is sacre. It also pulls in packages which help to
+ find waste of disk-space.
+
+Package: abe-window-managers
+Depends: awesome,
+         flwm,
+         i3-wm,
+         ratpoison,
+         ${misc:Depends}
+Recommends: abe-desktop,
+            cinnamon,
+            fvwm,
+            lxde | lxde-core | lxsession,
+            razorqt,
+            stumpwm,
+            xfce4
+Suggests: abe-gnome,
+          clfswm,
+          herbstluftwm,
+          notion,
+          spectrwm | scrotwm,
+          subtle,
+          tritium,
+          twm,
+          windowlab,
+          wm2,
+          wmfs,
+          x-window-manager,
+          xmonad | libghc-xmonad-dev
+Architecture: all
+Description: Metapackage depending on a bunch of window managers
+ This metapackage depends window managers and desktop environments,
+ Axel wants to have on those computers where occassionally other
+ people log in, too.

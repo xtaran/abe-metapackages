@@ -14,6 +14,7 @@ abe-metapackages (9.1~dev) UNRELEASED; urgency=low
   * Prefer console-tools over kbd, also accept kbd-compat,
     console-utilities and kbdcontrol as alternatives.
   * Downgrade linuxlogo to Recommends as it's not available on kfreebsd.
+  * Reorder packages alphabetically
 
  -- Axel Beckert <abe@deuxchevaux.org>  Mon, 07 Jan 2013 02:01:35 +0100
 
