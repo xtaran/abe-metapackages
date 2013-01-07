@@ -1,3 +1,9 @@
+abe-metapackages (10.1~dev) UNRELEASED; urgency=low
+
+  * Add opencubicplayer to the list of TUI media players alternatives.
+
+ -- Axel Beckert <abe@deuxchevaux.org>  Mon, 07 Jan 2013 04:17:02 +0100
+
 abe-metapackages (10) unstable; urgency=low
 
   * Split source package into two source packages:

@@ -188,7 +188,7 @@ Package: abe-commandline-media
 Depends: abe-commandline,
          mplayer | mplayer2 | gst123,
          ${misc:Depends}
-Recommends: moc | mp3blaster | orpheus,
+Recommends: moc | mp3blaster | opencubicplayer | orpheus,
             music123,
             vorbis-tools
 Suggests: gst123,
@@ -196,6 +196,7 @@ Suggests: gst123,
           mp3blaster,
           mpg123 | mpg321,
           mplayer | mplayer2,
+          opencubicplayer,
           orpheus,
           xmp
 Architecture: all
