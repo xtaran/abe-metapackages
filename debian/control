@@ -225,6 +225,7 @@ Depends: crypt++el,
          emacs-goodies-el,
          html-helper-mode,
          mmm-mode,
+         zile,
          ${misc:Depends}
 Recommends: devscripts-el,
             dpkg-dev-el,
