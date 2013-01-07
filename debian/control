@@ -14,22 +14,45 @@ Depends: abe-console,
          abe-desktop-ratpoison,
          wdm | xdm | x-display-manager,
          ${misc:Depends}
-Recommends: abe-partioning,
-            flwm,
-            i3-wm,
-            lxsession,
-            spectrwm | scrotwm,
-            stumpwm
+Recommends: abe-partioning
 Suggests: abe-commandline-media,
-          clfswm,
-          fvwm,
-          herbstluftwm,
-          notion,
-          tritium
+          abe-window-managers
 Architecture: all
 Description: Packages helpful for Axel's desktop setup
  This metapackage depends on packages common for Axel's desktop
- setups.
+ computers.
+
+Package: abe-window-managers
+Depends: awesome,
+         flwm,
+         i3-wm,
+         ratpoison,
+         ${misc:Depends}
+Recommends: abe-desktop,
+            cinnamon,
+            fvwm,
+            lxde | lxde-core | lxsession,
+            razorqt,
+            stumpwm,
+            xfce4
+Suggests: abe-gnome,
+          clfswm,
+          herbstluftwm,
+          notion,
+          spectrwm | scrotwm,
+          subtle,
+          tritium,
+          twm,
+          windowlab,
+          wm2,
+          wmfs,
+          x-window-manager,
+          xmonad | libghc-xmonad-dev
+Architecture: all
+Description: Metapackage depending on a bunch of window managers
+ This metapackage depends window managers and desktop environments,
+ Axel wants to have on those computers where occassionally other
+ people log in, too.
 
 Package: abe-commandline
 Depends: aptitude,

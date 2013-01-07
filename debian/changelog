@@ -6,6 +6,8 @@ abe-metapackages (9.1~dev) UNRELEASED; urgency=low
     + abe-metapackages contains the remaining packages (including
       abe-desktop), which are not directly related to my desktop setup and
       can also used on non-desktops.
+  * Split off new metapackage abe-window-managers from abe-desktop and add
+    some more window manager and desktop environments to it.
   * Only mention gpm and vidcontrol in abe-console.
   * Prefer console-tools over kbd, also accept kbd-compat,
     console-utilities and kbdcontrol as alternatives.
