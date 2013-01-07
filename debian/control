@@ -194,8 +194,8 @@ Recommends: moc | mp3blaster | orpheus,
 Suggests: gst123,
           moc,
           mp3blaster,
-          mplayer | mplayer2,
           mpg123 | mpg321,
+          mplayer | mplayer2,
           orpheus,
           xmp
 Architecture: all
@@ -205,13 +205,13 @@ Description: Metapackage for computers where Axel can play music
 
 Package: abe-console
 Depends: console-setup,
-         gpm | vidcontrol,
          console-tools | kbd-compat | kbd | console-utilities | kbdcontrol,
+         gpm | vidcontrol,
          ${misc:Depends}
-Recommends: linuxlogo,
-            abe-commandline
-Suggests: abe-partitioning,
-          abe-commandline-media
+Recommends: abe-commandline,
+            linuxlogo
+Suggests: abe-commandline-media,
+          abe-partitioning
 Architecture: all
 Description: Metapackage for computers where Axel works on the console
  This metapackage depends on packages Axel's usually needs where he
