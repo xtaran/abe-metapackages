@@ -394,7 +394,8 @@ Suggests: antiword,
           mypaint,
           wv,
           xfig,
-          xlhtml
+          xlhtml,
+          xserver-xorg-input-wacom
 Architecture: all
 Description: Common office applications on Axel's desktops
  This metapackage depends on packages Axel's usually needs when he
