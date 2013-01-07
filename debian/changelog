@@ -1,4 +1,4 @@
-abe-metapackages (9.1~dev) UNRELEASED; urgency=low
+abe-metapackages (10) unstable; urgency=low
 
   * Split source package into two source packages:
     + abe-desktop contains only the abe-desktop* binary packages, i.e. all
@@ -17,7 +17,7 @@ abe-metapackages (9.1~dev) UNRELEASED; urgency=low
   * Downgrade linuxlogo to Recommends as it's not available on kfreebsd.
   * Reorder packages alphabetically
 
- -- Axel Beckert <abe@deuxchevaux.org>  Mon, 07 Jan 2013 02:01:35 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Mon, 07 Jan 2013 03:56:48 +0100
 
 abe-desktop (9) unstable; urgency=low
 
