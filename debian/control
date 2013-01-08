@@ -404,16 +404,21 @@ Description: Common office applications on Axel's desktops
 
 Package: abe-partitioning
 Depends: ${misc:Depends}
-Recommends: extundelete,
+Recommends: btrfs-tools,
+            extundelete,
             gddrescue | myrescue | dc3dd | dcfldd | safecopy | ddrescue,
             gdisk,
             gnu-fdisk,
             kpartx,
             parted,
             smartmontools,
-            testdisk
+            testdisk,
+            xfsdump
 Suggests: dc3dd,
           dcfldd,
+          dosfstools,
+          exfat-utils,
+          exfat-fuse,
           fatsort,
           foremost,
           gddrescue,
@@ -423,6 +428,8 @@ Suggests: dc3dd,
           grub-imageboot | grml-rescueboot,
           mtools,
           myrescue,
+          reiser4progs,
+          reiserfsprogs,
           safecopy,
           smart-notifier
 Architecture: all

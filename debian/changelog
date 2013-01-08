@@ -11,6 +11,7 @@ abe-metapackages (10.1~dev) UNRELEASED; urgency=low
   * abe-commandline-media suggests abcde.
   * abe-small-disk: Conflicts with those huge but legacy
     xfonts-*-transcoded packages.
+  * abe-partitioning: Add tools for btrfs, reiserfs, xfs, exfat, and DOS
 
  -- Axel Beckert <abe@deuxchevaux.org>  Mon, 07 Jan 2013 04:17:02 +0100
 
