@@ -9,6 +9,8 @@ abe-metapackages (10.1~dev) UNRELEASED; urgency=low
   * abe-window-managers: Recommend sets of alternatives of stumpwm-like
     and ion3-like window managers
   * abe-commandline-media suggests abcde.
+  * abe-small-disk: Conflicts with those huge but legacy
+    xfonts-*-transcoded packages.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Mon, 07 Jan 2013 04:17:02 +0100
 
