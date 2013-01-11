@@ -510,4 +510,4 @@ Enhances: abe-desktop, abe-office
 Architecture: all
 Description: Metapackage for computers with touchscreen or attached graphics tablet
  This metapackage depends on packages necessary to get
- a Wacom graphics tablet working.
+ a Wacom graphics tablet or a touchscreen working.
