@@ -376,7 +376,8 @@ Depends: catdoc | antiword | wv,
          libreoffice-impress | openoffice.org-impress,
          libreoffice-writer  | openoffice.org-writer,
          ${misc:Depends}
-Recommends: dia-gnome | dia | xfig,
+Recommends: abe-tablet,
+            dia-gnome | dia | xfig,
             gnumeric,
             libreoffice-gnome | libreoffice-gtk | openoffice.org-gnome | openoffice.org-gtk | libreoffice-gtk3,
             libreoffice-math                    | openoffice.org-math
@@ -392,7 +393,6 @@ Suggests: antiword,
           libreoffice-presenter-console      | openoffice.org-presenter-console,
           markdown | discount | pandoc | ruby-maruku | ruby-redcarpet | ruby-kramdown | ruby-bluecloth | libtext-markdown-perl | libtext-multimarkdown-perl | python-markdown | multimarkdown,
           mdpress | python-landslide,
-          mypaint,
           wv,
           xfig,
           xlhtml,
@@ -491,3 +491,23 @@ Description: Metapackage depending on a bunch of window managers
  This metapackage depends window managers and desktop environments,
  Axel wants to have on those computers where occassionally other
  people log in, too.
+
+Package: abe-joystick
+Depends: inputattach, joystick, ${misc:Depends}
+Recommends: jstest-gtk
+Suggests: xserver-xorg-input-joystick, joy2key
+Enhances: abe-desktop
+Architecture: all
+Description: Metapackage for computers with attached joysticks
+ This metapackage depends on, recommends and suggests packages which
+ help to make joysticks working.
+
+Package: abe-tablet
+Depends: xserver-xorg-input-wacom | xserver-xorg-input-tslib, ${misc:Depends}
+Recommends: mypaint
+Suggests: jscribble, mypaint-data-extras
+Enhances: abe-desktop, abe-office
+Architecture: all
+Description: Metapackage for computers with touchscreen or attached graphics tablet
+ This metapackage depends on packages necessary to get
+ a Wacom graphics tablet working.
