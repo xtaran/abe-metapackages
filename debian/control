@@ -417,8 +417,8 @@ Recommends: btrfs-tools,
 Suggests: dc3dd,
           dcfldd,
           dosfstools,
-          exfat-utils,
           exfat-fuse,
+          exfat-utils,
           fatsort,
           foremost,
           gddrescue,
@@ -458,8 +458,8 @@ Suggests: abe-laptop-ubuntu,
           xdiskusage,
           xdu
 Conflicts: debconf-i18n (>= 0),
-           xfonts-75dpi-transcoded,
-           xfonts-100dpi-transcoded
+           xfonts-100dpi-transcoded,
+           xfonts-75dpi-transcoded
 Replaces: abe-laptop-small-disk
 Breaks: abe-laptop-small-disk
 Architecture: all
@@ -486,8 +486,8 @@ Suggests: abe-gnome,
           herbstluftwm,
           notion,
           spectrwm | scrotwm,
-          subtle,
           stumpwm,
+          subtle,
           tritium,
           twm,
           windowlab,
@@ -502,9 +502,12 @@ Description: Metapackage depending on a bunch of window managers
  people log in, too.
 
 Package: abe-joystick
-Depends: inputattach, joystick, ${misc:Depends}
+Depends: inputattach,
+         joystick,
+         ${misc:Depends}
 Recommends: jstest-gtk
-Suggests: xserver-xorg-input-joystick, joy2key
+Suggests: joy2key,
+          xserver-xorg-input-joystick
 Enhances: abe-desktop
 Architecture: all
 Description: Metapackage for computers with attached joysticks
@@ -512,10 +515,13 @@ Description: Metapackage for computers with attached joysticks
  help to make joysticks working.
 
 Package: abe-tablet
-Depends: xserver-xorg-input-wacom | xserver-xorg-input-tslib, ${misc:Depends}
+Depends: xserver-xorg-input-wacom | xserver-xorg-input-tslib,
+         ${misc:Depends}
 Recommends: mypaint
-Suggests: jscribble, mypaint-data-extras
-Enhances: abe-desktop, abe-office
+Suggests: jscribble,
+          mypaint-data-extras
+Enhances: abe-desktop,
+          abe-office
 Architecture: all
 Description: Metapackage for computers with touchscreen or attached graphics tablet
  This metapackage depends on packages necessary to get
