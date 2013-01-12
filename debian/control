@@ -445,9 +445,18 @@ Depends: debconf (>= 1.5.39) | debconf-english,
          localepurge,
          ${misc:Depends}
 Recommends: busybox-syslogd,
+            ncdu | baobab | filelight | xdiskusage | xdu
             unburden-home-dir
 Suggests: abe-laptop-ubuntu,
-          tmpreaper
+          autotrash,
+          baobab,
+          bleachbit,
+          filelight,
+          fslint,
+          ncdu,
+          tmpreaper,
+          xdiskusage,
+          xdu
 Conflicts: debconf-i18n (>= 0),
            xfonts-75dpi-transcoded,
            xfonts-100dpi-transcoded
