@@ -395,8 +395,7 @@ Suggests: antiword,
           mdpress | python-landslide,
           wv,
           xfig,
-          xlhtml,
-          xserver-xorg-input-wacom
+          xlhtml
 Architecture: all
 Description: Common office applications on Axel's desktops
  This metapackage depends on packages Axel's usually needs when he
@@ -519,7 +518,9 @@ Depends: xserver-xorg-input-wacom | xserver-xorg-input-tslib,
          ${misc:Depends}
 Recommends: mypaint
 Suggests: jscribble,
-          mypaint-data-extras
+          mypaint-data-extras,
+          xserver-xorg-input-tslib,
+          xserver-xorg-input-wacom
 Enhances: abe-desktop,
           abe-office
 Architecture: all
