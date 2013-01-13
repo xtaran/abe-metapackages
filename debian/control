@@ -445,7 +445,7 @@ Depends: debconf (>= 1.5.39) | debconf-english,
          localepurge,
          ${misc:Depends}
 Recommends: busybox-syslogd,
-            ncdu | baobab | filelight | xdiskusage | xdu
+            ncdu | baobab | filelight | xdiskusage | xdu,
             unburden-home-dir
 Suggests: abe-laptop-ubuntu,
           autotrash,
