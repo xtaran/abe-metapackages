@@ -231,7 +231,8 @@ Depends: crypt++el,
          ${misc:Depends}
 Recommends: devscripts-el,
             dpkg-dev-el,
-            js2-mode
+            js2-mode,
+            magit
 Suggests: oneliner-el,
           post-el,
           python-mode,
