@@ -16,6 +16,7 @@ abe-metapackages (10.1~dev) UNRELEASED; urgency=low
     as well as digital cameras
   * abe-small-disk: Recommend/suggest more tools to clean up disk space.
   * abe-emacs: Recommend magit.
+  * abe-office: Suggest asciidoc
 
  -- Axel Beckert <abe@deuxchevaux.org>  Mon, 07 Jan 2013 04:17:02 +0100
 

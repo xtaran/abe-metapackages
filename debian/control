@@ -383,6 +383,7 @@ Recommends: abe-tablet,
             libreoffice-gnome | libreoffice-gtk | openoffice.org-gnome | openoffice.org-gtk | libreoffice-gtk3,
             libreoffice-math                    | openoffice.org-math
 Suggests: antiword,
+          asciidoc,
           catdoc,
           dia-gnome | dia,
           gimp,
