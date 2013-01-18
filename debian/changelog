@@ -1,6 +1,6 @@
 abe-metapackages (10.1~dev) UNRELEASED; urgency=low
 
-  * Add new metapackages abe-tablet and abe-joystick.
+  * Add new metapackages abe-joystick, abe-tablet, and abe-tex.
   * Add opencubicplayer to the list of TUI media players alternatives.
   * Add eyed3 as alternative to mp3info.
   * abe-office suggests xserver-xorg-input-wacom.
@@ -16,6 +16,7 @@ abe-metapackages (10.1~dev) UNRELEASED; urgency=low
     as well as digital cameras
   * abe-small-disk: Recommend/suggest more tools to clean up disk space.
   * abe-emacs: Recommend magit.
+  * abe-office: Recommend libreoffice-writer2xhtml, suggest asciidoc
 
  -- Axel Beckert <abe@deuxchevaux.org>  Mon, 07 Jan 2013 04:17:02 +0100
 
