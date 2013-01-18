@@ -517,9 +517,11 @@ Description: Metapackage for computers with attached joysticks
 Package: abe-tablet
 Depends: xserver-xorg-input-wacom | xserver-xorg-input-tslib,
          ${misc:Depends}
-Recommends: mypaint
+Recommends: gromit,
+            mypaint
 Suggests: jscribble,
           mypaint-data-extras,
+          rgbpaint,
           xserver-xorg-input-tslib,
           xserver-xorg-input-wacom
 Enhances: abe-desktop,
