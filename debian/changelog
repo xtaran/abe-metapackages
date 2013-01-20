@@ -17,6 +17,7 @@ abe-metapackages (10.1~dev) UNRELEASED; urgency=low
   * abe-small-disk: Recommend/suggest more tools to clean up disk space.
   * abe-emacs: Recommend magit.
   * abe-office: Recommend libreoffice-writer2xhtml, suggest asciidoc
+  * abe-commandline: Recommend pxz or pixz.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Mon, 07 Jan 2013 04:17:02 +0100
 
