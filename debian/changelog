@@ -1,6 +1,7 @@
-abe-metapackages (10.1~dev) UNRELEASED; urgency=low
+abe-metapackages (11~dev) UNRELEASED; urgency=low
 
-  * Add new metapackages abe-joystick, abe-tablet, and abe-tex.
+  * Add new metapackages abe-fun, abe-games, abe-joystick, abe-tablet, and
+    abe-tex.
   * Add opencubicplayer to the list of TUI media players alternatives.
   * Add eyed3 as alternative to mp3info.
   * abe-office suggests xserver-xorg-input-wacom.
@@ -19,7 +20,7 @@ abe-metapackages (10.1~dev) UNRELEASED; urgency=low
   * abe-office: Recommend libreoffice-writer2xhtml, suggest asciidoc
   * abe-commandline: Recommend pxz or pixz.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Mon, 07 Jan 2013 04:17:02 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Sun, 20 Jan 2013 22:56:18 +0100
 
 abe-metapackages (10) unstable; urgency=low
 
