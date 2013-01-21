@@ -1,8 +1,9 @@
 abe-metapackages (11~dev) UNRELEASED; urgency=low
 
   * Add new metapackages abe-archive-tools, abe-fun, abe-games,
-    abe-joystick, abe-tablet, and abe-tex.
+    abe-joystick, abe-packaging-dev, abe-tablet, and abe-tex.
   * Provides replacements for some of my previous kiva-* metapackages.
+    + Merge kiva-fun into abe-fun and kiva-dev into abe-packaging-dev.
     + Merge most of kiva-base into abe-commandline.
     + Merge kiva-users. Remove parts which are already in abe-commandline
       or abe-archive-tools.
