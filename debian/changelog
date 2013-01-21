@@ -4,6 +4,8 @@ abe-metapackages (11~dev) UNRELEASED; urgency=low
     abe-joystick, abe-tablet, and abe-tex.
   * Provides replacements for some of my previous kiva-* metapackages.
     + Merge most of kiva-base into abe-commandline.
+    + Merge kiva-users. Remove parts which are already in abe-commandline
+      or abe-archive-tools.
   * Add opencubicplayer to the list of TUI media players alternatives.
   * Add eyed3 as alternative to mp3info.
   * abe-office suggests xserver-xorg-input-wacom.
