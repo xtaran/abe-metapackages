@@ -229,8 +229,7 @@ Recommends: cabextract,
             dtrx,
             extract,
             jlha-utils | lhasa | lha,
-            unshield,
-            unzoo
+            unshield
 Suggests: arc,
           arj,
           jlha-utils,
@@ -890,8 +889,6 @@ Recommends: debian-keyring | ubuntu-keyring,
             perltidy
 Suggests: apt-doc,
           apt-dpkg-ref,
-          apt-howto-de,
-          apt-howto-en,
           cdbs,
           cmake,
           colorgcc,
