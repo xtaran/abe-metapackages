@@ -1,0 +1,4 @@
+abe-packaging-dev: extended-description-is-probably-too-short
+abe-packaging-dev: depends-on-obsolete-package recommends: dpatch
+abe-packaging-dev: depends-on-packaging-dev recommends
+abe-packaging-dev: empty-binary-package

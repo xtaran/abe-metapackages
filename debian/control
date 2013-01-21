@@ -14,7 +14,6 @@ Depends: aptitude,
          bash-completion,
          bc,
          bsdmainutils,
-         bsdutils,
          bzip2,
          ccal,
          ccze | loco,
@@ -42,7 +41,6 @@ Depends: aptitude,
          ncdu,
          ncurses-term,
          netcat-traditional | netcat6 | netcat-openbsd | netcat,
-         netcat6,
          ntpdate,
          patch,
          perl-doc,
@@ -81,7 +79,6 @@ Recommends: abe-fun,
             dlocate,
             dwdiff,
             fail2ban | busybox-syslogd,
-            finger,
             fping,
             ftp-ssl,
             git-annex,
@@ -241,6 +238,7 @@ Suggests: arc,
           unace | unace-nonfree,
           unalz,
           zoo
+Architecture: all
 Description: Packages needed to read exotic archive formats
  This metapackage depends on packages which can handle exotic archive
  file formats.
@@ -765,8 +763,9 @@ Depends: abe-commandline,
 Recommends: tmpreaper
 Conflicts: denyhosts,
            tasksel
+Architecture: all
 Description: Solid base for the LUGS Kiva Xen Cluster
-  Everything needed on all Kiva nodes.
+ Metapackage depending on everything needed on all Kiva nodes.
 
 Package: kiva-users
 Depends: abe-archive-tools,
@@ -851,6 +850,7 @@ Suggests: ikiwiki,
           jargon-text,
           nd,
           trickle
+Architecture: all
 Description: Packages needed for hosts with users in the LUGS Kiva Xen Cluster
  Everything needed on all Kiva nodes with normal users being able to
  login.
@@ -876,11 +876,11 @@ Depends: abe-commandline,
          git-buildpackage,
          lintian,
          patch,
-         quilt
+         quilt,
+         ${misc:Depends}
 Recommends: debian-keyring | ubuntu-keyring,
             dpatch,
             equivs,
-            fakeroot,
             hardening-includes,
             manpages-de-dev,
             manpages-dev,
@@ -908,5 +908,7 @@ Suggests: apt-doc,
           ubuntu-dev-tools,
           ubuntu-packaging-guide
 Provides: kiva-dev
+Architecture: all
 Description: Packages for building Debian packages
-  Packages Axel wants on those boxes where he builds Debian packages.
+ Metapackage depending on packages Axel wants to have installed on
+ those boxes where he builds Debian packages.
