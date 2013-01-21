@@ -115,6 +115,7 @@ Recommends: abe-fun,
             whois,
             zutils
 Suggests: 2ping,
+          abe-archive-tools,
           abe-commandline-media,
           abe-emacs,
           aha,
@@ -156,7 +157,6 @@ Suggests: 2ping,
           ipv6calc,
           irssi,
           irssi-scripts,
-          jlha-utils | lhasa | lha,
           lrzip,
           lslk,
           lsof,
@@ -217,13 +217,32 @@ Suggests: 2ping,
           wikipedia2text,
           xml-twig-tools,
           xmldiff,
-          youtube-dl,
-          zip,
-          zoo
+          youtube-dl
 Architecture: all
 Description: Metapackage of commandline tools Axel usually installs
  This metapackage depends on packages Axel's usually installs in all
  his setups.
+
+Package: abe-archive-tools
+Depends: unrar | unrar-nonfree,
+         zip,
+         ${misc:Depends}
+Recommends: cabextract,
+            dtrx,
+            extract,
+            jlha-utils | lhasa | lha,
+            unshield,
+            unzoo
+Suggests: arc,
+          arj,
+          jlha-utils,
+          lhasa,
+          unace | unace-nonfree,
+          unalz,
+          zoo
+Description: Packages needed to read exotic archive formats
+ This metapackage depends on packages which can handle exotic archive
+ file formats.
 
 Package: abe-commandline-media
 Depends: abe-commandline,
