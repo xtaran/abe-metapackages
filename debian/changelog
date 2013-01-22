@@ -1,3 +1,10 @@
+abe-metapackages (11.1~dev) UNRELEASED; urgency=low
+
+  * Downgrade blhc and dh-exec to Recommends as they're not available on
+    Squeeze.
+
+ -- Axel Beckert <abe@deuxchevaux.org>  Wed, 23 Jan 2013 00:12:20 +0100
+
 abe-metapackages (11) unstable; urgency=low
 
   * Add new metapackages abe-archive-tools, abe-fun, abe-games,
