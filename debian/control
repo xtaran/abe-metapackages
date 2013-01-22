@@ -902,7 +902,7 @@ Suggests: apt-doc,
           qt4-qmake,
           svn-buildpackage,
           ubuntu-dev-tools,
-          ubuntu-packaging-guide
+          ubuntu-packaging-guide | ubuntu-packaging-guide-html | ubuntu-packaging-guide-epub | ubuntu-packaging-guide-pdf
 Provides: kiva-dev
 Architecture: all
 Description: Packages for building Debian packages
