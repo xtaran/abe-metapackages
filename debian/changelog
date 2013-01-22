@@ -1,4 +1,4 @@
-abe-metapackages (11~dev) UNRELEASED; urgency=low
+abe-metapackages (11) unstable; urgency=low
 
   * Add new metapackages abe-archive-tools, abe-fun, abe-games,
     abe-joystick, abe-packaging-dev, abe-tablet, and abe-tex.
@@ -25,7 +25,7 @@ abe-metapackages (11~dev) UNRELEASED; urgency=low
   * abe-office: Recommend libreoffice-writer2xhtml, suggest asciidoc
   * abe-commandline: Recommend pxz or pixz.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Sun, 20 Jan 2013 22:56:18 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Wed, 23 Jan 2013 00:01:50 +0100
 
 abe-metapackages (10) unstable; urgency=low
 
