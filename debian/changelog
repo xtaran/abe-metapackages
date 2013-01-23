@@ -4,6 +4,8 @@ abe-metapackages (11.1~dev) UNRELEASED; urgency=low
     Squeeze.
   * Prefer mcabber over cabber as the latter is no more available in more
     recent distributions.
+  * Downgrade sirc to Suggests as it's no more available in more recent
+    distributions.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Wed, 23 Jan 2013 00:12:20 +0100
 

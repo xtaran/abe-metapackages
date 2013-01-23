@@ -803,7 +803,6 @@ Depends: abe-archive-tools,
          renattach,
          rotix,
          signing-party,
-         sirc,
          slrn,
          snarf,
          subversion,
@@ -848,6 +847,7 @@ Suggests: ikiwiki,
           iwatch,
           jargon-text,
           nd,
+          sirc,
           trickle
 Architecture: all
 Description: Packages needed for hosts with users in the LUGS Kiva Xen Cluster
