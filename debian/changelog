@@ -1,6 +1,29 @@
-abe-metapackages (10.1~dev) UNRELEASED; urgency=low
+abe-metapackages (11.1~dev) UNRELEASED; urgency=low
 
-  * Add new metapackages abe-joystick, abe-tablet, and abe-tex.
+  * Downgrade blhc and dh-exec to Recommends as they're not available on
+    Squeeze.
+  * Prefer mcabber over cabber as the latter is no more available in more
+    recent distributions.
+  * Downgrade sirc to Suggests as it's no more available in more recent
+    distributions.
+  * Prefer vim-nox and vim over vim-full which is solely available in
+    Hardy.
+  * Remove tla-tools, soon no more available at all.
+  * kiva-base suggests kiva-users.
+  * abe-commandline suggests abe-packaging-dev.
+  * Downgrade sl to Recommends.
+
+ -- Axel Beckert <abe@deuxchevaux.org>  Wed, 23 Jan 2013 00:12:20 +0100
+
+abe-metapackages (11) unstable; urgency=low
+
+  * Add new metapackages abe-archive-tools, abe-fun, abe-games,
+    abe-joystick, abe-packaging-dev, abe-tablet, and abe-tex.
+  * Provides replacements for some of my previous kiva-* metapackages.
+    + Merge kiva-fun into abe-fun and kiva-dev into abe-packaging-dev.
+    + Merge most of kiva-base into abe-commandline.
+    + Merge kiva-users. Remove parts which are already in abe-commandline
+      or abe-archive-tools.
   * Add opencubicplayer to the list of TUI media players alternatives.
   * Add eyed3 as alternative to mp3info.
   * abe-office suggests xserver-xorg-input-wacom.
@@ -17,8 +40,9 @@ abe-metapackages (10.1~dev) UNRELEASED; urgency=low
   * abe-small-disk: Recommend/suggest more tools to clean up disk space.
   * abe-emacs: Recommend magit.
   * abe-office: Recommend libreoffice-writer2xhtml, suggest asciidoc
+  * abe-commandline: Recommend pxz or pixz.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Mon, 07 Jan 2013 04:17:02 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Wed, 23 Jan 2013 00:01:50 +0100
 
 abe-metapackages (10) unstable; urgency=low
 

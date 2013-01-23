@@ -3,4 +3,5 @@
 /debian/*.debhelper.log
 /debian/*.substvars
 /debian/abe-*/
+/debian/kiva-*/
 /debian/files
