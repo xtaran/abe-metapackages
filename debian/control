@@ -760,6 +760,7 @@ Depends: abe-commandline,
          xosview,
          ${misc:Depends}
 Recommends: tmpreaper
+Suggests: kiva-users
 Conflicts: denyhosts,
            tasksel
 Architecture: all
