@@ -8,6 +8,7 @@ abe-metapackages (11.1~dev) UNRELEASED; urgency=low
     distributions.
   * Prefer vim-nox and vim over vim-full which is solely available in
     Hardy.
+  * Remove tla-tools, soon no more available at all.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Wed, 23 Jan 2013 00:12:20 +0100
 
