@@ -13,6 +13,8 @@ abe-metapackages (11.1~dev) UNRELEASED; urgency=low
   * abe-commandline suggests abe-packaging-dev.
   * Downgrade sl to Recommends.
   * abe-commandline recommends mr.
+  * abe-office recommends retext, suggests python3-markdown as alternative
+    to python-markdown.
   * Make abe-packaging-dev and abe-fun conflict with the according kiva-*
     packages to enforce their removal and really replace them.
 
