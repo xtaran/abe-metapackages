@@ -741,6 +741,7 @@ Enhances: abe-commandline,
           abe-games,
           abe-laptop
 Provides: kiva-fun
+Conflicts: kiva-fun
 Architecture: all
 Description: Metapackage depending on a bunch of fun
  This metapackage depends on packages which Axel usually installs just
@@ -906,6 +907,7 @@ Suggests: apt-doc,
           ubuntu-dev-tools,
           ubuntu-packaging-guide | ubuntu-packaging-guide-html | ubuntu-packaging-guide-epub | ubuntu-packaging-guide-pdf
 Provides: kiva-dev
+Conflicts: kiva-dev
 Architecture: all
 Description: Packages for building Debian packages
  Metapackage depending on packages Axel wants to have installed on
