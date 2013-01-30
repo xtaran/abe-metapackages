@@ -10,7 +10,8 @@ abe-metapackages (11.1~dev) UNRELEASED; urgency=low
     Hardy.
   * Remove tla-tools, soon no more available at all.
   * kiva-base suggests kiva-users.
-  * abe-commandline suggests abe-packaging-dev.
+  * abe-commandline recommends apt-transport-https and suggests
+    abe-packaging-dev.
   * Downgrade sl to Recommends.
   * abe-commandline suggests mr and recommends mr >= 1.06.
   * abe-office recommends retext, suggests python3-markdown as alternative

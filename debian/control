@@ -69,6 +69,7 @@ Depends: aptitude,
          ${misc:Depends}
 Recommends: abe-fun,
             apt-show-versions,
+	    apt-transport-https,
             atool | tardiff,
             bar | cpipe | pipemeter,
             buthead,
