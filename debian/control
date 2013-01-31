@@ -440,6 +440,7 @@ Depends: catdoc | antiword | wv,
          ${misc:Depends}
 Recommends: abe-tablet,
             abe-tex,
+            calibre,
             dia-gnome | dia | xfig,
             gnumeric,
             libreoffice-gnome | libreoffice-gtk | openoffice.org-gnome | openoffice.org-gtk | libreoffice-gtk3,
@@ -603,7 +604,8 @@ Description: Metapackage for computers with attached joysticks
 Package: abe-tablet
 Depends: xserver-xorg-input-wacom | xserver-xorg-input-tslib,
          ${misc:Depends}
-Recommends: gromit,
+Recommends: calibre,
+            gromit,
             mypaint
 Suggests: jscribble,
           mypaint-data-extras,
