@@ -776,7 +776,8 @@ Depends: abe-commandline,
          tcpd,
          xosview,
          ${misc:Depends}
-Recommends: tmpreaper
+Recommends: abe-monitoring,
+            tmpreaper
 Suggests: kiva-users
 Conflicts: denyhosts,
            tasksel
