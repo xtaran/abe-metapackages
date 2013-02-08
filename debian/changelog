@@ -1,4 +1,4 @@
-abe-metapackages (11.1~dev) UNRELEASED; urgency=low
+abe-metapackages (11.1) unstable; urgency=low
 
   * Downgrade blhc and dh-exec to Recommends as they're not available on
     Squeeze.
@@ -22,7 +22,7 @@ abe-metapackages (11.1~dev) UNRELEASED; urgency=low
     packages to enforce their removal and really replace them.
   * abe-office and abe-tablet recommend calibre.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Wed, 23 Jan 2013 00:12:20 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Fri, 08 Feb 2013 23:57:38 +0100
 
 abe-metapackages (11) unstable; urgency=low
 
