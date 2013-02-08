@@ -13,6 +13,8 @@ abe-metapackages (11.1~dev) UNRELEASED; urgency=low
   * abe-commandline recommends apt-transport-https and suggests
     abe-packaging-dev.
   * Downgrade sl to Recommends.
+  * abe-commandline and kiva-users: Add byobu, tmux and some TUI feed
+    readers.
   * abe-commandline depends mr and recommends mr >= 1.06.
   * abe-office recommends retext, suggests python3-markdown as alternative
     to python-markdown, and suggests kiwix.
