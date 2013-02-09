@@ -2,6 +2,7 @@ abe-metapackages (11.2~dev) UNRELEASED; urgency=low
 
   * kiva-base recommends abe-monitoring
   * abe-commandline suggests wcalc
+  * abe-tex suggests lyx or gummi
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 09 Feb 2013 00:14:59 +0100
 

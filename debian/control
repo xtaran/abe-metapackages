@@ -493,6 +493,7 @@ Suggests: abe-office,
           latex2html | tex4ht,
           latexdiff,
           libreoffice-writer2latex,
+          lyx | gummi,
           writer2latex,
           yatex
 Architecture: all
