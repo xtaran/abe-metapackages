@@ -486,14 +486,17 @@ Depends: abe-emacs,
          ${misc:Depends}
 Recommends: auctex,
             latex-beamer,
+            lyx | gummi | texworks,
             whizzytex
 Suggests: abe-office,
           asciidoc,
+          gummi,
           latex-xcolor,
           latex2html | tex4ht,
           latexdiff,
           libreoffice-writer2latex,
-          lyx | gummi,
+          lyx,
+          texworks,
           writer2latex,
           yatex
 Architecture: all
