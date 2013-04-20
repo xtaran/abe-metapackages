@@ -295,7 +295,9 @@ Recommends: abe-commandline,
             abe-text-browsers,
             linuxlogo
 Suggests: abe-commandline-media,
-          abe-partitioning
+          abe-partitioning,
+          tpp,
+          sc
 Architecture: all
 Description: Metapackage for computers where Axel works on the console
  This metapackage depends on packages Axel's usually needs where he

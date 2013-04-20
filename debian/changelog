@@ -3,6 +3,7 @@ abe-metapackages (11.2~dev) UNRELEASED; urgency=low
   * Add new metapackages abe-x-browsers and abe-text-browsers.
   * kiva-base recommends abe-monitoring
   * abe-commandline suggests wcalc, irssi-plugin-otr and zsh-lovers.
+  * abe-console suggests tpp and sc.
   * Add lyx, gummi and texworks to abe-tex.
   * Add mixers and flac to abe-commandline-media.
   * Add subnetcalc as preferred alternative to ipcalc.
