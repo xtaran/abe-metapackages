@@ -230,7 +230,8 @@ Suggests: 2ping,
           wikipedia2text,
           xml-twig-tools,
           xmldiff,
-          youtube-dl
+          youtube-dl,
+          zsh-lovers
 Architecture: all
 Description: Metapackage of commandline tools Axel usually installs
  This metapackage depends on packages Axel's usually installs in all
