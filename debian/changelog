@@ -7,6 +7,8 @@ abe-metapackages (11.2~dev) UNRELEASED; urgency=low
   * Add lyx, gummi and texworks to abe-tex.
   * Add mixers and flac to abe-commandline-media.
   * Add subnetcalc as preferred alternative to ipcalc.
+  * Add some wireless network and serial console related packages to
+    abe-laptop.
   * Remove dependencies on auto6to4.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 09 Feb 2013 00:14:59 +0100
