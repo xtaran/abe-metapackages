@@ -1,4 +1,4 @@
-abe-metapackages (11.2~dev) UNRELEASED; urgency=low
+abe-metapackages (12~dev) UNRELEASED; urgency=low
 
   * Add new metapackages abe-x-browsers and abe-text-browsers.
   * kiva-base recommends abe-monitoring
@@ -18,7 +18,7 @@ abe-metapackages (11.2~dev) UNRELEASED; urgency=low
   * Remove dependencies on auto6to4.
   * Bump Standards-Version to 3.9.4 (no changes)
 
- -- Axel Beckert <abe@deuxchevaux.org>  Sat, 09 Feb 2013 00:14:59 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Sat, 20 Apr 2013 16:32:33 +0200
 
 abe-metapackages (11.1) unstable; urgency=low
 
