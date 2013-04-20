@@ -820,6 +820,7 @@ Description: Metapackage depending on Axel's collection of favourite games
 Package: abe-fun
 Depends: asr-manpages,
          caca-utils,
+         cmatrix,
          fortunes,
          fortunes-bofh-excuses,
          fortunes-de,
@@ -839,7 +840,8 @@ Recommends: abe-games,
             sl,
             sm,
             toilet
-Suggests: beef,
+Suggests: cheese,
+          beef,
           filters
 Enhances: abe-commandline,
           abe-desktop,
