@@ -10,6 +10,7 @@ abe-metapackages (11.2~dev) UNRELEASED; urgency=low
   * Add some wireless network and serial console related packages to
     abe-laptop.
   * Add some more filesystem tools and memory testers to abe-partitioning.
+  * Add more games to abe-games. :-)
   * Remove dependencies on auto6to4.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 09 Feb 2013 00:14:59 +0100
