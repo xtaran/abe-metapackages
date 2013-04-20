@@ -16,6 +16,7 @@ abe-metapackages (11.2~dev) UNRELEASED; urgency=low
   * Add more useful tools to abe-packaging-dev.
   * Add cmatrix and cheese to abe-fun.
   * Remove dependencies on auto6to4.
+  * Bump Standards-Version to 3.9.4 (no changes)
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 09 Feb 2013 00:14:59 +0100
 
