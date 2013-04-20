@@ -282,6 +282,7 @@ Depends: console-setup,
          gpm | vidcontrol,
          ${misc:Depends}
 Recommends: abe-commandline,
+            abe-text-browsers,
             linuxlogo
 Suggests: abe-commandline-media,
           abe-partitioning
@@ -358,6 +359,7 @@ Depends: abe-commandline,
 Recommends: abe-commandline-media,
             abe-desktop,
             abe-partitioning,
+            abe-x-browsers,
             acpitail,
             amora-cli | amora-applet,
             anacron,
@@ -633,6 +635,49 @@ Architecture: all
 Description: Metapackage for computers with touchscreen or attached graphics tablet
  This metapackage depends on packages necessary to get
  a Wacom graphics tablet or a touchscreen working.
+
+Package: abe-x-browsers
+Depends: abe-text-browsers,
+         conkeror,
+         dillo,
+         links2,
+         ${misc:Depends}
+Recommends: arora,
+            iceweasel | firefox,
+            luakit,
+            midori,
+            netsurf-gtk | netsurf,
+            opera | opera-beta | opera-snapshot | opera-next
+Suggests: chromium | chromium-browser,
+          dwb,
+          forg,
+          iceape | seamonkey,
+          konqueror,
+          rekonq,
+          surf,
+          uzbl,
+          wapua,
+          xxxterm
+Enhances: abe-desktop
+Architecture: all
+Description: List of X-based web browsers, Axel commonly has installed
+ This metapackage depends on X-based web browsers, Axel commonly has
+ installed on desktop systems.
+
+Package: abe-text-browsers
+Depends: lynx-cur | lynx,
+         links | links2,
+         ${misc:Depends}
+Recommends: gopher,
+            netrik
+Suggests: abe-x-browsers,
+          elinks,
+          w3m
+Enhances: abe-console
+Architecture: all
+Description: List of text-mode web browsers, Axel commonly has installed
+ This metapackage depends on text-mode web browsers, Axel commonly has
+ installed.
 
 Package: abe-games
 Depends: abe-fun,
