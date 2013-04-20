@@ -13,6 +13,7 @@ abe-metapackages (11.2~dev) UNRELEASED; urgency=low
     abe-laptop.
   * Add some more filesystem tools and memory testers to abe-partitioning.
   * Add more games to abe-games. :-)
+  * Add more useful tools to abe-packaging-dev.
   * Add cmatrix and cheese to abe-fun.
   * Remove dependencies on auto6to4.
 
