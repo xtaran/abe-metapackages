@@ -260,12 +260,18 @@ Description: Packages needed to read exotic archive formats
 
 Package: abe-commandline-media
 Depends: abe-commandline,
+         alsamixer | gom | rexima | aumix,
          mplayer | mplayer2 | gst123,
          ${misc:Depends}
-Recommends: moc | mp3blaster | opencubicplayer | orpheus,
+Recommends: alsamixer | aumix,
+            moc | mp3blaster | opencubicplayer | orpheus,
             music123,
             vorbis-tools
 Suggests: abcde,
+          alsamixer,
+          aumix,
+          flac,
+          gom,
           gst123,
           moc,
           mp3blaster,
@@ -273,6 +279,7 @@ Suggests: abcde,
           mplayer | mplayer2,
           opencubicplayer,
           orpheus,
+          rexima,
           xmp
 Architecture: all
 Description: Metapackage for computers where Axel can play music

@@ -4,6 +4,7 @@ abe-metapackages (11.2~dev) UNRELEASED; urgency=low
   * kiva-base recommends abe-monitoring
   * abe-commandline suggests wcalc, irssi-plugin-otr and zsh-lovers.
   * Add lyx, gummi and texworks to abe-tex.
+  * Add mixers and flac to abe-commandline-media.
   * Add subnetcalc as preferred alternative to ipcalc.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 09 Feb 2013 00:14:59 +0100
