@@ -15,6 +15,7 @@ abe-metapackages (12~dev) UNRELEASED; urgency=low
   * Add more games to abe-games. :-)
   * Add more useful tools to abe-packaging-dev.
   * Add cmatrix and cheese to abe-fun.
+  * Add carettah as alternative to mdpress and promote it to Recommends.
   * Remove dependencies on auto6to4.
   * Bump Standards-Version to 3.9.4 (no changes)
 
