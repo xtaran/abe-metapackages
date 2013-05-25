@@ -1,4 +1,4 @@
-abe-metapackages (12~dev) UNRELEASED; urgency=low
+abe-metapackages (12) unstable; urgency=low
 
   * Add new metapackages abe-x-browsers and abe-text-browsers.
   * kiva-base recommends abe-monitoring
@@ -23,7 +23,7 @@ abe-metapackages (12~dev) UNRELEASED; urgency=low
     extended-description-is-probably-too-short)
   * Cleanup debian/rules a bit.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Sat, 20 Apr 2013 16:32:33 +0200
+ -- Axel Beckert <abe@deuxchevaux.org>  Sat, 25 May 2013 23:46:33 +0200
 
 abe-metapackages (11.1) unstable; urgency=low
 
