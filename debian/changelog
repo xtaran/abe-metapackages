@@ -21,6 +21,7 @@ abe-metapackages (12~dev) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.4 (no changes)
   * Remove no more needed lintian overrides (empty-binary-package and
     extended-description-is-probably-too-short)
+  * Cleanup debian/rules a bit.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 20 Apr 2013 16:32:33 +0200
 
