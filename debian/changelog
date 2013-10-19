@@ -1,6 +1,8 @@
 abe-metapackages (12.1~dev) UNRELEASED; urgency=low
 
   * Add new package abe-perl-dev
+  * Add dummy replacement package for colord including an
+    org.freedesktop.ColorHelper schema.
   * abe-packaging-dev recommends cpp-doc and gcc-doc
   * abe-commandline depends on vcsh, oping and lsb-release
   * Follow migration from mr to myrepos

@@ -3,3 +3,7 @@ Copyright (C) 2011-2013 by Axel Beckert <abe@deuxchevaux.org>.
 
 See /usr/share/common-licenses/GPL-3 on a Debian system or
 https://www.gnu.org/licenses/gpl-3.0 for the full license text.
+
+The file org.freedesktop.ColorHelper.gschema.xml comes from the
+original colord package, version 1.0.2-1, is licensed under GPLv2+ and
+Copyright © 2009-2013 by Richard Hughes <richard@hughsie.com>

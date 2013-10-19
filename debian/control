@@ -1108,3 +1108,11 @@ Architecture: all
 Description: Packages for developing Perl applications and modules
  Metapackage depending on packages Axel wants to have installed on
  those boxes where he develops Perl stuff.
+
+Package: colord
+Architecture: all
+Depends: ${misc:Depends}
+Description: Dummy package to override silly gnome-control-center dependencies
+ The sole purpose of this package is to fulfill gnome-control-center
+ 3.8.x's silly dependency on colord which pulls in ConsoleKit and
+ PolicyKit which are usually unwanted on lean systems.

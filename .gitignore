@@ -4,4 +4,5 @@
 /debian/*.substvars
 /debian/abe-*/
 /debian/kiva-*/
+/debian/colord/
 /debian/files
