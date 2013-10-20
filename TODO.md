@@ -11,3 +11,6 @@ TODO
   e.g. `abe-server`. Packages to move there would be
   e.g. `openssh-server`, `fail2ban`, `open*-blacklist*` (see above),
   etc.
+
+* Proper dependencies of abe-desktop/abe-laptop on xorg, xserver-xorg,
+  xserver-xorg-input-all, xserver-xorg-video-{fbdev,vesa,any,all}.
