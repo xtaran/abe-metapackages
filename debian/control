@@ -121,6 +121,7 @@ Recommends: abe-fun,
             unzip,
             uptimed,
             whois,
+            wml,
             zutils
 Suggests: 2ping,
           abe-archive-tools,
