@@ -1,3 +1,9 @@
+abe-metapackages (13.1~dev) UNRELEASED; urgency=low
+
+  * abe-laptop depends on anacron.
+
+ -- Axel Beckert <abe@deuxchevaux.org>  Sun, 20 Oct 2013 18:45:28 +0200
+
 abe-metapackages (13) unstable; urgency=low
 
   * Add new package abe-perl-dev

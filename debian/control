@@ -362,6 +362,7 @@ Package: abe-laptop
 Depends: abe-commandline,
          abe-console,
          abe-desktop-ratpoison | abe-desktop-awesome,
+         anacron,
          busybox-syslogd | system-log-daemon,
          debdelta,
          hardlink,
