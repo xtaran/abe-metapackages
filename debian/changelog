@@ -1,4 +1,4 @@
-abe-metapackages (12.1~dev) UNRELEASED; urgency=low
+abe-metapackages (13) unstable; urgency=low
 
   * Add new package abe-perl-dev
   * Add dummy replacement package for colord including an
@@ -10,7 +10,7 @@ abe-metapackages (12.1~dev) UNRELEASED; urgency=low
   * Add proposed alternative dependency "taskwarrior" to "task" to
     prepare for the proposed migration (c.f. #719317).
 
- -- Axel Beckert <abe@deuxchevaux.org>  Sun, 30 Jun 2013 13:48:27 +0200
+ -- Axel Beckert <abe@deuxchevaux.org>  Sun, 20 Oct 2013 18:26:24 +0200
 
 abe-metapackages (12) unstable; urgency=low
 
