@@ -4,7 +4,7 @@ abe-metapackages (12.1~dev) UNRELEASED; urgency=low
   * Add dummy replacement package for colord including an
     org.freedesktop.ColorHelper schema.
   * abe-packaging-dev recommends cpp-doc and gcc-doc
-  * abe-commandline depends on vcsh, oping and lsb-release
+  * abe-commandline depends on vcsh, oping, glark and lsb-release
   * Follow migration from mr to myrepos
   * Add proposed alternative dependency "taskwarrior" to "task" to
     prepare for the proposed migration (c.f. #719317).
