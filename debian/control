@@ -392,6 +392,7 @@ Recommends: abe-commandline-media,
             iw,
             key-mon | screenkey,
             localepurge,
+            modemmanager | xfce4-cellmodem-plugin | wader-core,
             mplayer | mplayer2,
             mssh,
             mupdf,
@@ -427,6 +428,7 @@ Suggests: abe-laptop-ubuntu,
           minicom,
           miredo,
           modem-cmd,
+          modemmanager | wader-core,
           mumble,
           openvpn | vpnc,
           picocom,
@@ -437,7 +439,8 @@ Suggests: abe-laptop-ubuntu,
           tpb,
           wide-dhcpv6-client,
           wifite,
-          wvdial
+          wvdial,
+          xfce4-cellmodem-plugin
 Conflicts: apmd (>= 0)
 Architecture: all
 Description: Metapackage for Axel's laptops and netbooks
