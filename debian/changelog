@@ -4,6 +4,7 @@ abe-metapackages (13.1~dev) UNRELEASED; urgency=low
   * abe-laptop recommends modemmanager or xfce4-cellmodem-plugin or wader-core
   * abe-laptop recommends openconnect or vpnc
   * abe-commandline also suggests openconnect
+  * Add pydf as df alternative
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sun, 20 Oct 2013 18:45:28 +0200
 
