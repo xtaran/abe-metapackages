@@ -5,6 +5,7 @@ abe-metapackages (13.1~dev) UNRELEASED; urgency=low
   * abe-laptop recommends openconnect or vpnc
   * abe-commandline also suggests openconnect
   * Add pydf as df alternative
+  * Add mpv as mplayer/mplayer2 alternative
   * Follow migration from foobillard to foobillardplus
   * abe-commandline suggests reptyr or retty
 

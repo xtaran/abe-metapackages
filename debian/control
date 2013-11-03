@@ -272,7 +272,7 @@ Description: Packages needed to read exotic archive formats
 Package: abe-commandline-media
 Depends: abe-commandline,
          alsa-utils | gom | rexima | aumix,
-         mplayer | mplayer2 | gst123,
+         mpv | mplayer | mplayer2 | gst123,
          ${misc:Depends}
 Recommends: alsa-utils | aumix,
             moc | mp3blaster | opencubicplayer | orpheus,
@@ -288,6 +288,7 @@ Suggests: abcde,
           mp3blaster,
           mpg123 | mpg321,
           mplayer | mplayer2,
+          mpv,
           opencubicplayer,
           orpheus,
           rexima,
