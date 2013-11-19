@@ -10,6 +10,7 @@ Build-Depends: debhelper (>= 7)
 
 Package: abe-commandline
 Depends: aptitude,
+         atool,
          autossh,
          bash-completion,
          bc,
@@ -65,7 +66,7 @@ Depends: aptitude,
          time,
          traceroute | inetutils-traceroute | paris-traceroute,
          tree,
-         unp | mtools | atool | dtrx,
+         unp | mtools,
          vcsh,
          wget,
          xauth,
@@ -76,7 +77,7 @@ Depends: aptitude,
 Recommends: abe-fun,
             apt-show-versions,
             apt-transport-https,
-            atool | tardiff,
+            tardiff | patool,
             bar | cpipe | pipemeter,
             buthead,
             byobu | tmux,
@@ -249,20 +250,25 @@ Description: Metapackage of commandline tools Axel usually installs
  his setups.
 
 Package: abe-archive-tools
-Depends: unrar | unrar-nonfree,
+Depends: atool,
+         unrar | unrar-nonfree,
          zip,
          ${misc:Depends}
 Recommends: cabextract,
-            dtrx,
             extract,
             jlha-utils | lhasa | lha,
+            unp | mtools,
             unshield
 Suggests: arc,
           arj,
+          dtrx,
           jlha-utils,
           lhasa,
+          mtools,
+          patool,
           unace | unace-nonfree,
           unalz,
+          unp,
           zoo
 Architecture: all
 Description: Packages needed to read exotic archive formats
@@ -1051,7 +1057,8 @@ Suggests: apt-doc,
           qt4-qmake,
           svn-buildpackage,
           ubuntu-dev-tools,
-          ubuntu-packaging-guide | ubuntu-packaging-guide-html | ubuntu-packaging-guide-epub | ubuntu-packaging-guide-pdf
+          ubuntu-packaging-guide | ubuntu-packaging-guide-html | ubuntu-packaging-guide-epub | ubuntu-packaging-guide-pdf,
+          zopfli
 Provides: kiva-dev
 Conflicts: kiva-dev
 Architecture: all
