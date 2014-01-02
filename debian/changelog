@@ -8,7 +8,8 @@ abe-metapackages (13.1~dev) UNRELEASED; urgency=low
   * Add mpv as mplayer/mplayer2 alternative
   * Follow migration from foobillard to foobillardplus
   * abe-commandline suggests reptyr or retty
-  * abe-perl-dev recommends libcpan-changes-perl.
+  * abe-perl-dev recommends libcpan-changes-perl,
+    libdata-dumper-concise-perl, and libdata-dumper-simple-perl.
   * Cleanup meta archive tools and compressors:
     + Consider atool the most important one
     + Add patool and zopfli
