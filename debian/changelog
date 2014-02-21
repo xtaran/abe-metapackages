@@ -14,6 +14,7 @@ abe-metapackages (13.1~dev) UNRELEASED; urgency=low
     + Consider atool the most important one
     + Add patool and zopfli
     + Downgrade dtrx from Recommends to Suggests
+  * For now only depend on glark if ruby1.8 is installable
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sun, 20 Oct 2013 18:45:28 +0200
 
