@@ -4,6 +4,7 @@ abe-metapackages (14~dev) UNRELEASED; urgency=medium
   * Depend on glark unconditionally again.
   * Add connman-ui as alternative to wicd and network-manager
   * Add asciidoctor as alternative to asciidoc, promote to Recommends.
+  * abe-emacs suggests lua-mode.
   * Fix typo memtext → memtest
   * Run wrap-and-sort again.
 

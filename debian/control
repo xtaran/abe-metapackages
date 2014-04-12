@@ -336,6 +336,7 @@ Recommends: devscripts-el,
             js2-mode,
             magit
 Suggests: abe-tex,
+          lua-mode,
           oneliner-el,
           post-el,
           python-mode,
