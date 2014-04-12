@@ -1,6 +1,7 @@
 abe-metapackages (13.2~dev) UNRELEASED; urgency=medium
 
   * Depend on glark unconditionally again.
+  * Add connman-ui as alternative to wicd and network-manager
 
  -- Axel Beckert <abe@debian.org>  Sat, 12 Apr 2014 16:38:33 +0200
 

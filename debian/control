@@ -384,7 +384,7 @@ Depends: abe-commandline,
          sshfs,
          sshuttle,
          usb-modeswitch,
-         wicd-curses | wicd-client | network-manager,
+         wicd-curses | wicd-client | network-manager | connman-ui,
          wireless-tools,
          x11-xserver-utils,
          ${misc:Depends}
