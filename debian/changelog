@@ -3,6 +3,7 @@ abe-metapackages (14~dev) UNRELEASED; urgency=medium
   * Add new package abe-desktop-extras
   * Depend on glark unconditionally again.
   * Add connman-ui as alternative to wicd and network-manager
+  * Add asciidoctor as alternative to asciidoc, promote to Recommends.
   * Fix typo memtext → memtest
   * Run wrap-and-sort again.
 
