@@ -1,3 +1,9 @@
+abe-metapackages (13.2~dev) UNRELEASED; urgency=medium
+
+  * Depend on glark unconditionally again.
+
+ -- Axel Beckert <abe@debian.org>  Sat, 12 Apr 2014 16:38:33 +0200
+
 abe-metapackages (13.1) unstable; urgency=low
 
   * abe-laptop promotes anacron and openvpn to Recommends.
