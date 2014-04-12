@@ -1,5 +1,6 @@
-abe-metapackages (13.2~dev) UNRELEASED; urgency=medium
+abe-metapackages (14~dev) UNRELEASED; urgency=medium
 
+  * Add new package abe-desktop-extras
   * Depend on glark unconditionally again.
   * Add connman-ui as alternative to wicd and network-manager
   * Fix typo memtext → memtest

@@ -1130,6 +1130,56 @@ Description: Packages for developing Perl applications and modules
  Metapackage depending on packages Axel wants to have installed on
  those boxes where he develops Perl stuff.
 
+Package: abe-desktop-extras
+Depends: abe-console,
+         abe-emacs,
+         abe-gnome,
+         abe-office,
+         abe-partitioning,
+         abe-tex,
+         abe-window-managers,
+         abe-x-browsers,
+         how-can-i-help,
+         xkeycaps,
+         ${misc:Depends}
+Recommends: abe-archive-tools,
+            abe-fun,
+            abe-games,
+            abe-packaging-dev,
+            abe-perl-dev,
+            abe-tablet,
+            comixcursors | comixcursors-righthanded | comixcursors-righthanded-opaque,
+            etckeeper,
+            minitube | smtube,
+            oxygencursors,
+            vlc,
+            xine-ui | gxine,
+            xnest | xserver-xephyr,
+            xscreensaver-data-extra,
+            xscreensaver-gl,
+            xscreensaver-gl-extra
+Suggests: comixcursors-righthanded,
+          comixcursors-righthanded-opaque,
+          debsecan,
+          gxine,
+          minitube,
+          olla,
+          qemu-kvm,
+          rdesktop,
+          smtube,
+          vagrant,
+          virtualbox,
+          x2goclient,
+          xine-ui,
+          xnest,
+          xscreensaver-screensaver-bsod,
+          xserver-xephyr,
+          xtermset | xtermcontrol
+Architecture: all
+Description: Additional packages for desktop environments
+ Metapackage depending on packages Axel wants to have installed on
+ most of his desktops, but are not needed by his desktop setup.
+
 Package: colord
 Architecture: all
 Depends: ${misc:Depends}
