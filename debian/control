@@ -1142,6 +1142,7 @@ Depends: abe-console,
          abe-tex,
          abe-window-managers,
          abe-x-browsers,
+         gtk-chtheme | gtk-theme-switch,
          how-can-i-help,
          xkeycaps,
          ${misc:Depends}
