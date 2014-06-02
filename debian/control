@@ -373,7 +373,7 @@ Depends: abe-commandline,
          abe-console,
          abe-desktop-ratpoison | abe-desktop-awesome,
          anacron,
-         busybox-syslogd | system-log-daemon,
+         busybox-syslogd | system-log-daemon | systemd,
          debdelta,
          hardlink,
          isc-dhcp-client | udhcpc | dhcp-client,
@@ -460,7 +460,7 @@ Description: Metapackage for Axel's laptops and netbooks
  mobile devices.
 
 Package: abe-laptop-ubuntu
-Depends: busybox-syslogd | system-log-daemon,
+Depends: busybox-syslogd | system-log-daemon | systemd,
          debconf (>= 1.5.39) | debconf-english,
          ${misc:Depends}
 Provides: apmd,
