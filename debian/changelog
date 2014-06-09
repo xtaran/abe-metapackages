@@ -1,3 +1,9 @@
+abe-metapackages (14.1) unstable; urgency=low
+
+  * abe-commandline: Downgrade glark to Recommends, Depend on ack-grep
+
+ -- Axel Beckert <abe@deuxchevaux.org>  Mon, 09 Jun 2014 18:14:48 +0200
+
 abe-metapackages (14) unstable; urgency=low
 
   * Add new package abe-desktop-extras
