@@ -8,6 +8,7 @@ abe-metapackages (14~dev) UNRELEASED; urgency=medium
   * abe-emacs suggests lua-mode.
   * Fix typo memtext → memtest
   * Run wrap-and-sort again.
+  * Bump Standards-Version to 3.9.5 (no changes)
 
  -- Axel Beckert <abe@debian.org>  Sat, 12 Apr 2014 16:38:33 +0200
 
