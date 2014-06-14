@@ -1,3 +1,9 @@
+abe-metapackages (14.2) UNRELEASED; urgency=low
+
+  * abe-desktop-extras recommends the AtariSmall font.
+
+ -- Axel Beckert <abe@deuxchevaux.org>  Sat, 14 Jun 2014 13:22:15 +0200
+
 abe-metapackages (14.1) unstable; urgency=low
 
   * abe-commandline: Downgrade glark to Recommends, Depend on ack-grep
