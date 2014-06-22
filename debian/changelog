@@ -1,6 +1,9 @@
 abe-metapackages (14.2) UNRELEASED; urgency=low
 
   * abe-desktop-extras recommends the AtariSmall font.
+  * abe-commandline: Downgrade the following packages to Recommends: chase
+    | realpath, finger, mr, taskwarrior, vcsh.
+  * Merge alternative dependencies on lynx/lynx-cur and links2/links.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 14 Jun 2014 13:22:15 +0200
 
