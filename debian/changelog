@@ -5,6 +5,7 @@ abe-metapackages (14.2) UNRELEASED; urgency=low
     | realpath, finger, mr, taskwarrior, vcsh.
   * Merge alternative dependencies on lynx/lynx-cur and links2/links.
   * Add opera-developer as possible opera package name.
+  * abe-x-browsers suggests hbro.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 14 Jun 2014 13:22:15 +0200
 
