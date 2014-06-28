@@ -716,7 +716,7 @@ Recommends: arora,
             luakit,
             midori,
             netsurf-gtk | netsurf,
-            opera | opera-beta | opera-snapshot | opera-next
+            opera | opera-beta | opera-snapshot | opera-next | opera-developer
 Suggests: chromium | chromium-browser,
           dwb,
           forg,
