@@ -6,6 +6,8 @@ abe-metapackages (14.2) UNRELEASED; urgency=low
   * Merge alternative dependencies on lynx/lynx-cur and links2/links.
   * Add opera-developer as possible opera package name.
   * abe-x-browsers suggests hbro.
+  * Downgrade libtest-apocalypse-perl to Suggests as it has been removed
+    from Debian Unstable.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 14 Jun 2014 13:22:15 +0200
 
