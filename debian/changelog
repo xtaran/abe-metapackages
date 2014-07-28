@@ -8,6 +8,7 @@ abe-metapackages (14.2) UNRELEASED; urgency=low
   * abe-x-browsers suggests hbro.
   * Downgrade libtest-apocalypse-perl to Suggests as it has been removed
     from Debian Unstable.
+  * Downgrade hardening-includes to Suggests as it has been deprecated.
   * Recommend ara and xara-gtk in the appropriate packages.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 14 Jun 2014 13:22:15 +0200
