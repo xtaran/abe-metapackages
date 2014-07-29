@@ -11,6 +11,7 @@ abe-metapackages (14.2) UNRELEASED; urgency=low
   * Downgrade hardening-includes to Suggests as it has been deprecated.
     + Add lintian override for that dependency.
   * Recommend ara and xara-gtk in the appropriate packages.
+  * abe-commandline suggests lnav and openssh-known-hosts.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 14 Jun 2014 13:22:15 +0200
 
