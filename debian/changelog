@@ -1,4 +1,4 @@
-abe-metapackages (14.2) UNRELEASED; urgency=low
+abe-metapackages (14.2) unstable; urgency=low
 
   * abe-desktop-extras recommends the AtariSmall font.
   * abe-commandline: Downgrade the following packages to Recommends: chase
@@ -13,7 +13,7 @@ abe-metapackages (14.2) UNRELEASED; urgency=low
   * Recommend ara and xara-gtk in the appropriate packages.
   * abe-commandline suggests lnav and openssh-known-hosts.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Sat, 14 Jun 2014 13:22:15 +0200
+ -- Axel Beckert <abe@deuxchevaux.org>  Wed, 06 Aug 2014 22:25:35 +0200
 
 abe-metapackages (14.1) unstable; urgency=low
 
