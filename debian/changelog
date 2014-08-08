@@ -1,3 +1,9 @@
+abe-metapackages (14.3) UNRELEASED; urgency=medium
+
+  * abe-emacs: add emacs-nox as further alternative to emacs and emacsen.
+
+ -- Axel Beckert <abe@debian.org>  Fri, 08 Aug 2014 09:30:12 +0200
+
 abe-metapackages (14.2) unstable; urgency=low
 
   * abe-desktop-extras recommends the AtariSmall font.
