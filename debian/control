@@ -418,7 +418,6 @@ Recommends: abe-commandline-media,
             tmpreaper,
             translate,
             unburden-home-dir,
-            wide-dhcpv6-client | dibbler-client,
             wireshark,
             xserver-xorg-input-synaptics,
             xul-ext-https-everywhere

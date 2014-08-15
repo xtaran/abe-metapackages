@@ -2,6 +2,7 @@ abe-metapackages (14.3~dev) UNRELEASED; urgency=medium
 
   * abe-emacs: add emacs-nox as further alternative to emacs and emacsen.
   * abe-perl-dev: add a bunch of Dist::Zilla related packages.
+  * No more recommend alternative DHCPv6 clients. isc-dhcp-client works fine.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Fri, 08 Aug 2014 09:30:12 +0200
 
