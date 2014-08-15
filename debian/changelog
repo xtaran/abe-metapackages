@@ -1,6 +1,7 @@
 abe-metapackages (14.3) UNRELEASED; urgency=medium
 
   * abe-emacs: add emacs-nox as further alternative to emacs and emacsen.
+  * abe-perl-dev: add a bunch of Dist::Zilla related packages.
 
  -- Axel Beckert <abe@debian.org>  Fri, 08 Aug 2014 09:30:12 +0200
 
