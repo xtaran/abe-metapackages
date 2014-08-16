@@ -1213,6 +1213,41 @@ Description: Additional packages for desktop environments
  Metapackage depending on packages Axel wants to have installed on
  most of his desktops, but are not needed by his desktop setup.
 
+Package: abe-server
+Depends: abe-commandline,
+         ${misc:Depends}
+Recommends: abe-archive-tools,
+            abe-emacs,
+            abe-text-browsers,
+            emacs-nox | emacs24-nox | emacs23-nox,
+            prevent-dbus,
+            prevent-mono,
+            prevent-networkmanager,
+            prevent-ppckit,
+            prevent-pulseaudio,
+            prevent-systemd-completely
+Suggests: abe-console,
+          abe-fun,
+          abe-partitioning
+Conflicts: consolekit,
+           dbus,
+           libpam-systemd,
+           networkmanager,
+           packagekit,
+           policykit,
+           pulseaudio,
+           systemd,
+           systemd-shim,
+           systemd-sysv
+Architecture: all
+Description: Axel's base package for pure servers
+ Metapackage taking care that all packages Axel wants to have
+ installed on his servers are installed and those he doesn't want to
+ have installed, aren't.
+ .
+ This package especially takes care that there's no dbus, policykit,
+ consolekit, networkmanager or systemd is installed.
+
 Package: colord
 Architecture: all
 Depends: ${misc:Depends}
