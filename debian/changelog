@@ -6,6 +6,7 @@ abe-metapackages (14.3~dev) UNRELEASED; urgency=medium
   * abe-perl-dev: Recommends liblist-allutils-perl.
   * Add dependencies on some prevent-* packages in abe-laptop,
     abe-desktop-extras and abe-small-disk.
+  * abe-laptop suggests abe-desktop-extras.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Fri, 08 Aug 2014 09:30:12 +0200
 
