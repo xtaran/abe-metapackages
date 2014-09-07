@@ -2,9 +2,12 @@ abe-metapackages (14.3~dev) UNRELEASED; urgency=medium
 
   * Add new package abe-server.
   * abe-emacs: add emacs-nox as further alternative to emacs and emacsen.
-  * abe-perl-dev: add a bunch of Dist::Zilla related packages.
+  * abe-perl-dev:
+    + Add a bunch of Dist::Zilla related packages.
+    + Depends on libdevel-cover-perl.
+    + Recommends liblist-allutils-perl.
+    + Downgrade libany-moose-perl to Recommends.
   * No more recommend alternative DHCPv6 clients. isc-dhcp-client works fine.
-  * abe-perl-dev: Recommends liblist-allutils-perl.
   * Add dependencies on some prevent-* packages in abe-laptop,
     abe-desktop-extras and abe-small-disk.
   * abe-laptop suggests abe-desktop-extras.
