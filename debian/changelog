@@ -13,6 +13,7 @@ abe-metapackages (14.3~dev) UNRELEASED; urgency=medium
   * abe-laptop suggests abe-desktop-extras.
   * abe-games recommends task games-minesweeper.
   * Allow parallel as alternative to moreutils.
+  * Prefer xombrero over xxxterm.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Fri, 08 Aug 2014 09:30:12 +0200
 

@@ -738,7 +738,7 @@ Suggests: chromium | chromium-browser,
           surf,
           uzbl,
           wapua,
-          xxxterm
+          xombrero | xxxterm
 Enhances: abe-desktop
 Architecture: all
 Description: List of X-based web browsers, Axel commonly has installed
