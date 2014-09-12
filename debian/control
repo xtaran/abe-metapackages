@@ -1092,6 +1092,7 @@ Depends: abe-commandline,
          libfile-touch-perl,
          libfile-which-perl,
          libhash-moreutils-perl,
+         libperl-minimumversion-perl,
          libperl5i-perl,
 # Includes beyond others:
 # libautobox-core-perl,
