@@ -14,6 +14,7 @@ abe-metapackages (14.3~dev) UNRELEASED; urgency=medium
   * abe-games recommends task games-minesweeper.
   * Allow parallel as alternative to moreutils.
   * Prefer xombrero over xxxterm.
+  * Generally downgrade html-helper-mode to Recommends.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Fri, 08 Aug 2014 09:30:12 +0200
 
