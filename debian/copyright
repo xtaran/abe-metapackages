@@ -1,9 +1,30 @@
-These meta packages are licensed under GPL version 3 or newer.
-Copyright (C) 2011-2013 by Axel Beckert <abe@deuxchevaux.org>.
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Axel's Metapackages
+Source: https://github.com/xtaran/abe-metapackages
 
-See /usr/share/common-licenses/GPL-3 on a Debian system or
-https://www.gnu.org/licenses/gpl-3.0 for the full license text.
+Files: *
+Copyright: 2011-2014 Axel Beckert <abe@deuxchevaux.org>
+License: GPL-3.0+
 
-The file org.freedesktop.ColorHelper.gschema.xml comes from the
-original colord package, version 1.0.2-1, is licensed under GPLv2+ and
-Copyright © 2009-2013 by Richard Hughes <richard@hughsie.com>
+Files: colord/usr/share/glib-2.0/schemas/org.freedesktop.ColorHelper.gschema.xml
+Copyright: 2009-2013 Richard Hughes <richard@hughsie.com>
+License: GPL-2.0+
+Comment: This file is copied from the original colord package, version 1.0.2-1.
+
+License: GPL-3.0+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: GPL-2.0+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
