@@ -16,6 +16,11 @@ abe-metapackages (14.3~dev) UNRELEASED; urgency=medium
   * Prefer xombrero over xxxterm.
   * Generally downgrade html-helper-mode to Recommends.
   * Convert debian/copyright to machine-readable DEP5 format.
+  * Split up abe-commandline into abe-commandline + abe-commandline-local
+    + Downgrade a bunch of abe-commandline dependencies not needed on
+      small remote systems to Recommends.
+    + Add most of them and a few more as dependencies of
+      abe-commandline-local.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Fri, 08 Aug 2014 09:30:12 +0200
 
