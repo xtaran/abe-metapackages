@@ -1240,6 +1240,7 @@ Description: Additional packages for desktop environments
 
 Package: abe-server
 Depends: abe-commandline,
+         abe-monitoring,
          ${misc:Depends}
 Recommends: abe-archive-tools,
             abe-emacs,
