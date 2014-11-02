@@ -21,6 +21,8 @@ abe-metapackages (14.3~dev) UNRELEASED; urgency=medium
       small remote systems to Recommends.
     + Add most of them and a few more as dependencies of
       abe-commandline-local.
+    + Replace dependencies on abe-commandline selectively with
+      abe-commandline-local.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Fri, 08 Aug 2014 09:30:12 +0200
 

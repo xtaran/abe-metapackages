@@ -295,7 +295,7 @@ Description: Packages needed to read exotic archive formats
  file formats.
 
 Package: abe-commandline-media
-Depends: abe-commandline,
+Depends: abe-commandline-local,
          alsa-utils | gom | rexima | aumix,
          mpv | mplayer | mplayer2 | gst123,
          ${misc:Depends}
@@ -328,7 +328,7 @@ Depends: console-setup,
          console-tools | kbd-compat | kbd | console-utilities | kbdcontrol,
          gpm | vidcontrol,
          ${misc:Depends}
-Recommends: abe-commandline,
+Recommends: abe-commandline-local,
             abe-text-browsers,
             linuxlogo
 Suggests: abe-commandline-media,
@@ -388,7 +388,7 @@ Description: Common GNOME applications on Axel's desktops
  having GNOME libraries installed is not an issue.
 
 Package: abe-laptop
-Depends: abe-commandline,
+Depends: abe-commandline-local,
          abe-console,
          abe-desktop-ratpoison | abe-desktop-awesome,
          anacron,
@@ -912,6 +912,7 @@ Suggests: beef,
           cheese,
           filters
 Enhances: abe-commandline,
+          abe-commandline-local,
           abe-desktop,
           abe-games,
           abe-laptop
@@ -937,7 +938,8 @@ Depends: abe-commandline,
          tcpd,
          xosview,
          ${misc:Depends}
-Recommends: abe-monitoring,
+Recommends: abe-commandline-local,
+            abe-monitoring,
             tmpreaper
 Suggests: kiva-users
 Conflicts: denyhosts,
@@ -948,7 +950,7 @@ Description: Solid base for the LUGS Kiva Xen Cluster
 
 Package: kiva-users
 Depends: abe-archive-tools,
-         abe-commandline,
+         abe-commandline-local,
          abe-emacs,
          abe-fun,
          ash,
@@ -1036,7 +1038,7 @@ Description: Packages needed for hosts with users in the LUGS Kiva Xen Cluster
  login.
 
 Package: abe-packaging-dev
-Depends: abe-commandline,
+Depends: abe-commandline-local,
          abe-emacs,
          abe-perl-dev,
          autotools-dev,
@@ -1099,7 +1101,7 @@ Description: Packages for building Debian packages
  those boxes where he builds Debian packages.
 
 Package: abe-perl-dev
-Depends: abe-commandline,
+Depends: abe-commandline-local,
          abe-emacs,
          dh-make-perl,
          libdevel-cover-perl,
