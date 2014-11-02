@@ -1,6 +1,13 @@
-abe-metapackages (14.3~dev) UNRELEASED; urgency=medium
+abe-metapackages (15) unstable; urgency=low
 
   * Add new package abe-server.
+  * Split up abe-commandline into abe-commandline + abe-commandline-local
+    + Downgrade a bunch of abe-commandline dependencies not needed on
+      small remote systems to Recommends.
+    + Add most of them and a few more as dependencies of
+      abe-commandline-local.
+    + Replace dependencies on abe-commandline selectively with
+      abe-commandline-local.
   * abe-emacs: add emacs-nox as further alternative to emacs and emacsen.
   * abe-perl-dev:
     + Add a bunch of Dist::Zilla related packages.
@@ -16,16 +23,9 @@ abe-metapackages (14.3~dev) UNRELEASED; urgency=medium
   * Prefer xombrero over xxxterm.
   * Generally downgrade html-helper-mode to Recommends.
   * Convert debian/copyright to machine-readable DEP5 format.
-  * Split up abe-commandline into abe-commandline + abe-commandline-local
-    + Downgrade a bunch of abe-commandline dependencies not needed on
-      small remote systems to Recommends.
-    + Add most of them and a few more as dependencies of
-      abe-commandline-local.
-    + Replace dependencies on abe-commandline selectively with
-      abe-commandline-local.
   * Bump Standards-Version to 3.9.6 (no changes needed)
 
- -- Axel Beckert <abe@deuxchevaux.org>  Fri, 08 Aug 2014 09:30:12 +0200
+ -- Axel Beckert <abe@deuxchevaux.org>  Sun, 02 Nov 2014 11:28:37 +0100
 
 abe-metapackages (14.2) unstable; urgency=low
 
