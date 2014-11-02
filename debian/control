@@ -19,7 +19,8 @@ Depends: abe-commandline,
          rlfe | rlwrap | cle,
          subnetcalc | sipcalc | ipcalc | netmask,
          unp | mtools,
-         xauth
+         xauth,
+         ${misc:Depends}
 Architecture: all
 Description: Metapackage of commandline tools Axel wants on local systems
  This metapackage depends on packages Axel's usually installs in all
