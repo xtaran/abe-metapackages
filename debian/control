@@ -940,7 +940,7 @@ Depends: abe-commandline,
          xosview,
          ${misc:Depends}
 Recommends: abe-commandline-local,
-            abe-monitoring,
+            abe-server,
             tmpreaper
 Suggests: kiva-users
 Conflicts: denyhosts,

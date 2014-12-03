@@ -1,6 +1,7 @@
 abe-metapackages (15.1~dev) UNRELEASED; urgency=low
 
   * abe-server depends on abe-monitoring.
+  * kiva-base recommends abe-server instead of abe-monitoring.
   * Move funny-manpages from Depends to Recommends as it's RC-buggy.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sun, 02 Nov 2014 11:48:07 +0100
