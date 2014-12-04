@@ -5,6 +5,7 @@ abe-metapackages (15.1~dev) UNRELEASED; urgency=low
   * Move funny-manpages from Depends to Recommends as it's RC-buggy.
   * Add monitoring-plugins-basic as primary alternative to
     nagios-plugins-basic.
+  * Add fake package to satisfy unnecessary dependencies on consolekit.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sun, 02 Nov 2014 11:48:07 +0100
 

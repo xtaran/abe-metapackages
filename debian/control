@@ -1281,3 +1281,12 @@ Description: Dummy package to override silly gnome-control-center dependencies
  The sole purpose of this package is to fulfill gnome-control-center
  3.8.x's silly dependency on colord which pulls in ConsoleKit and
  PolicyKit which are usually unwanted on lean systems.
+
+Package: fake-consolekit
+Provides: consolekit
+Architecture: all
+Depends: ${misc:Depends}
+Description: Dummy package to ignore unnecessary dependencies on consolekit
+ The sole purpose of this empty dummy package is to fulfill
+ e.g. lxsession 0.5.x's but also other packages' unnecessary
+ dependency on consolekit.
