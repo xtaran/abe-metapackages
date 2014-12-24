@@ -6,6 +6,8 @@ abe-metapackages (15.1~dev) UNRELEASED; urgency=low
   * Add monitoring-plugins-basic as primary alternative to
     nagios-plugins-basic.
   * Add fake package to satisfy unnecessary dependencies on consolekit.
+  * abe-packaging-dev suggests debian-archive-keyring (e.g. on Ubuntu) and
+    ubuntu-archive-keyring (e.g. on Debian).
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sun, 02 Nov 2014 11:48:07 +0100
 
