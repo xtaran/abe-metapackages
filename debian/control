@@ -887,8 +887,7 @@ Description: Metapackage depending on Axel's collection of favourite games
  installed -- small and big ones, TUI and GUI ones, etc.
 
 Package: abe-fun
-Depends: asr-manpages,
-         caca-utils,
+Depends: caca-utils,
          cmatrix,
          fortunes,
          fortunes-bofh-excuses,
@@ -898,6 +897,7 @@ Depends: asr-manpages,
          toilet | figlet,
          ${misc:Depends}
 Recommends: abe-games,
+            asr-manpages,
             bb,
             bsdgames,
             cowsay,
