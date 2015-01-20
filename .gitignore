@@ -5,4 +5,5 @@
 /debian/abe-*/
 /debian/kiva-*/
 /debian/colord/
+/debian/fake-consolekit/
 /debian/files
