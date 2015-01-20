@@ -1,4 +1,4 @@
-abe-metapackages (15.1~dev) UNRELEASED; urgency=low
+abe-metapackages (15.1) unstable; urgency=low
 
   * abe-server depends on abe-monitoring.
   * kiva-base recommends abe-server instead of abe-monitoring.
@@ -9,7 +9,7 @@ abe-metapackages (15.1~dev) UNRELEASED; urgency=low
   * abe-packaging-dev suggests debian-archive-keyring (e.g. on Ubuntu) and
     ubuntu-archive-keyring (e.g. on Debian).
 
- -- Axel Beckert <abe@deuxchevaux.org>  Sun, 02 Nov 2014 11:48:07 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Tue, 20 Jan 2015 15:29:49 +0100
 
 abe-metapackages (15) unstable; urgency=low
 
