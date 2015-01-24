@@ -1,3 +1,9 @@
+abe-metapackages (15.2~dev) UNRELEASED; urgency=medium
+
+  * abe-games recommends 2048-qt.
+
+ -- Axel Beckert <abe@deuxchevaux.org>  Sat, 24 Jan 2015 01:09:12 +0100
+
 abe-metapackages (15.1) unstable; urgency=low
 
   * abe-server depends on abe-monitoring.

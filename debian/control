@@ -781,7 +781,8 @@ Description: List of text-mode web browsers, Axel commonly has installed
 Package: abe-games
 Depends: abe-fun,
          ${misc:Depends}
-Recommends: abe-joystick,
+Recommends: 2048-qt,
+            abe-joystick,
             ace-of-penguins | xpat2 | xsol,
             beneath-a-steel-sky,
             blockout2,
