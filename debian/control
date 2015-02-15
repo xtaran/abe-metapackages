@@ -75,7 +75,7 @@ Depends: aptitude,
          zsh,
          ${misc:Depends}
 Recommends: abe-fun,
-            ack-grep,
+            ack (>> 2) | ack-grep,
             apt-show-versions,
             apt-transport-https,
             ara,

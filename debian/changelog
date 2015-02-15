@@ -2,6 +2,7 @@ abe-metapackages (15.2~dev) UNRELEASED; urgency=medium
 
   * abe-games recommends 2048-qt.
   * abe-server recommends and kiva-base depends on needrestart.
+  * Add "ack (>> 2)" as alternative dependency to "ack-grep".
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 24 Jan 2015 01:09:12 +0100
 
