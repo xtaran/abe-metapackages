@@ -344,15 +344,15 @@ Description: Metapackage for computers where Axel works on the console
  also works on the console and not only remote or under X.
 
 Package: abe-emacs
-Depends: crypt++el,
-         debian-el,
+Depends: debian-el,
          develock-el,
          emacs | emacs-nox | emacsen,
          emacs-goodies-el,
          mmm-mode,
          zile,
          ${misc:Depends}
-Recommends: devscripts-el,
+Recommends: crypt++el,
+            devscripts-el,
             dpkg-dev-el,
             html-helper-mode,
             js2-mode,
