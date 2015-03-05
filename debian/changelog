@@ -7,6 +7,7 @@ abe-metapackages (15.2~dev) UNRELEASED; urgency=medium
   * abe-desktop-extras recommends needrestart-session.
   * abe-commandline and abe-desktop-extras suggest further SSH clients.
   * abe-packaging-dev suggests debbindiff.
+  * abe-perl-dev recommends libapp-cpants-lint-perl.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 24 Jan 2015 01:09:12 +0100
 

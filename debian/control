@@ -1142,6 +1142,7 @@ Depends: abe-commandline-local,
          ${misc:Depends}
 Recommends: dh-dist-zilla,
             libany-moose-perl,
+            libapp-cpants-lint-perl,
             libconfig-file-perl,
             libconfig-inifiles-perl,
             libconfig-inihash-perl,
