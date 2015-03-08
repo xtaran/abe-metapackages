@@ -3,7 +3,7 @@ abe-metapackages (15.2~dev) UNRELEASED; urgency=medium
   * abe-games recommends 2048-qt.
   * abe-server recommends and kiva-base depends on needrestart.
   * Add "ack (>> 2)" as alternative dependency to "ack-grep".
-  * abe-commandline recommends ldnsutils.
+  * abe-commandline recommends ldnsutils and ndisc6.
   * abe-desktop-extras recommends needrestart-session.
   * abe-commandline and abe-desktop-extras suggest further SSH clients.
   * abe-packaging-dev suggests debbindiff.
