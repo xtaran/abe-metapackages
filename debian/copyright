@@ -3,7 +3,7 @@ Upstream-Name: Axel's Metapackages
 Source: https://github.com/xtaran/abe-metapackages
 
 Files: *
-Copyright: 2011-2014 Axel Beckert <abe@deuxchevaux.org>
+Copyright: 2011-2015 Axel Beckert <abe@deuxchevaux.org>
 License: GPL-3.0+
 
 Files: colord/usr/share/glib-2.0/schemas/org.freedesktop.ColorHelper.gschema.xml
