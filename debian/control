@@ -21,6 +21,7 @@ Depends: abe-commandline,
          unp | mtools,
          xauth,
          ${misc:Depends}
+XB-Important: yes
 Architecture: all
 Description: Metapackage of commandline tools Axel wants on local systems
  This metapackage depends on packages Axel's usually installs in all
@@ -267,6 +268,7 @@ Suggests: 2ping,
           xmldiff,
           youtube-dl,
           zsh-lovers
+XB-Important: yes
 Architecture: all
 Description: Metapackage of commandline tools Axel usually installs
  This metapackage depends on packages Axel's usually installs in all
@@ -293,6 +295,7 @@ Suggests: arc,
           unalz,
           unp,
           zoo
+XB-Important: yes
 Architecture: all
 Description: Packages needed to read exotic archive formats
  This metapackage depends on packages which can handle exotic archive
@@ -322,6 +325,7 @@ Suggests: abcde,
           orpheus,
           rexima,
           xmp
+XB-Important: yes
 Architecture: all
 Description: Metapackage for computers where Axel can play music
  This metapackage depends on packages Axel's usually wants where he
@@ -339,6 +343,7 @@ Suggests: abe-commandline-media,
           abe-partitioning,
           sc,
           tpp
+XB-Important: yes
 Architecture: all
 Description: Metapackage for computers where Axel works on the console
  This metapackage depends on packages Axel's usually needs where he
@@ -367,6 +372,7 @@ Suggests: abe-tex,
           twittering-mode,
           x-face-el,
           yaml-mode
+XB-Important: yes
 Architecture: all
 Description: Common Emacs installation on Axel's systems
  This metapackage depends on packages Axel's usually installs where he
@@ -386,6 +392,7 @@ Suggests: abe-office,
           gparted,
           liferea,
           ssh-contact-client
+XB-Important: yes
 Architecture: all
 Description: Common GNOME applications on Axel's desktops
  This metapackage depends on packages Axel's oftens installs when
@@ -484,6 +491,7 @@ Suggests: abe-desktop-extras,
           wvdial,
           xfce4-cellmodem-plugin
 Conflicts: apmd (>= 0)
+XB-Important: yes
 Architecture: all
 Description: Metapackage for Axel's laptops and netbooks
  This metapackage depends on packages Axel's usually needs on his
@@ -497,6 +505,7 @@ Provides: apmd,
           debconf-i18n,
           rsyslog,
           vim-tiny
+XB-Important: yes
 Architecture: all
 Description: Metapackage to fulfill some hard dependencies of ubuntu-minimal
  This metapackage provides a few packages needed by ubuntu-minimal and
@@ -513,6 +522,7 @@ Depends: debsums,
          ${misc:Depends}
 Recommends: lsof
 Suggests: sudo
+XB-Important: yes
 Architecture: all
 Description: Metapackage for computers Axel's wants to be monitored
  This metapackage depends on packages Axel's usually needs on his
@@ -565,6 +575,7 @@ Suggests: antiword,
           wv,
           xfig,
           xlhtml
+XB-Important: yes
 Architecture: all
 Description: Common office applications on Axel's desktops
  This metapackage depends on packages Axel's usually needs when he
@@ -590,6 +601,7 @@ Suggests: abe-office,
           texworks,
           writer2latex,
           yatex
+XB-Important: yes
 Architecture: all
 Description: Common packages Axel wants for a TeX installation
  This metapackage depends on packages Axel's prefers on computers
@@ -637,6 +649,7 @@ Suggests: dc3dd,
           reiserfsprogs,
           safecopy,
           smart-notifier
+XB-Important: yes
 Architecture: all
 Description: Metapackage for real computers where Axel may access USB devices
  This metapackage depends on packages Axel's usually needs to
@@ -667,6 +680,7 @@ Conflicts: debconf-i18n (>= 0),
            xfonts-75dpi-transcoded
 Replaces: abe-laptop-small-disk
 Breaks: abe-laptop-small-disk
+XB-Important: yes
 Architecture: all
 Description: Keeps some disk-wasting packages off the disk
  This metapackage conflicts with packages Axel considers a waste of
@@ -700,6 +714,7 @@ Suggests: abe-gnome,
           wmfs,
           xmonad | libghc-xmonad-dev
 Enhances: abe-desktop
+XB-Important: yes
 Architecture: all
 Description: Metapackage depending on a bunch of window managers
  This metapackage depends window managers and desktop environments,
@@ -714,6 +729,7 @@ Recommends: jstest-gtk
 Suggests: joy2key,
           xserver-xorg-input-joystick
 Enhances: abe-desktop
+XB-Important: yes
 Architecture: all
 Description: Metapackage for computers with attached joysticks
  This metapackage depends on, recommends and suggests packages which
@@ -732,6 +748,7 @@ Suggests: jscribble,
           xserver-xorg-input-wacom
 Enhances: abe-desktop,
           abe-office
+XB-Important: yes
 Architecture: all
 Description: Metapackage for computers with touchscreen or attached graphics tablet
  This metapackage depends on packages necessary to get
@@ -761,6 +778,7 @@ Suggests: chromium | chromium-browser,
           wapua,
           xombrero | xxxterm
 Enhances: abe-desktop
+XB-Important: yes
 Architecture: all
 Description: List of X-based web browsers, Axel commonly has installed
  This metapackage depends on X-based web browsers, Axel commonly has
@@ -776,6 +794,7 @@ Suggests: abe-x-browsers,
           elinks,
           w3m
 Enhances: abe-console
+XB-Important: yes
 Architecture: all
 Description: List of text-mode web browsers, Axel commonly has installed
  This metapackage depends on text-mode web browsers, Axel commonly has
@@ -885,6 +904,7 @@ Suggests: ace-of-penguins,
           xzip
 Enhances: abe-desktop,
           abe-laptop
+XB-Important: yes
 Architecture: all
 Description: Metapackage depending on Axel's collection of favourite games
  This metapackage depends on games Axel likes and may want to have
@@ -923,6 +943,7 @@ Enhances: abe-commandline,
           abe-laptop
 Provides: kiva-fun
 Conflicts: kiva-fun
+XB-Important: yes
 Architecture: all
 Description: Metapackage depending on a bunch of fun
  This metapackage depends on packages which Axel usually installs just
@@ -950,6 +971,7 @@ Recommends: abe-commandline-local,
 Suggests: kiva-users
 Conflicts: denyhosts,
            tasksel
+XB-Important: yes
 Architecture: all
 Description: Solid base for the LUGS Kiva Xen Cluster
  Metapackage depending on everything needed on all Kiva nodes.
@@ -1038,6 +1060,7 @@ Suggests: ikiwiki,
           nd,
           sirc,
           trickle
+XB-Important: yes
 Architecture: all
 Description: Packages needed for hosts with users in the LUGS Kiva Xen Cluster
  Everything needed on all Kiva nodes with normal users being able to
@@ -1104,6 +1127,7 @@ Suggests: apt-doc,
           zopfli
 Provides: kiva-dev
 Conflicts: kiva-dev
+XB-Important: yes
 Architecture: all
 Description: Packages for building Debian packages
  Metapackage depending on packages Axel wants to have installed on
@@ -1183,6 +1207,7 @@ Suggests: libconfig-model-dpkg-perl,
           libvar-pairs-perl,
           libxml-feedpp-perl,
           rgxg
+XB-Important: yes
 Architecture: all
 Description: Packages for developing Perl applications and modules
  Metapackage depending on packages Axel wants to have installed on
@@ -1244,6 +1269,7 @@ Suggests: comixcursors-righthanded,
           xscreensaver-screensaver-bsod,
           xserver-xephyr,
           xtermset | xtermcontrol
+XB-Important: yes
 Architecture: all
 Description: Additional packages for desktop environments
  Metapackage depending on packages Axel wants to have installed on
@@ -1277,6 +1303,7 @@ Conflicts: consolekit,
            systemd,
            systemd-shim,
            systemd-sysv
+XB-Important: yes
 Architecture: all
 Description: Axel's base package for pure servers
  Metapackage taking care that all packages Axel wants to have
@@ -1287,6 +1314,7 @@ Description: Axel's base package for pure servers
  consolekit, networkmanager or systemd is installed.
 
 Package: colord
+XB-Important: yes
 Architecture: all
 Depends: ${misc:Depends}
 Description: Dummy package to override silly gnome-control-center dependencies
@@ -1296,6 +1324,7 @@ Description: Dummy package to override silly gnome-control-center dependencies
 
 Package: fake-consolekit
 Provides: consolekit
+XB-Important: yes
 Architecture: all
 Depends: ${misc:Depends}
 Description: Dummy package to ignore unnecessary dependencies on consolekit

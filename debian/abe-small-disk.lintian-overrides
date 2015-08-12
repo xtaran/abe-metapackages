@@ -1,1 +1,2 @@
 abe-small-disk: conflicts-with-version debconf-i18n (>= 0)
+abe-small-disk: unknown-field-in-control important

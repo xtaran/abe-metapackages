@@ -1,2 +1,3 @@
 abe-packaging-dev: depends-on-obsolete-package recommends: dpatch
 abe-packaging-dev: depends-on-obsolete-package suggests: hardening-includes => use dpkg-buildflags instead
+abe-packaging-dev: unknown-field-in-control important
