@@ -1323,7 +1323,8 @@ Description: Dummy package to override silly gnome-control-center dependencies
  PolicyKit which are usually unwanted on lean systems.
 
 Package: fake-consolekit
-Provides: consolekit
+Provides: consolekit,
+          prevent-consolekit
 XB-Important: yes
 Architecture: all
 Depends: ${misc:Depends}
