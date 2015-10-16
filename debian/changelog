@@ -16,6 +16,8 @@ abe-metapackages (15.2~dev) UNRELEASED; urgency=medium
   * Make fake-consolekit's "Provides: consolekit" versioned.
   * Let colord also provide fake-colord and an anticipatory prevent-colord
     and mention why it's not called fake-colord.
+  * Add a new package fake-accountsservice which provides the unwanted and
+    unnecessary package accountsservice.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 24 Jan 2015 01:09:12 +0100
 

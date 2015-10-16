@@ -1337,3 +1337,14 @@ Description: Dummy package to ignore unnecessary dependencies on consolekit
  The sole purpose of this empty dummy package is to fulfill
  e.g. lxsession 0.5.x's but also other packages' unnecessary
  dependency on consolekit.
+
+Package: fake-accountsservice
+Provides: accountsservice (= ${binary:Version}),
+          prevent-accountsservice
+XB-Important: yes
+Architecture: all
+Depends: ${misc:Depends}
+Description: Dummy package to ignore unnecessary dependencies on accountsservice
+ The sole purpose of this empty dummy package is to fulfill
+ e.g. gnome-control-center's but also other packages' unnecessary
+ dependency on accountsservice.
