@@ -1317,10 +1317,15 @@ Package: colord
 XB-Important: yes
 Architecture: all
 Depends: ${misc:Depends}
+Provides: fake-colord,
+          prevent-colord
 Description: Dummy package to override silly gnome-control-center dependencies
  The sole purpose of this package is to fulfill gnome-control-center
  3.8.x's silly dependency on colord which pulls in ConsoleKit and
  PolicyKit which are usually unwanted on lean systems.
+ .
+ Should be named fake-colord, but that doesn't work until dpkg and apt
+ support versioned Provides (which they do since Jessie).
 
 Package: fake-consolekit
 Provides: consolekit,
