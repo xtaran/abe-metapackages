@@ -1328,7 +1328,7 @@ Description: Dummy package to override silly gnome-control-center dependencies
  support versioned Provides (which they do since Jessie).
 
 Package: fake-consolekit
-Provides: consolekit,
+Provides: consolekit (= ${binary:Version}),
           prevent-consolekit
 XB-Important: yes
 Architecture: all

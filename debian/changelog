@@ -13,6 +13,7 @@ abe-metapackages (15.2~dev) UNRELEASED; urgency=medium
   * Add "Important: yes" to all packages including according lintian
     overrides. See https://juliank.wordpress.com/2012/01/24/ for details.
   * Let fake-consolekit also provide prevent-consolekit.
+  * Make fake-consolekit's "Provides: consolekit" versioned.
   * Let colord also provide fake-colord and an anticipatory prevent-colord
     and mention why it's not called fake-colord.
 
