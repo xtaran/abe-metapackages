@@ -4,6 +4,8 @@ abe-metapackages (17~dev) UNRELEASED; urgency=medium
     fake-accountsservice) from abe-metapackages because versioned provides
     only work with Jessie and above and those no-op replacment packages
     don't really fit into the abe-metapackages source package.
+  * Add openssh-server (Depends), openss?-blacklist* (Recommends and
+    Suggests) and fail2ban (Recommends) to abe-server.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sun, 18 Oct 2015 16:01:20 +0200
 
