@@ -20,6 +20,7 @@ abe-metapackages (15.2~dev) UNRELEASED; urgency=medium
     unnecessary package accountsservice.
   * Bump debehelper compatibility to 9 as recommended.
     + Update versioned debhelper build-dependency accordingly.
+  * abe-commandline suggests bomstrip.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 24 Jan 2015 01:09:12 +0100
 
