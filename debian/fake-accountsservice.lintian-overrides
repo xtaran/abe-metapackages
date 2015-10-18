@@ -1,0 +1,3 @@
+# On purpose
+fake-accountsservice: versioned-provides accountsservice (= 15.2~dev)
+fake-accountsservice: unknown-field-in-control important
