@@ -1,4 +1,4 @@
-abe-metapackages (17~dev) UNRELEASED; urgency=medium
+abe-metapackages (17) unstable; urgency=medium
 
   * Split off abe-fakepackages (colord, fake-consolekit, and
     fake-accountsservice) from abe-metapackages because versioned provides
@@ -9,7 +9,7 @@ abe-metapackages (17~dev) UNRELEASED; urgency=medium
   * Fix grammar of abe-server long description.
   * abe-desktop-extras recommend gitk and grub2-splashimages.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Sun, 18 Oct 2015 16:01:20 +0200
+ -- Axel Beckert <abe@deuxchevaux.org>  Sun, 18 Oct 2015 16:58:53 +0200
 
 abe-metapackages (16) unstable; urgency=medium
 
