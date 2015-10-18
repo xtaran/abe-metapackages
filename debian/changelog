@@ -7,6 +7,7 @@ abe-metapackages (17~dev) UNRELEASED; urgency=medium
   * Add openssh-server (Depends), openss?-blacklist* (Recommends and
     Suggests) and fail2ban (Recommends) to abe-server.
   * Fix grammar of abe-server long description.
+  * abe-desktop-extras recommend gitk and grub2-splashimages.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sun, 18 Oct 2015 16:01:20 +0200
 
