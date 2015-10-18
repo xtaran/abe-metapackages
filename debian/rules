@@ -6,7 +6,6 @@
 build: build-arch build-indep
 build-arch:
 build-indep:
-	cp -pvr colord/ debian/
 
 clean:
 	dh_testdir
@@ -27,7 +26,6 @@ binary-indep:
 	dh_fixperms
 	dh_installdeb
 	dh_gencontrol
-	dh_gencontrol -pcolord -- -v'1:$${source:Version}'
 	dh_md5sums
 	dh_builddeb
 

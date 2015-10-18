@@ -1,3 +1,0 @@
-# On purpose
-fake-accountsservice: versioned-provides accountsservice (= *)
-fake-accountsservice: unknown-field-in-control important

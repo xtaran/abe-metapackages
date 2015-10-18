@@ -1,2 +1,0 @@
-fake-consolekit: versioned-provides consolekit (= *)
-fake-consolekit: unknown-field-in-control important
