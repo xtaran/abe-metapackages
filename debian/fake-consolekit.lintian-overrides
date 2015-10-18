@@ -1,2 +1,2 @@
-fake-consolekit: versioned-provides consolekit (= 15.2~dev)
+fake-consolekit: versioned-provides consolekit (= *)
 fake-consolekit: unknown-field-in-control important
