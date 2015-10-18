@@ -1315,7 +1315,7 @@ Architecture: all
 Description: Axel's base package for pure servers
  Metapackage taking care that all packages Axel wants to have
  installed on his servers are installed and those he doesn't want to
- have installed, aren't.
+ be installed, aren't.
  .
  This package especially takes care that there's no dbus, policykit,
- consolekit, networkmanager or systemd is installed.
+ consolekit, networkmanager or systemd installed.
