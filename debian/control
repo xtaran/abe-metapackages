@@ -689,13 +689,14 @@ Description: Keeps some disk-wasting packages off the disk
  find waste of disk-space.
 
 Package: abe-window-managers
-Depends: awesome,
+Depends: awesome | i3-wm,
          flwm,
-         i3-wm,
          ratpoison,
          ${misc:Depends}
-Recommends: cinnamon,
+Recommends: awesome,
+            cinnamon,
             fvwm,
+            i3-wm,
             lxde | lxde-core | lxsession,
             notion | tritium,
             razorqt,
