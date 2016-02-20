@@ -912,8 +912,7 @@ Description: Metapackage depending on Axel's collection of favourite games
  installed -- small and big ones, TUI and GUI ones, etc.
 
 Package: abe-fun
-Depends: caca-utils,
-         cmatrix,
+Depends: cmatrix,
          fortunes,
          fortunes-bofh-excuses,
          fortunes-de,
@@ -925,6 +924,7 @@ Recommends: abe-games,
             asr-manpages,
             bb,
             bsdgames,
+            caca-utils,
             cowsay,
             figlet,
             funny-manpages,

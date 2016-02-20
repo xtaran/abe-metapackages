@@ -1,3 +1,10 @@
+abe-metapackages (17.1) UNRELEASED; urgency=medium
+
+  * Downgrade caca-utils from Depends to Recommends due its transitive
+    dependency on libx11.
+
+ -- Axel Beckert <abe@deuxchevaux.org>  Sat, 20 Feb 2016 18:20:08 +0100
+
 abe-metapackages (17) unstable; urgency=medium
 
   * Split off abe-fakepackages (colord, fake-consolekit, and
