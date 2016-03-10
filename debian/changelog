@@ -2,6 +2,8 @@ abe-metapackages (17.1) UNRELEASED; urgency=medium
 
   * Downgrade caca-utils from Depends to Recommends due its transitive
     dependency on libx11.
+  * Change all occurrences of "unrar | unrar-nonfree" to "unrar-free |
+    unrar-nonfree | unrar".
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 20 Feb 2016 18:20:08 +0100
 

@@ -262,7 +262,7 @@ Suggests: 2ping,
           translate,
           unaccent,
           units,
-          unrar | unrar-nonfree,
+          unrar-free | unrar-nonfree | unrar,
           wcalc,
           wikipedia2text,
           xml-twig-tools,
@@ -277,7 +277,7 @@ Description: Metapackage of commandline tools Axel usually installs
 
 Package: abe-archive-tools
 Depends: atool,
-         unrar | unrar-nonfree,
+         unrar-free | unrar-nonfree | unrar,
          zip,
          ${misc:Depends}
 Recommends: cabextract,
