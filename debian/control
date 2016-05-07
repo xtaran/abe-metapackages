@@ -5,7 +5,7 @@ Priority: extra
 Homepage: https://github.com/xtaran/abe-metapackages#readme
 Vcs-Git: git://github.com/xtaran/abe-metapackages.git
 Vcs-Browser: https://github.com/xtaran/abe-metapackages
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9)
 
 Package: abe-commandline-local
