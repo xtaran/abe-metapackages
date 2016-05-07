@@ -277,13 +277,13 @@ Description: Metapackage of commandline tools Axel usually installs
 
 Package: abe-archive-tools
 Depends: atool,
-         unrar-free | unrar-nonfree | unrar,
          zip,
          ${misc:Depends}
 Recommends: cabextract,
             extract,
             jlha-utils | lhasa | lha,
             unp | mtools,
+            unrar-free | unrar-nonfree | unrar,
             unshield
 Suggests: arc,
           arj,

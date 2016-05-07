@@ -3,7 +3,8 @@ abe-metapackages (17.1) UNRELEASED; urgency=medium
   * Downgrade caca-utils from Depends to Recommends due its transitive
     dependency on libx11.
   * Change all occurrences of "unrar | unrar-nonfree" to "unrar-free |
-    unrar-nonfree | unrar".
+    unrar-nonfree | unrar" and downgrade them to Recommends where they
+    were hard dependencies.
   * Declare compliance with Debian Policy 3.9.8. (No changes needed.)
   * abe-server depends on postfix and recommends postfix-pcre.
   * Prefer diffoscope over old package name debbindiff.
