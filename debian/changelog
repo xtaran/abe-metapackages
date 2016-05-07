@@ -1,4 +1,4 @@
-abe-metapackages (17.1) UNRELEASED; urgency=medium
+abe-metapackages (17.1) unstable; urgency=medium
 
   * Downgrade caca-utils from Depends to Recommends due its transitive
     dependency on libx11.
@@ -10,7 +10,7 @@ abe-metapackages (17.1) UNRELEASED; urgency=medium
   * Prefer diffoscope over old package name debbindiff.
   * Switch Vcs-Git from git:// to https://.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Sat, 20 Feb 2016 18:20:08 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Sat, 07 May 2016 18:02:08 +0200
 
 abe-metapackages (17) unstable; urgency=medium
 
