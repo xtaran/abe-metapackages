@@ -7,6 +7,7 @@ abe-metapackages (17.1) UNRELEASED; urgency=medium
   * Declare compliance with Debian Policy 3.9.8. (No changes needed.)
   * abe-server depends on postfix and recommends postfix-pcre.
   * Prefer diffoscope over old package name debbindiff.
+  * Switch Vcs-Git from git:// to https://.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 20 Feb 2016 18:20:08 +0100
 
