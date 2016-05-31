@@ -2,6 +2,8 @@ abe-metapackages (17.2) UNRELEASED; urgency=medium
 
   * abe-window-managers: Be less restrictive wrt. hard dependencies.
   * Add pv as alternative to bar, cpipe and pipemeter.
+  * Prefer libdist-zilla-plugin-test-podspelling-perl over the deprecated
+    libdist-zilla-plugin-podspellingtests-perl.
 
  -- Axel Beckert <abe@debian.org>  Sat, 07 May 2016 18:17:20 +0200
 
