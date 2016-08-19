@@ -581,7 +581,7 @@ XB-Important: yes
 Architecture: all
 Description: Common office applications on Axel's desktops
  This metapackage depends on packages Axel's usually needs when he
- want's basic office functionality.
+ wants basic office functionality.
 
 Package: abe-tex
 Depends: abe-emacs,
@@ -721,7 +721,7 @@ XB-Important: yes
 Architecture: all
 Description: Metapackage depending on a bunch of window managers
  This metapackage depends window managers and desktop environments,
- Axel wants to have on those computers where occassionally other
+ Axel wants to have on those computers where occasionally other
  people log in, too.
 
 Package: abe-joystick
