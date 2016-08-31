@@ -1,3 +1,14 @@
+abe-metapackages (17.3) UNRELEASED; urgency=medium
+
+  * Add pv as alternative to bar, cpipe and pipemeter.
+  * Prefer libdist-zilla-plugin-test-podspelling-perl over the deprecated
+    libdist-zilla-plugin-podspellingtests-perl.
+  * abe-perl-dev: Recommend libtask-kensho-all-perl.
+  * Add texlive-htmlxml as alternative to tex4ht.
+  * Fix some spelling errors found by lintian.
+
+ -- Axel Beckert <abe@deuxchevaux.org>  Sat, 07 May 2016 18:17:20 +0200
+
 abe-metapackages (17.2) unstable; urgency=medium
 
   * abe-window-managers: Be less restrictive wrt. hard dependencies.

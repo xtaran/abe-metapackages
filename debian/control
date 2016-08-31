@@ -81,7 +81,7 @@ Recommends: abe-fun,
             apt-transport-https,
             ara,
             autossh,
-            bar | cpipe | pipemeter,
+            bar | cpipe | pipemeter | pv,
             buthead,
             byobu | tmux,
             ccal,
@@ -232,6 +232,7 @@ Suggests: 2ping,
           plzip,
           psmisc,
           pssh,
+          pv,
           pwgen,
           pxz,
           rar,
@@ -580,7 +581,7 @@ XB-Important: yes
 Architecture: all
 Description: Common office applications on Axel's desktops
  This metapackage depends on packages Axel's usually needs when he
- want's basic office functionality.
+ wants basic office functionality.
 
 Package: abe-tex
 Depends: abe-emacs,
@@ -595,7 +596,7 @@ Suggests: abe-office,
           asciidoc,
           gummi,
           latex-xcolor,
-          latex2html | tex4ht,
+          latex2html | texlive-htmlxml | tex4ht,
           latexdiff,
           libreoffice-writer2latex,
           lyx,
@@ -720,7 +721,7 @@ XB-Important: yes
 Architecture: all
 Description: Metapackage depending on a bunch of window managers
  This metapackage depends window managers and desktop environments,
- Axel wants to have on those computers where occassionally other
+ Axel wants to have on those computers where occasionally other
  people log in, too.
 
 Package: abe-joystick
@@ -1190,6 +1191,7 @@ Recommends: dh-dist-zilla,
             liblist-allutils-perl,
             libmoo-perl,
             libregexp-debugger-perl,
+            libtask-kensho-all-perl,
             libxxx-perl,
             libyaml-tiny-perl,
             perl-depends,
@@ -1201,7 +1203,7 @@ Suggests: libconfig-model-dpkg-perl,
           libconfig-model-tkui-perl,
           libdist-zilla-deb-perl,
           libdist-zilla-plugin-changelogfromgit-perl,
-          libdist-zilla-plugin-podspellingtests-perl,
+          libdist-zilla-plugin-test-podspelling-perl | libdist-zilla-plugin-podspellingtests-perl,
           libdist-zilla-plugin-test-reportprereqs-perl,
           libfile-rsync-perl | libfile-rsyncp-perl,
           libhttp-proxy-perl,
