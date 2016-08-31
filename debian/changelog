@@ -1,3 +1,9 @@
+abe-metapackages (17.4) UNRELEASED; urgency=medium
+
+  * abe-laptop now prefers abe-desktop-i3 over -ratpoison and -awesome.
+
+ -- Axel Beckert <abe@deuxchevaux.org>  Thu, 01 Sep 2016 00:47:04 +0200
+
 abe-metapackages (17.3) unstable; urgency=medium
 
   * Add pv as alternative to bar, cpipe and pipemeter.

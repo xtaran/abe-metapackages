@@ -403,7 +403,7 @@ Description: Common GNOME applications on Axel's desktops
 Package: abe-laptop
 Depends: abe-commandline-local,
          abe-console,
-         abe-desktop-ratpoison | abe-desktop-awesome,
+         abe-desktop-i3 | abe-desktop-ratpoison | abe-desktop-awesome,
          anacron,
          busybox-syslogd | system-log-daemon | systemd,
          debdelta,
