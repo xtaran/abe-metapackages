@@ -1,4 +1,4 @@
-abe-metapackages (17.3) UNRELEASED; urgency=medium
+abe-metapackages (17.3) unstable; urgency=medium
 
   * Add pv as alternative to bar, cpipe and pipemeter.
   * Prefer libdist-zilla-plugin-test-podspelling-perl over the deprecated
@@ -9,7 +9,7 @@ abe-metapackages (17.3) UNRELEASED; urgency=medium
   * abe-gnome: Add clusterssh as alternative to mssh since Kali Linux
     follows testing and that currently doesn't have mssh. :-(
 
- -- Axel Beckert <abe@deuxchevaux.org>  Sat, 07 May 2016 18:17:20 +0200
+ -- Axel Beckert <abe@deuxchevaux.org>  Thu, 01 Sep 2016 00:40:17 +0200
 
 abe-metapackages (17.2) unstable; urgency=medium
 
