@@ -6,6 +6,8 @@ abe-metapackages (17.3) UNRELEASED; urgency=medium
   * abe-perl-dev: Recommend libtask-kensho-all-perl.
   * Add texlive-htmlxml as alternative to tex4ht.
   * Fix some spelling errors found by lintian.
+  * abe-gnome: Add clusterssh as alternative to mssh since Kali Linux
+    follows testing and that currently doesn't have mssh. :-(
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 07 May 2016 18:17:20 +0200
 
