@@ -7,6 +7,7 @@ Vcs-Git: https://github.com/xtaran/abe-metapackages.git
 Vcs-Browser: https://github.com/xtaran/abe-metapackages
 Standards-Version: 4.1.1
 Build-Depends: debhelper (>= 9)
+Rules-Requires-Root: no
 
 Package: abe-commandline-local
 Depends: abe-commandline,
