@@ -5,6 +5,9 @@ abe-metapackages (17.4) UNRELEASED; urgency=medium
   * Prefer lynx over lynx-cur instead of vice versa.
   * Install some apt-related packages only if only old apt versions are
     available.
+  * Declare compliance with Debian Policy 4.1.1.
+    + Change Priority to optional.
+    + Change DEP5 format URL in debian/copyright to HTTPS.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Thu, 01 Sep 2016 00:47:04 +0200
 
