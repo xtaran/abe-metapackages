@@ -3,6 +3,8 @@ abe-metapackages (17.4) UNRELEASED; urgency=medium
   * abe-laptop now prefers abe-desktop-i3 over -ratpoison and -awesome.
   * Prefer sshguard over fail2ban due missing IPv6 support in fail2ban.
   * Prefer lynx over lynx-cur instead of vice versa.
+  * Install some apt-related packages only if only old apt versions are
+    available.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Thu, 01 Sep 2016 00:47:04 +0200
 
