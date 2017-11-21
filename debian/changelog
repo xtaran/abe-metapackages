@@ -29,6 +29,8 @@ abe-metapackages (17.4) UNRELEASED; urgency=medium
       interface. Suggest transmission-daemon.
   * abe-gnome: Recommend gnome-twitch with streamlink as (future)
     alternative.
+  * abe-emacs:
+    + Demote html-helper-mode to Suggests.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Thu, 01 Sep 2016 00:47:04 +0200
 
