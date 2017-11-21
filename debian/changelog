@@ -24,7 +24,7 @@ abe-metapackages (17.4) UNRELEASED; urgency=medium
   * abe-text-browsers: Suggest edbrowse.
   * abe-desktop-extras:
     + Recommend telegram-desktop.
-    + Suggest systray-mdstat.
+    + Suggest adb and fastboot.
     + Recommend transmission or at least a transmission remote control
       interface. Suggest transmission-daemon.
   * abe-gnome: Recommend gnome-twitch with streamlink as (future)
