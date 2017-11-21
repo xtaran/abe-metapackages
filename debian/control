@@ -388,6 +388,7 @@ Depends: baobab,
          ${misc:Depends}
 Recommends: cinnamon,
             gobby | gobby-0.4 | gobby-0.5,
+            gnome-twitch | streamlink,
             gpointing-device-settings,
             gui-apt-key,
             meld
