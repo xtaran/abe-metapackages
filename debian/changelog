@@ -31,6 +31,7 @@ abe-metapackages (17.4) UNRELEASED; urgency=medium
     alternative.
   * abe-emacs:
     + Demote html-helper-mode to Suggests.
+    + Prefer elpa-magit over magit.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Thu, 01 Sep 2016 00:47:04 +0200
 

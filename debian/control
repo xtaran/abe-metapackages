@@ -364,7 +364,7 @@ Recommends: crypt++el,
             devscripts-el,
             dpkg-dev-el,
             js2-mode,
-            magit
+            elpa-magit | magit
 Suggests: abe-tex,
           html-helper-mode,
           lua-mode,
