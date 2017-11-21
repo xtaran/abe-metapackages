@@ -33,6 +33,9 @@ abe-metapackages (17.4) UNRELEASED; urgency=medium
     + Demote html-helper-mode to Suggests.
     + Prefer elpa-magit over magit.
 
+    + Suggest elpa-magithub, elpa-magit-annex, elpa-git-messenger,
+      elpa-git-modes, elpa-git-timemachine, and elpa-git-commit.
+
  -- Axel Beckert <abe@deuxchevaux.org>  Thu, 01 Sep 2016 00:47:04 +0200
 
 abe-metapackages (17.3) unstable; urgency=medium
