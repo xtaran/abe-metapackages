@@ -11,6 +11,7 @@ abe-metapackages (17.4) UNRELEASED; urgency=medium
   * Bump copyright years.
   * Set "Rules-Requires-Root: no".
   * Ignore some more recent debhelper build artefacts.
+  * Prefer fonts-atarismall over ttf-atarismall.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Thu, 01 Sep 2016 00:47:04 +0200
 
