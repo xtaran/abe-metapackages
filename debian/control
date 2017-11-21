@@ -760,25 +760,32 @@ Description: Metapackage for computers with touchscreen or attached graphics tab
 
 Package: abe-x-browsers
 Depends: abe-text-browsers,
-         conkeror,
+         conkeror | qutebrowser | ubuntu-keyring,
          dillo,
          links2,
          ${misc:Depends}
-Recommends: arora,
-            iceweasel | firefox,
-            luakit,
-            midori,
+Recommends: chromium | chromium-browser,
+            conkeror,
+            iceweasel | firefox-esr | firefox,
             netsurf-gtk | netsurf,
-            opera | opera-beta | opera-snapshot | opera-next | opera-developer
-Suggests: chromium | chromium-browser,
+            qupzilla | arora,
+            qutebrowser,
+            torbrowser-launcher
+Suggests: arora,
           dwb,
           forg,
           hbro,
           iceape | seamonkey,
           konqueror,
+          luakit,
+          midori,
+          opera | opera-beta | opera-snapshot | opera-next | opera-developer,
+          otter-browser,
+          qupzilla,
           rekonq,
           surf,
           uzbl,
+          vivaldi,
           wapua,
           xombrero | xxxterm
 Enhances: abe-desktop

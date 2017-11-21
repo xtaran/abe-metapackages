@@ -12,6 +12,15 @@ abe-metapackages (17.4) UNRELEASED; urgency=medium
   * Set "Rules-Requires-Root: no".
   * Ignore some more recent debhelper build artefacts.
   * Prefer fonts-atarismall over ttf-atarismall.
+  * Update abe-x-browsers:
+    + Add qutebrowser as alternative to conkeror.
+    + Don't enforce preferred browsers on Ubuntu.
+    + Add firefox-esr as alternative to iceweasel.
+    + Recommend torbrowser-launcher.
+    + Promote chromium to Recommendation.
+    + Demote luakit, midori and the list of operas to Suggestions.
+    + Add qupzilla as preferred alternative to arora.
+    + Suggest vivaldi and otter-browser.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Thu, 01 Sep 2016 00:47:04 +0200
 
