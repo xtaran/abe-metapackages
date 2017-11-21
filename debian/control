@@ -46,7 +46,7 @@ Depends: aptitude,
          iputils-ping | inetutils-ping,
          less,
          lsb-release,
-         lynx-cur | lynx | links2 | links,
+         lynx | lynx-cur | links2 | links,
          man-db,
          manpages,
          mmv,
@@ -789,7 +789,7 @@ Description: List of X-based web browsers, Axel commonly has installed
 
 Package: abe-text-browsers
 Depends: links | links2,
-         lynx-cur | lynx,
+         lynx | lynx-cur,
          ${misc:Depends}
 Recommends: gopher,
             netrik
