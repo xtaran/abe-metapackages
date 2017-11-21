@@ -22,7 +22,9 @@ abe-metapackages (17.4) UNRELEASED; urgency=medium
     + Add qupzilla as preferred alternative to arora.
     + Suggest vivaldi and otter-browser.
   * abe-text-browsers: Suggest edbrowse.
-  * abe-desktop-extras: Recommend telegram-desktop.
+  * abe-desktop-extras:
+    + Recommend telegram-desktop.
+    + Suggest systray-mdstat.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Thu, 01 Sep 2016 00:47:04 +0200
 
