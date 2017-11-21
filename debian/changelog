@@ -21,6 +21,7 @@ abe-metapackages (17.4) UNRELEASED; urgency=medium
     + Demote luakit, midori and the list of operas to Suggestions.
     + Add qupzilla as preferred alternative to arora.
     + Suggest vivaldi and otter-browser.
+  * abe-text-browsers: Suggest edbrowse.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Thu, 01 Sep 2016 00:47:04 +0200
 

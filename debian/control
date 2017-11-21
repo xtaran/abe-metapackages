@@ -802,6 +802,7 @@ Depends: links | links2,
 Recommends: gopher,
             netrik
 Suggests: abe-x-browsers,
+          edbrowse,
           elinks,
           w3m
 Enhances: abe-console
