@@ -8,6 +8,7 @@ abe-metapackages (17.4) UNRELEASED; urgency=medium
   * Declare compliance with Debian Policy 4.1.1.
     + Change Priority to optional.
     + Change DEP5 format URL in debian/copyright to HTTPS.
+  * Bump copyright years.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Thu, 01 Sep 2016 00:47:04 +0200
 
