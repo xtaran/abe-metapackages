@@ -1,4 +1,4 @@
-abe-metapackages (17.4) UNRELEASED; urgency=medium
+abe-metapackages (17.4) unstable; urgency=medium
 
   * abe-laptop now prefers abe-desktop-i3 over -ratpoison and -awesome.
   * Prefer sshguard over fail2ban due missing IPv6 support in fail2ban.
@@ -35,7 +35,7 @@ abe-metapackages (17.4) UNRELEASED; urgency=medium
     + Suggest elpa-magithub, elpa-magit-annex, elpa-git-messenger,
       elpa-git-modes, elpa-git-timemachine, and elpa-git-commit.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Thu, 01 Sep 2016 00:47:04 +0200
+ -- Axel Beckert <abe@deuxchevaux.org>  Tue, 21 Nov 2017 08:36:45 +0100
 
 abe-metapackages (17.3) unstable; urgency=medium
 
