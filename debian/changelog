@@ -1,9 +1,9 @@
-abe-metapackages (17.4.1) UNRELEASED; urgency=medium
+abe-metapackages (17.4.1) unstable; urgency=medium
 
   * Enforce usage of gz instead of xz for .deb archive members as long as
     Wheezy is supported.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Wed, 22 Nov 2017 04:23:47 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Wed, 22 Nov 2017 04:39:27 +0100
 
 abe-metapackages (17.4) unstable; urgency=medium
 
