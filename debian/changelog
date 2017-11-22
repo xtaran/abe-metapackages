@@ -1,3 +1,10 @@
+abe-metapackages (17.4.1) UNRELEASED; urgency=medium
+
+  * Enforce usage of gz instead of xz for .deb archive members as long as
+    Wheezy is supported.
+
+ -- Axel Beckert <abe@deuxchevaux.org>  Wed, 22 Nov 2017 04:23:47 +0100
+
 abe-metapackages (17.4) unstable; urgency=medium
 
   * abe-laptop now prefers abe-desktop-i3 over -ratpoison and -awesome.
