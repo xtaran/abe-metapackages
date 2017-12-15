@@ -2,6 +2,7 @@ abe-metapackages (17.5) UNRELEASED; urgency=medium
 
   * Add elpa-lua-mode as preferred alternative to lua-mode.
   * Declare compliance with Debian Policy 4.1.2. (No changes needed.)
+  * Consider formiko as better replacement for retext.
 
  -- Axel Beckert <abe@debian.org>  Fri, 15 Dec 2017 05:30:55 +0100
 
