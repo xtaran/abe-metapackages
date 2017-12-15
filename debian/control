@@ -5,7 +5,7 @@ Priority: optional
 Homepage: https://github.com/xtaran/abe-metapackages#readme
 Vcs-Git: https://github.com/xtaran/abe-metapackages.git
 Vcs-Browser: https://github.com/xtaran/abe-metapackages
-Standards-Version: 4.1.1
+Standards-Version: 4.1.2
 Build-Depends: debhelper (>= 9)
 Rules-Requires-Root: no
 
