@@ -3,6 +3,7 @@
 /debian/.debhelper/
 /debian/*.debhelper.log
 /debian/*.substvars
+/debian/debhelper-build-stamp
 /debian/abe-*/
 /debian/kiva-*/
 /debian/files
