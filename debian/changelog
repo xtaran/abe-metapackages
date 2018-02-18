@@ -4,6 +4,8 @@ abe-metapackages (17.5) UNRELEASED; urgency=medium
   * Declare compliance with Debian Policy 4.1.2. (No changes needed.)
   * Consider formiko as better replacement for retext.
   * Prefer ntpsec over ntp.
+  * Add lintian overrides for testsuite-autopkgtest-missing and
+    binary-package-depends-on-toolchain-package.
 
  -- Axel Beckert <abe@debian.org>  Fri, 15 Dec 2017 05:30:55 +0100
 
