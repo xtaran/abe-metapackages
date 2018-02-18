@@ -1,7 +1,7 @@
 abe-metapackages (17.5) UNRELEASED; urgency=medium
 
   * Add elpa-lua-mode as preferred alternative to lua-mode.
-  * Declare compliance with Debian Policy 4.1.2. (No changes needed.)
+  * Declare compliance with Debian Policy 4.1.3. (No changes needed.)
   * Consider formiko as better replacement for retext.
   * Prefer ntpsec over ntp.
   * Add lintian overrides for testsuite-autopkgtest-missing and
