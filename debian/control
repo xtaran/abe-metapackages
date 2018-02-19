@@ -460,9 +460,9 @@ Recommends: abe-commandline-media,
             tmpreaper,
             translate,
             unburden-home-dir,
+            webext-https-everywhere | xul-ext-https-everywhere,
             wireshark,
-            xserver-xorg-input-synaptics,
-            xul-ext-https-everywhere
+            xserver-xorg-input-synaptics
 Suggests: abe-desktop-extras,
           abe-laptop-ubuntu,
           abe-small-disk,

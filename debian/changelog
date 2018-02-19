@@ -11,6 +11,7 @@ abe-metapackages (17.5) UNRELEASED; urgency=medium
   * Switch to debhelper compatibility level 11 and use a minimal
     debian/rules file.
     + Add debian/debhelper-build-stamp to .gitignore.
+  * Prefer webext-https-everywhere over xul-ext-https-everywhere.
 
  -- Axel Beckert <abe@debian.org>  Fri, 15 Dec 2017 05:30:55 +0100
 
