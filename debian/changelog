@@ -1,6 +1,7 @@
 abe-metapackages (17.5.1) UNRELEASED; urgency=medium
 
   * Prefer newsboat over newsbeuter.
+  * abe-commandline recommends spectre-meltdown-checker.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Tue, 03 Apr 2018 04:19:13 +0200
 
