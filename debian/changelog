@@ -6,6 +6,8 @@ abe-metapackages (17.5.1) UNRELEASED; urgency=medium
   * kiva-users: Drop tla, demote pdmenu to Recommends for now.
   * Do not require ntpdate unconditionally, allow no ntpdate if ntp is
     installed.
+  * Add lintian override for
+    mail-transport-agent-dependency-does-not-specify-default-mta.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Tue, 03 Apr 2018 04:19:13 +0200
 

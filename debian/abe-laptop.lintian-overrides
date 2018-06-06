@@ -1,2 +1,3 @@
 abe-laptop: conflicts-with-version apmd (>= 0)
 abe-laptop: unknown-field-in-control important
+abe-laptop: mail-transport-agent-dependency-does-not-specify-default-mta depends: *
