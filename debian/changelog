@@ -4,6 +4,8 @@ abe-metapackages (17.5.1) UNRELEASED; urgency=medium
   * abe-commandline recommends spectre-meltdown-checker.
   * Drop dphys-config and cdist from kiva-base.
   * kiva-users: Drop tla, demote pdmenu to Recommends for now.
+  * Do not require ntpdate unconditionally, allow no ntpdate if ntp is
+    installed.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Tue, 03 Apr 2018 04:19:13 +0200
 
