@@ -621,7 +621,7 @@ Description: Common packages Axel wants for a TeX installation
 
 Package: abe-partitioning
 Depends: ${misc:Depends}
-Recommends: btrfs-tools,
+Recommends: btrfs-progs | btrfs-tools,
             extundelete,
             gddrescue | myrescue | dc3dd | dcfldd | safecopy | ddrescue,
             gdisk,
