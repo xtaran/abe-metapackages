@@ -1,5 +1,6 @@
-abe-metapackages (17.5.1) UNRELEASED; urgency=medium
+abe-metapackages (18) UNRELEASED; urgency=medium
 
+  * Split off abe-commandline-tiny from abe-commandline.
   * Prefer newsboat over newsbeuter.
   * abe-commandline recommends spectre-meltdown-checker.
   * Drop dphys-config and cdist from kiva-base.
