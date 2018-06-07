@@ -374,14 +374,14 @@ Suggests: abe-tex,
           elpa-git-timemachine,
           elpa-git-commit,
           elpa-lua-mode | lua-mode,
+          elpa-yaml-mode | yaml-mode,
           html-helper-mode,
           oneliner-el,
           post-el,
           python-mode,
           quilt-el,
           twittering-mode,
-          x-face-el,
-          yaml-mode
+          x-face-el
 XB-Important: yes
 Architecture: all
 Description: Common Emacs installation on Axel's systems
