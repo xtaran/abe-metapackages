@@ -275,7 +275,7 @@ Suggests: 2ping,
 XB-Important: yes
 Architecture: all
 Description: Metapackage of commandline tools Axel usually installs
- This metapackage depends on packages Axel's usually installs in all
+ This metapackage depends on packages Axel usually installs in all
  his setups.
 
 Package: abe-archive-tools
