@@ -11,6 +11,7 @@ abe-metapackages (17.5.1) UNRELEASED; urgency=medium
   * Declare compliance with Debian Policy 4.1.4. (No changes needed.)
   * Prefer btrfs-progs over (now transitional) btrfs-tools.
   * Prefer elpa-yaml-mode over (now transitional) yaml-mode.
+  * Prefer taskwarrior over (transitional) task instead of vice versa.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Tue, 03 Apr 2018 04:19:13 +0200
 
