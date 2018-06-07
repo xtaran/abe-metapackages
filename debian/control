@@ -34,7 +34,6 @@ Depends: aptitude,
          bash-completion,
          ccze | loco,
          colordiff,
-         debsums,
          htop,
          less,
          ncdu,
@@ -50,6 +49,7 @@ Recommends: abe-small-disk,
             apt (>= 1.6~) | apt-transport-https,
             atool,
             bc,
+            debsums,
             dnsutils,
             dwdiff | wdiff,
             file,
@@ -609,11 +609,11 @@ Description: Metapackage to fulfill some hard dependencies of ubuntu-minimal
  his laptops.
 
 Package: abe-monitoring
-Depends: debsums,
-         hobbit-plugins,
+Depends: hobbit-plugins,
          xymon-client | hobbit-client,
          ${misc:Depends}
-Recommends: lsof
+Recommends: debsums,
+            lsof
 Suggests: sudo
 XB-Important: yes
 Architecture: all
