@@ -13,6 +13,7 @@ abe-metapackages (17.5.1) UNRELEASED; urgency=medium
   * Prefer elpa-yaml-mode over (now transitional) yaml-mode.
   * Prefer taskwarrior over (transitional) task instead of vice versa.
   * Fix grammar error in package description of abe-commandline.
+  * Run "wrap-and-sort -a".
 
  -- Axel Beckert <abe@deuxchevaux.org>  Tue, 03 Apr 2018 04:19:13 +0200
 
