@@ -386,8 +386,8 @@ Description: Packages needed to read exotic archive formats
  file formats.
 
 Package: abe-commandline-media
-Depends: abe-commandline-local,
-         abe-commandline,
+Depends: abe-commandline,
+         abe-commandline-local,
          alsa-utils | gom | rexima | aumix,
          mpv | mplayer | mplayer2 | gst123,
          ${misc:Depends}
