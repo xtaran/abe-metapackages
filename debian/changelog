@@ -1,4 +1,4 @@
-abe-metapackages (18) UNRELEASED; urgency=medium
+abe-metapackages (18) unstable; urgency=medium
 
   * Split off abe-commandline-tiny from abe-commandline.
   * Prefer newsboat over newsbeuter.
@@ -23,7 +23,7 @@ abe-metapackages (18) UNRELEASED; urgency=medium
   * Drop unused lintian overrides for
     binary-package-depends-on-toolchain-package.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Tue, 03 Apr 2018 04:19:13 +0200
+ -- Axel Beckert <abe@deuxchevaux.org>  Tue, 30 Oct 2018 02:32:47 +0100
 
 abe-metapackages (17.5) unstable; urgency=medium
 
