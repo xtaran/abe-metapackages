@@ -9,7 +9,7 @@ abe-metapackages (18) UNRELEASED; urgency=medium
     installed.
   * Add lintian override for
     mail-transport-agent-dependency-does-not-specify-default-mta.
-  * Declare compliance with Debian Policy 4.1.4. (No changes needed.)
+  * Declare compliance with Debian Policy 4.2.1. (No changes needed.)
   * Prefer btrfs-progs over (now transitional) btrfs-tools.
   * Prefer elpa-yaml-mode over (now transitional) yaml-mode.
   * Prefer taskwarrior over (transitional) task instead of vice versa.
