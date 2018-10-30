@@ -20,6 +20,8 @@ abe-metapackages (18) UNRELEASED; urgency=medium
   * Downgrade localepurge to a Recommends of abe-small-disk to allow
     systems without locales at all.
   * Prefer falkon over qupzilla.
+  * Drop unused lintian overrides for
+    binary-package-depends-on-toolchain-package.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Tue, 03 Apr 2018 04:19:13 +0200
 
