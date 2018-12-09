@@ -1,3 +1,9 @@
+abe-metapackages (18.1) UNRELEASED; urgency=medium
+
+  * Prefer darkslide of python-landslide.
+
+ -- Axel Beckert <abe@deuxchevaux.org>  Sun, 09 Dec 2018 22:29:20 +0100
+
 abe-metapackages (18) unstable; urgency=medium
 
   * Split off abe-commandline-tiny from abe-commandline.
