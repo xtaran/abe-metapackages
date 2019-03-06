@@ -1,6 +1,8 @@
 abe-metapackages (18.1) UNRELEASED; urgency=medium
 
   * Prefer darkslide of python-landslide.
+  * Drop telnet-ssl from Depends of abe-commandline as it's not in Buster
+    and already a Recommends of abe-commandline-tiny.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sun, 09 Dec 2018 22:29:20 +0100
 
