@@ -8,6 +8,8 @@ abe-metapackages (18.1) UNRELEASED; urgency=medium
     + Recommend ansible, exa, pass and px.
     * Suggest rover + ansbible-doc.
   * abe-commandline-tiny: Recommend hardening-runtime.
+  * abe-laptop/abe-desktop-extra/abe-x-browsers: Recommend hostfiles for
+    local DNS blacklists and a bunch of privacy related web extensions.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sun, 09 Dec 2018 22:29:20 +0100
 
