@@ -13,6 +13,8 @@ abe-metapackages (18.1) UNRELEASED; urgency=medium
   * abe-laptop: Suggest ceni.
   * abe-office: Add markdent as yet another Markdown alternative.
   * abe-text-browsers: Suggest sacc, another gopher TUI client.
+  * abe-server: Add emacs25-nox as alternative for the sake of
+    completeness.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sun, 09 Dec 2018 22:29:20 +0100
 
