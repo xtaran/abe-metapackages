@@ -916,6 +916,7 @@ Recommends: gopher,
 Suggests: abe-x-browsers,
           edbrowse,
           elinks,
+          sacc,
           w3m
 Enhances: abe-console
 XB-Important: yes
