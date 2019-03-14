@@ -7,6 +7,7 @@ abe-metapackages (18.1) UNRELEASED; urgency=medium
   * abe-commandline:
     + Recommend ansible, exa, pass and px.
     * Suggest rover + ansbible-doc.
+  * abe-commandline-tiny: Recommend hardening-runtime.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sun, 09 Dec 2018 22:29:20 +0100
 
