@@ -4,6 +4,9 @@ abe-metapackages (18.1) UNRELEASED; urgency=medium
   * Drop telnet-ssl from Depends of abe-commandline as it's not in Buster
     and already a Recommends of abe-commandline-tiny.
   * Declare compliance with Debian Policy 4.3.0. (No changes needed.)
+  * abe-commandline:
+    + Recommend ansible, exa, pass and px.
+    * Suggest rover + ansbible-doc.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sun, 09 Dec 2018 22:29:20 +0100
 
