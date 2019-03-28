@@ -1056,9 +1056,9 @@ Description: Metapackage depending on a bunch of fun
 
 Package: kiva-base
 Depends: abe-commandline,
+         abe-monitoring,
          aptitude-robot | cron-apt,
          iptables,
-         monitoring-plugins-basic | nagios-plugins-basic,
          needrestart,
          ntpsec | ntp,
          postfix,
