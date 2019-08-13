@@ -6,7 +6,7 @@ abe-metapackages (18.1) UNRELEASED; urgency=medium
   * Declare compliance with Debian Policy 4.3.0. (No changes needed.)
   * abe-commandline:
     + Recommend ansible, exa, pass and px.
-    * Suggest rover + ansbible-doc.
+    + Suggest rover + ansbible-doc.
   * abe-commandline-tiny: Recommend hardening-runtime.
   * abe-laptop/abe-desktop-extra/abe-x-browsers: Recommend hostfiles for
     local DNS blacklists and a bunch of privacy related web extensions.
