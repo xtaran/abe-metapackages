@@ -11,7 +11,9 @@ abe-metapackages (18.1) UNRELEASED; urgency=medium
   * abe-laptop/abe-desktop-extra/abe-x-browsers: Recommend hostfiles for
     local DNS blacklists and a bunch of privacy related web extensions.
   * abe-laptop: Suggest ceni.
-  * abe-office: Add markdent as yet another Markdown alternative.
+  * abe-office:
+    + Add markdent as yet another Markdown alternative.
+    + Drop calibre as preferred epub reader and replace it with mupdf.
   * abe-text-browsers: Suggest sacc, another gopher TUI client.
   * abe-server: Add emacs25-nox as alternative for the sake of
     completeness.
