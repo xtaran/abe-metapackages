@@ -5,6 +5,7 @@ abe-metapackages (18.1) UNRELEASED; urgency=medium
     and already a Recommends of abe-commandline-tiny.
   * kiva-base: Drop all Nagios/Icinga related dependencies and replace
     them with xymon-related abe-monitoring.
+  * Add python3-stdeb as preferred alternative to python-stdeb.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sun, 09 Dec 2018 22:29:20 +0100
 
