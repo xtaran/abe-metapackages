@@ -3,7 +3,7 @@ abe-metapackages (18.1) UNRELEASED; urgency=medium
   * Prefer darkslide of python-landslide.
   * Drop telnet-ssl from Depends of abe-commandline as it's not in Buster
     and already a Recommends of abe-commandline-tiny.
-  * Declare compliance with Debian Policy 4.3.0. (No changes needed.)
+  * Declare compliance with Debian Policy 4.4.1. (No changes needed.)
   * abe-commandline:
     + Recommend ansible, exa, pass and px.
     + Suggest rover + ansbible-doc.
