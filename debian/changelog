@@ -10,7 +10,10 @@ abe-metapackages (18.1) UNRELEASED; urgency=medium
   * abe-commandline-tiny: Recommend hardening-runtime.
   * abe-laptop/abe-desktop-extra/abe-x-browsers: Recommend hostfiles for
     local DNS blacklists and a bunch of privacy related web extensions.
-  * abe-laptop: Suggest ceni.
+  * abe-laptop:
+    + Suggest ceni.
+    + Downgrade "miredo | aiccu" to Recommends since both are not
+      available in Buster.
   * abe-office:
     + Add markdent as yet another Markdown alternative.
     + Drop calibre as preferred epub reader and replace it with mupdf.
