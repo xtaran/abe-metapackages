@@ -24,6 +24,8 @@ abe-metapackages (18.1) UNRELEASED; urgency=medium
     them with xymon-related abe-monitoring.
   * Add python3-stdeb as preferred alternative to python-stdeb.
   * Let abe-desktop-extras only recommend abe-tex.
+  * Bump debhelper compatibility level to 12.
+    + Build-depend on "debhelper-compat (= 12)" to replace debian/compat.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sun, 09 Dec 2018 22:29:20 +0100
 
