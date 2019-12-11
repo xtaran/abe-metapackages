@@ -1,4 +1,4 @@
-abe-metapackages (18.1) UNRELEASED; urgency=medium
+abe-metapackages (18.1) unstable; urgency=medium
 
   * Prefer darkslide of python-landslide.
   * Drop telnet-ssl from Depends of abe-commandline as it's not in Buster
@@ -27,7 +27,7 @@ abe-metapackages (18.1) UNRELEASED; urgency=medium
   * Bump debhelper compatibility level to 12.
     + Build-depend on "debhelper-compat (= 12)" to replace debian/compat.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Sun, 09 Dec 2018 22:29:20 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Wed, 11 Dec 2019 19:50:50 +0100
 
 abe-metapackages (18) unstable; urgency=medium
 
