@@ -11,6 +11,7 @@ abe-metapackages (18.2) UNRELEASED; urgency=medium
   * abe-commandline: Suggest extrepo, git-quick-stats, hostsed, hostfiles,
     prettyping, and [x]fonts-terminus.
   * abe-laptop: Recommend gnome-firmware.
+  * Add barrier as preferred alternative to synergy.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 29 Feb 2020 18:34:18 +0100
 
