@@ -7,6 +7,7 @@ abe-metapackages (18.2) UNRELEASED; urgency=medium
   * Prefer kramdown over ruby-kramdown for recent versions.
   * Add ksh93 as alternative to ksh.
   * abe-desktop-extras: Suggest scrcpy.
+  * abe-commandline: Suggest hostsed and hostfiles.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 29 Feb 2020 18:34:18 +0100
 
