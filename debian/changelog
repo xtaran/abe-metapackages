@@ -2,6 +2,7 @@ abe-metapackages (18.2) UNRELEASED; urgency=medium
 
   * Add mmc-utils as Recommends to abe-partitioning and abe-laptop.
   * abe-games: Recommend klickety and gtkboard.
+  * Declare compliance with Debian Policy 4.5.0. (No changes needed.)
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 29 Feb 2020 18:34:18 +0100
 
