@@ -1437,7 +1437,10 @@ Suggests: abe-console,
           abe-fun,
           abe-partitioning,
           openssl-blacklist,
-          openssl-blacklist-extra
+          openssl-blacklist-extra,
+          opentmpfiles,
+          opensysusers,
+          systemctl
 Conflicts: consolekit,
            dbus,
            libpam-systemd,
