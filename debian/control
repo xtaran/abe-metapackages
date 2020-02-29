@@ -22,6 +22,7 @@ Depends: abe-commandline | abe-commandline-tiny,
          unp | mtools,
          xauth,
          ${misc:Depends}
+Recommends: abe-hardware
 XB-Important: yes
 Architecture: all
 Description: Metapackage of commandline tools Axel wants on local systems
@@ -507,6 +508,7 @@ Package: abe-laptop
 Depends: abe-commandline-local,
          abe-console,
          abe-desktop-i3 | abe-desktop-ratpoison | abe-desktop-awesome,
+         abe-hardware,
          anacron,
          busybox-syslogd | system-log-daemon | systemd,
          debdelta,
@@ -1449,6 +1451,7 @@ Recommends: abe-archive-tools,
             sshguard | fail2ban
 Suggests: abe-console,
           abe-fun,
+          abe-hardware,
           abe-partitioning,
           openssl-blacklist,
           openssl-blacklist-extra,
@@ -1474,3 +1477,17 @@ Description: Axel's base package for pure servers
  .
  This package especially takes care that there's no dbus, policykit,
  consolekit, networkmanager or systemd installed.
+
+Package: abe-hardware
+Depends: ${misc:Depends}
+Recommends: abe-console,
+            fwupd,
+            hddtemp
+Suggests: fwupd-signed | fwupd-amd64-signed | fwupd-i386-signed
+Architecture: all
+Description: Axel's base package for real hardware
+ Metapackage taking care that all packages Axel wants to have
+ installed on real hardware.
+ .
+ This package especially pulls in hardware-related tools like hddtemp
+ and fwupd — which don't make sense on virtual machines.
