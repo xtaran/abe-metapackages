@@ -16,6 +16,7 @@ abe-metapackages (19) UNRELEASED; urgency=medium
   * abe-server:
     + Recommend apt-list{change,bug}s and aptitude-robot.
     + Allow alternatives to postfix, especially nullmailer.
+    + Override mail-transport-agent-dependency-does-not-specify-default-mta.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 29 Feb 2020 18:34:18 +0100
 

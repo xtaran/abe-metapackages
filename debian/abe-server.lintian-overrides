@@ -1,3 +1,5 @@
 # dbus sucks, independently of how it's written
 abe-server: capitalization-error-in-description dbus D-Bus
 abe-server: unknown-field-in-control important
+# I don't want no fucking Exim!
+abe-server: mail-transport-agent-dependency-does-not-specify-default-mta *
