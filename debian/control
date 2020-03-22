@@ -1432,7 +1432,7 @@ Package: abe-server
 Depends: abe-commandline | abe-commandline-tiny,
          abe-monitoring,
          openssh-server,
-         postfix,
+         postfix | nullmailer | mail-transport-agent,
          ${misc:Depends}
 Recommends: abe-archive-tools,
             abe-emacs,
