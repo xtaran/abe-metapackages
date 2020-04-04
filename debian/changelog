@@ -7,8 +7,9 @@ abe-metapackages (19) UNRELEASED; urgency=medium
   * abe-server: Suggest common systemd-replacement packages.
   * Prefer kramdown over ruby-kramdown for recent versions.
   * Add ksh93 as alternative to ksh.
-  * abe-desktop-extras: Suggest ausweisapp2, dark{blood,fire}-gtk-theme, and
-    scrcpy.
+  * abe-desktop-extras:
+    + Suggest ausweisapp2, dark{blood,fire}-gtk-theme, and scrcpy.
+    + Recommend gtk3-nocsd.
   * abe-commandline:
     + Suggest extrepo, git-quick-stats, hostsed, hostfiles, prettyping,
       and [x]fonts-terminus.
