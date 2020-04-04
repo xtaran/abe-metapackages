@@ -9,8 +9,10 @@ abe-metapackages (19) UNRELEASED; urgency=medium
   * Add ksh93 as alternative to ksh.
   * abe-desktop-extras: Suggest ausweisapp2, dark{blood,fire}-gtk-theme, and
     scrcpy.
-  * abe-commandline: Suggest extrepo, git-quick-stats, hostsed, hostfiles,
-    prettyping, and [x]fonts-terminus.
+  * abe-commandline:
+    + Suggest extrepo, git-quick-stats, hostsed, hostfiles, prettyping,
+      and [x]fonts-terminus.
+    + Recommend maim.
   * abe-laptop: Recommend gnome-firmware.
   * Add barrier as preferred alternative to synergy.
   * abe-server:
