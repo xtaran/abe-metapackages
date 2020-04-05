@@ -8,12 +8,13 @@ abe-metapackages (19) UNRELEASED; urgency=medium
   * Prefer kramdown over ruby-kramdown for recent versions.
   * Add ksh93 as alternative to ksh.
   * abe-desktop-extras:
-    + Suggest ausweisapp2, dark{blood,fire}-gtk-theme, and scrcpy.
+    + Suggest ausweisapp2, dark{blood,fire}-gtk-theme, rmlint-gui, and
+      scrcpy.
     + Recommend gtk3-nocsd.
   * abe-commandline:
     + Suggest extrepo, git-quick-stats, hostsed, hostfiles, prettyping,
-      and [x]fonts-terminus.
-    + Recommend maim.
+      ripgrep, rmlint, and [x]fonts-terminus.
+    + Recommend maim, icdiff and s-tui.
   * abe-laptop: Recommend gnome-firmware.
   * Add barrier as preferred alternative to synergy.
   * abe-server:
@@ -21,6 +22,7 @@ abe-metapackages (19) UNRELEASED; urgency=medium
     + Allow alternatives to postfix, especially nullmailer.
     + Override mail-transport-agent-dependency-does-not-specify-default-mta.
   * Recommend or Suggest neofetch and chafa in multiple packages.
+  * abe-packaging-dev: Recommend ronn.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 29 Feb 2020 18:34:18 +0100
 
