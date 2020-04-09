@@ -10,6 +10,7 @@ Build-Depends: debhelper-compat (= 12)
 Rules-Requires-Root: no
 
 Package: abe-commandline-local
+XB-Important: yes
 Depends: abe-commandline | abe-commandline-tiny,
          ack-grep,
          autossh,
@@ -23,7 +24,6 @@ Depends: abe-commandline | abe-commandline-tiny,
          xauth,
          ${misc:Depends}
 Recommends: abe-hardware
-XB-Important: yes
 Architecture: all
 Description: Metapackage of commandline tools Axel wants on local systems
  This metapackage depends on packages Axel's usually installs in all
@@ -31,6 +31,7 @@ Description: Metapackage of commandline tools Axel wants on local systems
  workplace.
 
 Package: abe-commandline-tiny
+XB-Important: yes
 Depends: aptitude,
          bash-completion,
          ccze | loco,
@@ -134,13 +135,13 @@ Suggests: ack (>> 2) | ack-grep,
           xml-twig-tools,
           xmldiff,
           zutils
-XB-Important: yes
 Architecture: all
 Description: Metapackage of commandline tools Axel can't live without
  This metapackage depends on packages Axel usually installs even on
  minimalst systems like e.g. tiny VMs.
 
 Package: abe-commandline
+XB-Important: yes
 Depends: abe-commandline-tiny,
          atool,
          bc,
@@ -371,13 +372,13 @@ Suggests: 2ping,
           xmldiff,
           youtube-dl,
           zsh-lovers
-XB-Important: yes
 Architecture: all
 Description: Metapackage of commandline tools Axel usually installs
  This metapackage depends on packages Axel usually installs in all
  his setups.
 
 Package: abe-archive-tools
+XB-Important: yes
 Depends: atool,
          zip,
          ${misc:Depends}
@@ -398,13 +399,13 @@ Suggests: arc,
           unalz,
           unp,
           zoo
-XB-Important: yes
 Architecture: all
 Description: Packages needed to read exotic archive formats
  This metapackage depends on packages which can handle exotic archive
  file formats.
 
 Package: abe-commandline-media
+XB-Important: yes
 Depends: abe-commandline,
          abe-commandline-local,
          alsa-utils | gom | rexima | aumix,
@@ -430,13 +431,13 @@ Suggests: abcde,
           orpheus,
           rexima,
           xmp
-XB-Important: yes
 Architecture: all
 Description: Metapackage for computers where Axel can play music
  This metapackage depends on packages Axel's usually wants where he
  can listen to music.
 
 Package: abe-console
+XB-Important: yes
 Depends: abe-commandline | abe-commandline-tiny,
          console-setup,
          console-tools | kbd-compat | kbd | console-utilities | kbdcontrol,
@@ -450,13 +451,13 @@ Suggests: abe-commandline-media,
           abe-partitioning,
           sc,
           tpp
-XB-Important: yes
 Architecture: all
 Description: Metapackage for computers where Axel works on the console
  This metapackage depends on packages Axel's usually needs where he
  also works on the console and not only remote or under X.
 
 Package: abe-emacs
+XB-Important: yes
 Depends: debian-el,
          develock-el,
          emacs | emacs-nox | emacsen,
@@ -485,13 +486,13 @@ Suggests: abe-tex,
           quilt-el,
           twittering-mode,
           x-face-el
-XB-Important: yes
 Architecture: all
 Description: Common Emacs installation on Axel's systems
  This metapackage depends on packages Axel's usually installs where he
  wants Emacs to be usable.
 
 Package: abe-gnome
+XB-Important: yes
 Depends: baobab,
          gucharmap,
          mssh | clusterssh,
@@ -507,13 +508,13 @@ Suggests: abe-office,
           gparted,
           liferea,
           ssh-contact-client
-XB-Important: yes
 Architecture: all
 Description: Common GNOME applications on Axel's desktops
  This metapackage depends on packages Axel's oftens installs when
  having GNOME libraries installed is not an issue.
 
 Package: abe-laptop
+XB-Important: yes
 Depends: abe-commandline-local,
          abe-console,
          abe-desktop-i3 | abe-desktop-ratpoison | abe-desktop-awesome,
@@ -614,13 +615,13 @@ Suggests: abe-desktop-extras,
           wvdial,
           xfce4-cellmodem-plugin
 Conflicts: apmd (>= 0)
-XB-Important: yes
 Architecture: all
 Description: Metapackage for Axel's laptops and netbooks
  This metapackage depends on packages Axel's usually needs on his
  mobile devices.
 
 Package: abe-laptop-ubuntu
+XB-Important: yes
 Depends: busybox-syslogd | system-log-daemon | systemd,
          debconf (>= 1.5.39) | debconf-english,
          ${misc:Depends}
@@ -628,7 +629,6 @@ Provides: apmd,
           debconf-i18n,
           rsyslog,
           vim-tiny
-XB-Important: yes
 Architecture: all
 Description: Metapackage to fulfill some hard dependencies of ubuntu-minimal
  This metapackage provides a few packages needed by ubuntu-minimal and
@@ -639,19 +639,20 @@ Description: Metapackage to fulfill some hard dependencies of ubuntu-minimal
  his laptops.
 
 Package: abe-monitoring
+XB-Important: yes
 Depends: hobbit-plugins,
          xymon-client | hobbit-client,
          ${misc:Depends}
 Recommends: debsums,
             lsof
 Suggests: sudo
-XB-Important: yes
 Architecture: all
 Description: Metapackage for computers Axel's wants to be monitored
  This metapackage depends on packages Axel's usually needs on his
  those computers he wants to have monitored.
 
 Package: abe-office
+XB-Important: yes
 Depends: catdoc | antiword | wv,
          libpaper-utils,
          libreoffice-calc | openoffice.org-calc | gnumeric,
@@ -700,13 +701,13 @@ Suggests: antiword,
           wv,
           xfig,
           xlhtml
-XB-Important: yes
 Architecture: all
 Description: Common office applications on Axel's desktops
  This metapackage depends on packages Axel's usually needs when he
  wants basic office functionality.
 
 Package: abe-tex
+XB-Important: yes
 Depends: abe-emacs,
          auctex | yatex,
          texlive,
@@ -726,13 +727,13 @@ Suggests: abe-office,
           texworks,
           writer2latex,
           yatex
-XB-Important: yes
 Architecture: all
 Description: Common packages Axel wants for a TeX installation
  This metapackage depends on packages Axel's prefers on computers
  where he wants to TeX.
 
 Package: abe-partitioning
+XB-Important: yes
 Depends: ${misc:Depends}
 Recommends: btrfs-progs | btrfs-tools,
             extundelete,
@@ -775,7 +776,6 @@ Suggests: dc3dd,
           reiserfsprogs,
           safecopy,
           smart-notifier
-XB-Important: yes
 Architecture: all
 Description: Metapackage for real computers where Axel may access USB devices
  This metapackage depends on packages Axel's usually needs to
@@ -783,6 +783,7 @@ Description: Metapackage for real computers where Axel may access USB devices
  computers.
 
 Package: abe-small-disk
+XB-Important: yes
 Depends: debconf (>= 1.5.39) | debconf-english,
          hardlink,
          ${misc:Depends}
@@ -806,7 +807,6 @@ Conflicts: debconf-i18n (>= 0),
            xfonts-75dpi-transcoded
 Replaces: abe-laptop-small-disk
 Breaks: abe-laptop-small-disk
-XB-Important: yes
 Architecture: all
 Description: Keeps some disk-wasting packages off the disk
  This metapackage conflicts with packages Axel considers a waste of
@@ -814,6 +814,7 @@ Description: Keeps some disk-wasting packages off the disk
  find waste of disk-space.
 
 Package: abe-window-managers
+XB-Important: yes
 Depends: awesome | i3-wm,
          flwm,
          ratpoison,
@@ -841,7 +842,6 @@ Suggests: abe-gnome,
           wmfs,
           xmonad | libghc-xmonad-dev
 Enhances: abe-desktop
-XB-Important: yes
 Architecture: all
 Description: Metapackage depending on a bunch of window managers
  This metapackage depends window managers and desktop environments,
@@ -849,6 +849,7 @@ Description: Metapackage depending on a bunch of window managers
  people log in, too.
 
 Package: abe-joystick
+XB-Important: yes
 Depends: inputattach,
          joystick,
          ${misc:Depends}
@@ -856,13 +857,13 @@ Recommends: jstest-gtk
 Suggests: joy2key,
           xserver-xorg-input-joystick
 Enhances: abe-desktop
-XB-Important: yes
 Architecture: all
 Description: Metapackage for computers with attached joysticks
  This metapackage depends on, recommends and suggests packages which
  help to make joysticks working.
 
 Package: abe-tablet
+XB-Important: yes
 Depends: xserver-xorg-input-wacom | xserver-xorg-input-tslib,
          ${misc:Depends}
 Recommends: calibre,
@@ -875,13 +876,13 @@ Suggests: jscribble,
           xserver-xorg-input-wacom
 Enhances: abe-desktop,
           abe-office
-XB-Important: yes
 Architecture: all
 Description: Metapackage for computers with touchscreen or attached graphics tablet
  This metapackage depends on packages necessary to get
  a Wacom graphics tablet or a touchscreen working.
 
 Package: abe-x-browsers
+XB-Important: yes
 Depends: abe-text-browsers,
          conkeror | qutebrowser | ubuntu-keyring,
          dillo,
@@ -919,13 +920,13 @@ Suggests: arora,
           webext-proxy-switcher,
           xombrero | xxxterm
 Enhances: abe-desktop
-XB-Important: yes
 Architecture: all
 Description: List of X-based web browsers, Axel commonly has installed
  This metapackage depends on X-based web browsers, Axel commonly has
  installed on desktop systems.
 
 Package: abe-text-browsers
+XB-Important: yes
 Depends: links | links2,
          lynx | lynx-cur,
          ${misc:Depends}
@@ -938,13 +939,13 @@ Suggests: abe-x-browsers,
           sacc,
           w3m
 Enhances: abe-console
-XB-Important: yes
 Architecture: all
 Description: List of text-mode web browsers, Axel commonly has installed
  This metapackage depends on text-mode web browsers, Axel commonly has
  installed.
 
 Package: abe-games
+XB-Important: yes
 Depends: abe-fun,
          ${misc:Depends}
 Recommends: 2048-qt,
@@ -1050,13 +1051,13 @@ Suggests: ace-of-penguins,
           xzip
 Enhances: abe-desktop,
           abe-laptop
-XB-Important: yes
 Architecture: all
 Description: Metapackage depending on Axel's collection of favourite games
  This metapackage depends on games Axel likes and may want to have
  installed -- small and big ones, TUI and GUI ones, etc.
 
 Package: abe-fun
+XB-Important: yes
 Depends: cmatrix,
          fortunes,
          fortunes-bofh-excuses,
@@ -1091,7 +1092,6 @@ Enhances: abe-commandline,
           abe-laptop
 Provides: kiva-fun
 Conflicts: kiva-fun
-XB-Important: yes
 Architecture: all
 Description: Metapackage depending on a bunch of fun
  This metapackage depends on packages which Axel usually installs just
@@ -1101,6 +1101,7 @@ Description: Metapackage depending on a bunch of fun
  virtual machines on the LUGS server kiva.
 
 Package: kiva-base
+XB-Important: yes
 Depends: abe-commandline,
          abe-monitoring,
          aptitude-robot | cron-apt,
@@ -1118,12 +1119,12 @@ Recommends: abe-commandline-local,
 Suggests: kiva-users
 Conflicts: denyhosts,
            tasksel
-XB-Important: yes
 Architecture: all
 Description: Solid base for the LUGS Kiva Xen Cluster
  Metapackage depending on everything needed on all Kiva nodes.
 
 Package: kiva-users
+XB-Important: yes
 Depends: abe-archive-tools,
          abe-commandline,
          abe-commandline-local,
@@ -1209,13 +1210,13 @@ Suggests: ikiwiki,
           nd,
           sirc,
           trickle
-XB-Important: yes
 Architecture: all
 Description: Packages needed for hosts with users in the LUGS Kiva Xen Cluster
  Everything needed on all Kiva nodes with normal users being able to
  login.
 
 Package: abe-packaging-dev
+XB-Important: yes
 Depends: abe-commandline,
          abe-commandline-local,
          abe-emacs,
@@ -1277,13 +1278,13 @@ Suggests: apt-doc,
           zopfli
 Provides: kiva-dev
 Conflicts: kiva-dev
-XB-Important: yes
 Architecture: all
 Description: Packages for building Debian packages
  Metapackage depending on packages Axel wants to have installed on
  those boxes where he builds Debian packages.
 
 Package: abe-perl-dev
+XB-Important: yes
 Depends: abe-commandline,
          abe-commandline-local,
          abe-emacs,
@@ -1359,13 +1360,13 @@ Suggests: libconfig-model-dpkg-perl,
           libvar-pairs-perl,
           libxml-feedpp-perl,
           rgxg
-XB-Important: yes
 Architecture: all
 Description: Packages for developing Perl applications and modules
  Metapackage depending on packages Axel wants to have installed on
  those boxes where he develops Perl stuff.
 
 Package: abe-desktop-extras
+XB-Important: yes
 Depends: abe-console,
          abe-emacs,
          abe-gnome,
@@ -1437,13 +1438,13 @@ Suggests: adb,
           xscreensaver-screensaver-bsod,
           xserver-xephyr,
           xtermset | xtermcontrol
-XB-Important: yes
 Architecture: all
 Description: Additional packages for desktop environments
  Metapackage depending on packages Axel wants to have installed on
  most of his desktops, but are not needed by his desktop setup.
 
 Package: abe-server
+XB-Important: yes
 Depends: abe-commandline | abe-commandline-tiny,
          abe-monitoring,
          openssh-server,
@@ -1487,7 +1488,6 @@ Conflicts: consolekit,
            systemd,
            systemd-shim,
            systemd-sysv
-XB-Important: yes
 Architecture: all
 Description: Axel's base package for pure servers
  Metapackage taking care that all packages Axel wants to have

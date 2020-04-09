@@ -23,6 +23,8 @@ abe-metapackages (19) UNRELEASED; urgency=medium
     + Override mail-transport-agent-dependency-does-not-specify-default-mta.
   * Recommend or Suggest neofetch and chafa in multiple packages.
   * abe-packaging-dev: Recommend ronn.
+  * Move all XB-Important lines directly under the Package lines for
+    easier review.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 29 Feb 2020 18:34:18 +0100
 
