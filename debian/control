@@ -655,13 +655,15 @@ Depends: abe-commandline | abe-commandline-tiny,
          ${misc:Depends}
 Recommends: abe-commandline-local,
             abe-console,
-            abe-hardware,
             etckeeper,
+            fwupd,
             libraspberrypi-bin,
             raspberrypi-net-mods,
             vl805fw,
             wicd-curses
-Suggests: agnostics,
+Suggests: abe-laptop,
+          agnostics,
+          fwupd-signed-arm64 | fwupd-signed-armhf | fwupd-signed,
           gpio-utils,
           libraspberrypi-dev,
           libraspberrypi-doc,
@@ -1583,7 +1585,7 @@ Depends: ${misc:Depends}
 Recommends: abe-console,
             fwupd,
             hddtemp
-Suggests: fwupd-signed | fwupd-amd64-signed | fwupd-i386-signed
+Suggests: fwupd-signed | fwupd-amd64-signed | fwupd-i386-signed | fwupd-arm64-signed | fwupd-armhf-signed
 Architecture: all
 Description: Axel's base package for real hardware
  Metapackage taking care that all packages Axel wants to have
