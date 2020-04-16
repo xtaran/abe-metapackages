@@ -1,6 +1,7 @@
 abe-metapackages (19) UNRELEASED; urgency=medium
 
-  * Introduce the new package abe-hardware.
+  * Introduce the new packages abe-hardware, abe-raspberry-pi and
+    abe-raspberry-pi-desktop.
   * Add mmc-utils as Recommends to abe-partitioning and abe-laptop.
   * abe-games: Recommend klickety and gtkboard.
   * Declare compliance with Debian Policy 4.5.0. (No changes needed.)
