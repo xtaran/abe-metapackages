@@ -27,6 +27,7 @@ abe-metapackages (19) UNRELEASED; urgency=medium
   * Move all XB-Important lines directly under the Package lines for
     easier review.
   * Downgrade conkeror to Suggests.
+  * Let abe-laptop-ubuntu recommend ubuntu-minimal.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 29 Feb 2020 18:34:18 +0100
 

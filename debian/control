@@ -626,6 +626,7 @@ XB-Important: yes
 Depends: busybox-syslogd | system-log-daemon | systemd,
          debconf (>= 1.5.39) | debconf-english,
          ${misc:Depends}
+Recommends: ubuntu-minimal
 Provides: apmd,
           debconf-i18n,
           rsyslog,
