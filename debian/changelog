@@ -16,7 +16,10 @@ abe-metapackages (19) UNRELEASED; urgency=medium
     + Suggest extrepo, git-quick-stats, hostsed, hostfiles, prettyping,
       ripgrep, rmlint, and [x]fonts-terminus.
     + Recommend maim, icdiff and s-tui.
-  * abe-laptop: Recommend gnome-firmware.
+  * abe-laptop:
+    + Recommend gnome-firmware.
+    + Demote x11-xserver-utils from Depends to Recommends.
+    + Recommend xauth.
   * Add barrier as preferred alternative to synergy.
   * abe-server:
     + Recommend apt-list{change,bug}s and aptitude-robot.
