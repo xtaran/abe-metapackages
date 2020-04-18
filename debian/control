@@ -743,7 +743,7 @@ Suggests: omxplayer,
           raspberrypi-ui-mods,
           rc-gui,
           rpd-icons,
-          rpi-chromium-mods,
+          rpi-chromium-mods | chromium,
           v4l-utils,
           wicd
 Architecture: all
