@@ -644,6 +644,7 @@ Description: Metapackage to fulfill some hard dependencies of ubuntu-minimal
 Package: abe-raspberry-pi
 XB-Important: yes
 Depends: abe-commandline | abe-commandline-tiny,
+         ifupdown,
          raspberrypi-sys-mods,
          raspberrypi-bootloader,
          raspberrypi-kernel,
@@ -656,21 +657,37 @@ Depends: abe-commandline | abe-commandline-tiny,
          ${misc:Depends}
 Recommends: abe-commandline-local,
             abe-console,
+            apt-listchanges,
+            dphys-swapfile,
             etckeeper,
+            fake-hwclock,
+            fbset,
+            firmware-atheros,
+            firmware-brcm80211,
+            firmware-libertas,
+            firmware-misc-nonfree,
+            firmware-realtek,
             fwupd,
             libraspberrypi-bin,
+            needrestart,
             raspberrypi-net-mods,
             vl805fw,
-            wicd-curses
+            wicd-curses,
+            wpasupplicant
 Suggests: abe-laptop,
           agnostics,
+          avahi-daemon,
           fwupd-signed-arm64 | fwupd-signed-armhf | fwupd-signed,
           gpio-utils,
           libraspberrypi-dev,
           libraspberrypi-doc,
+          luajit,
+          ntfs-3g,
           nvi | neovim | vis,
+          python-rpi.gpio,
           raspberrypi-archive-keyring,
           raspberrypi-kernel-headers,
+          rng-tools,
           rpiboot
 Provides: systemd (= 241-7)
 Conflicts: gcc-4.9-base,
@@ -679,7 +696,9 @@ Conflicts: gcc-4.9-base,
            gcc-7-base,
            libboost-iostreams1.58.0,
            libudev0,
+           paxctld,
            systemd-sysv,
+           triggerhappy,
            vim-tiny
 Architecture: all
 Description: Metapackage to fulfill some hard dependencies of raspberrypi-sys-mods
@@ -712,6 +731,7 @@ Suggests: omxplayer,
           rc-gui,
           rpd-icons,
           rpi-chromium-mods,
+          v4l-utils,
           wicd
 Architecture: all
 Description: Axel's idea of an Rasberry Pi desktop
