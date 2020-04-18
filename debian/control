@@ -641,18 +641,10 @@ Description: Metapackage to fulfill some hard dependencies of ubuntu-minimal
  It also conflicts with packages, Axel doesn't want to see on any of
  his laptops.
 
-Package: abe-raspberry-pi
+Package: abe-sbc
 XB-Important: yes
 Depends: abe-commandline | abe-commandline-tiny,
          ifupdown,
-         raspberrypi-sys-mods,
-         raspberrypi-bootloader,
-         raspberrypi-kernel,
-         raspinfo,
-         raspi-config,
-         raspi-copies-and-fills,
-         rpi-eeprom,
-         sysvinit-core | openrc | runit-sysv,
          zile,
          ${misc:Depends}
 Recommends: abe-commandline-local,
@@ -668,26 +660,45 @@ Recommends: abe-commandline-local,
             firmware-misc-nonfree,
             firmware-realtek,
             fwupd,
-            libraspberrypi-bin,
             needrestart,
-            raspberrypi-net-mods,
-            vl805fw,
+            sysvinit-core | openrc | runit-sysv,
             wicd-curses,
             wpasupplicant
 Suggests: abe-laptop,
-          agnostics,
           avahi-daemon,
-          fwupd-signed-arm64 | fwupd-signed-armhf | fwupd-signed,
+          fwupd-signed-arm64 | fwupd-signed-armhf | fwupd-signed | abe-hardware,
+          ntfs-3g,
+          nvi | neovim | vis,
+          rng-tools
+Architecture: all
+Description: Metapackage for Axel's Single Boarder installations
+ This metapackage pulls in packages Axel commonly wants to have on
+ SBCs like the Raspberry Pi, Banana Pi, Beagle Bone, Odroid, ASUS
+ Tinkerboard, etc.
+
+Package: abe-rpf-raspbian-lite
+XB-Important: yes
+Depends: abe-sbc,
+         raspberrypi-sys-mods,
+         raspberrypi-bootloader,
+         raspberrypi-kernel,
+         raspinfo,
+         raspi-config,
+         raspi-copies-and-fills,
+         rpi-eeprom,
+         sysvinit-core | openrc | runit-sysv,
+         ${misc:Depends}
+Recommends: libraspberrypi-bin,
+            raspberrypi-net-mods,
+            vl805fw
+Suggests: agnostics,
           gpio-utils,
           libraspberrypi-dev,
           libraspberrypi-doc,
           luajit,
-          ntfs-3g,
-          nvi | neovim | vis,
           python-rpi.gpio,
           raspberrypi-archive-keyring,
           raspberrypi-kernel-headers,
-          rng-tools,
           rpiboot
 Provides: systemd (= 241-7)
 Conflicts: gcc-4.9-base,
@@ -702,10 +713,11 @@ Conflicts: gcc-4.9-base,
            vim-tiny
 Architecture: all
 Description: Metapackage to fulfill some hard dependencies of raspberrypi-sys-mods
- This metapackage provides a few packages needed by
- raspberrypi-sys-mods and other Raspbian metapackages to allow
- installation of alternatives for the same functionality or to rip out
- useless stuff like non-current gcc-*base.
+ This metapackage provides a few packages needed by Raspberry Pi
+ Foundation's raspberrypi-sys-mods and other Raspberry Pi Foundation
+ provided metapackages for Raspbian to allow installation of
+ alternatives for the same functionality or to rip out useless stuff
+ like non-current gcc-*base.
  .
  It also conflicts with packages, Axel doesn't want to see on any of
  his Raspberry Pis. These conflicts are currently meant for Raspbian
@@ -714,11 +726,12 @@ Description: Metapackage to fulfill some hard dependencies of raspberrypi-sys-mo
  Additionally it functions as metapackage for all the relevant non-GUI
  packages from the Raspberry Pi Foundation.
  .
- It won't be installable on any other platform.
+ It won't be installable on any other OS than the Raspberry Pi
+ Foundation's Raspbian images..
 
-Package: abe-raspberry-pi-desktop
+Package: abe-rpf-raspbian-desktop
 Depends: abe-laptop | abe-desktop | abe-desktop-ratpoison,
-         abe-raspberry-pi,
+         abe-rpf-raspbian-lite,
          libraspberrypi-bin,
          wdm | nodm,
          ${misc:Depends}
