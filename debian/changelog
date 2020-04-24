@@ -11,7 +11,7 @@ abe-metapackages (19) UNRELEASED; urgency=medium
   * abe-desktop-extras:
     + Suggest ausweisapp2, dark{blood,fire}-gtk-theme, rmlint-gui, and
       scrcpy.
-    + Recommend gtk3-nocsd.
+    + Recommend gtk3-nocsd and rofi.
   * abe-commandline:
     + Suggest extrepo, git-quick-stats, hostsed, hostfiles, prettyping,
       ripgrep, rmlint, and [x]fonts-terminus.
