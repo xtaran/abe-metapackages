@@ -31,6 +31,7 @@ abe-metapackages (19) UNRELEASED; urgency=medium
     easier review.
   * Downgrade removed conkeror, dpatch and libperl5i-perl to Suggests.
   * Let abe-laptop-ubuntu recommend ubuntu-minimal.
+  * Drop sole dh override in debian/rules as Wheezy is no more supported.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 29 Feb 2020 18:34:18 +0100
 

@@ -1,2 +1,1 @@
 abe-metapackages source: testsuite-autopkgtest-missing
-abe-metapackages source: debian-rules-should-not-use-custom-compression-settings dh_builddeb -- -Zgzip (line 7)
