@@ -34,6 +34,7 @@ abe-metapackages (19) UNRELEASED; urgency=medium
   * Drop sole dh override in debian/rules as Wheezy is no more supported.
   * Bump debhelper compatibility level to 13.
   * Update lintian overrides due to a lot of renamed or updated tags.
+    + Drop debian/source/lintian-overrides completely, no more needed.
   * Prefer elpa-magit-forge over elpa-magithub.
   * Allow i3-gaps as alternative to i3 for Kali Linux.
 
