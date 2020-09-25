@@ -35,6 +35,7 @@ abe-metapackages (19) UNRELEASED; urgency=medium
   * Bump debhelper compatibility level to 13.
   * Update lintian overrides due to a lot of renamed or updated tags.
   * Prefer elpa-magit-forge over elpa-magithub.
+  * Allow i3-gaps as alternative to i3 for Kali Linux.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 29 Feb 2020 18:34:18 +0100
 

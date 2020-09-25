@@ -932,14 +932,14 @@ Description: Keeps some disk-wasting packages off the disk
 
 Package: abe-window-managers
 XB-Important: yes
-Depends: awesome | i3-wm,
+Depends: awesome | i3-wm | i3-gaps-wm,
          flwm,
          ratpoison,
          ${misc:Depends}
 Recommends: awesome,
             cinnamon,
             fvwm,
-            i3-wm,
+            i3-wm | i3-gaps-wm,
             lxde | lxde-core | lxsession,
             notion | tritium,
             razorqt,
