@@ -13,6 +13,7 @@ abe-metapackages (19) UNRELEASED; urgency=medium
       scrcpy.
     + Recommend gtk3-nocsd and rofi.
     + Demote all XScreensaver related packages to at most Suggests.
+    + Pull in kitty, fonts-jetbrains-mono and powerline where possible.
   * abe-commandline:
     + Suggest extrepo, git-quick-stats, hostsed, hostfiles, prettyping,
       ripgrep, rmlint, and [x]fonts-terminus.
