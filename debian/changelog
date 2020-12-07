@@ -12,6 +12,7 @@ abe-metapackages (19) UNRELEASED; urgency=medium
     + Suggest ausweisapp2, dark{blood,fire}-gtk-theme, rmlint-gui, and
       scrcpy.
     + Recommend gtk3-nocsd and rofi.
+    + Demote all XScreensaver related packages to at most Suggests.
   * abe-commandline:
     + Suggest extrepo, git-quick-stats, hostsed, hostfiles, prettyping,
       ripgrep, rmlint, and [x]fonts-terminus.
