@@ -20,7 +20,7 @@ abe-metapackages (19) UNRELEASED; urgency=medium
     + Recommend maim, icdiff and s-tui.
   * abe-laptop:
     + Recommend gnome-firmware.
-    + Demote x11-xserver-utils from Depends to Recommends.
+    + Demote x11-xserver-utils and ppp from Depends to Recommends.
     + Recommend xauth.
   * Add barrier as preferred alternative to synergy.
   * abe-server:
