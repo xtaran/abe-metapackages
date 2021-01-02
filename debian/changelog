@@ -28,7 +28,9 @@ abe-metapackages (19) UNRELEASED; urgency=medium
     + Allow alternatives to postfix, especially nullmailer.
     + Override mail-transport-agent-dependency-does-not-specify-default-mta.
   * Recommend or Suggest neofetch and chafa in multiple packages.
-  * abe-packaging-dev: Recommend ronn.
+  * abe-packaging-dev:
+    + Recommend ronn.
+    + Replace qt4-qmake with qt5-qmake.
   * Move all XB-Important lines directly under the Package lines for
     easier review.
   * Downgrade removed conkeror, dpatch and libperl5i-perl to Suggests.
