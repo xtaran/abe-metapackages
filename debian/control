@@ -1633,3 +1633,25 @@ Description: Axel's base package for real hardware
  .
  This package especially pulls in hardware-related tools like hddtemp
  and fwupd — which don't make sense on virtual machines.
+
+Package: sudo-considered-harmful
+Provides: prevent-sudo
+Depends: ${misc:Depends}
+Architecture: all
+Important: yes
+Conflicts: calife,
+           doas,
+           gosu,
+           libsss-sudo,
+           pleaser,
+           sudo,
+           sudo-ldap,
+           super
+Description: Prevent installation of sudo and similar tools
+ sudo has a history of security issues allowing privilege escalation
+ despite its main goal is to restrict escalated
+ privilege. Additionally it is not wise to just guard root permissions
+ with the same password as a normal user logs in.
+ .
+ This package prevents the installation of sudo, super, doas, calife,
+ and similar tools.
