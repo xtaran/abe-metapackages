@@ -12,7 +12,7 @@ Rules-Requires-Root: no
 Package: abe-commandline-local
 XB-Important: yes
 Depends: abe-commandline | abe-commandline-tiny,
-         ack-grep,
+         ack (>> 2) | ack-grep,
          autossh,
          ccal,
          libwww-perl,

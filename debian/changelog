@@ -50,6 +50,7 @@ abe-metapackages (19) UNRELEASED; urgency=medium
   * Prefer elpa-magit-forge over elpa-magithub.
   * Allow i3-gaps as alternative to i3 for Kali Linux.
   * Run "wrap-and-sort -a".
+  * Add one more "ack (>> 2)" as alternative dependency to "ack-grep".
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 29 Feb 2020 18:34:18 +0100
 
