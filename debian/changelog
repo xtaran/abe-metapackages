@@ -36,7 +36,8 @@ abe-metapackages (19) UNRELEASED; urgency=medium
     easier review.
   * Downgrade seldomly needed dpatch to Suggests.
   * Drop the removed packages conkeror (no more use it) and libperl5i-perl
-    (never really used).
+    (never really used) as well as libfile-rsyncp-perl (which actually is
+    no alternative to libfile-rsync-perl — was just needed by BackupPC<4).
   * Let abe-laptop-ubuntu recommend ubuntu-minimal.
   * Drop sole dh override in debian/rules as Wheezy is no more supported.
   * Bump debhelper compatibility level to 13.
