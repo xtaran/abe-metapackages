@@ -49,6 +49,7 @@ abe-metapackages (19) UNRELEASED; urgency=medium
     + Drop debian/source/lintian-overrides completely, no more needed.
   * Prefer elpa-magit-forge over elpa-magithub.
   * Allow i3-gaps as alternative to i3 for Kali Linux.
+  * Run "wrap-and-sort -a".
 
  -- Axel Beckert <abe@deuxchevaux.org>  Sat, 29 Feb 2020 18:34:18 +0100
 
