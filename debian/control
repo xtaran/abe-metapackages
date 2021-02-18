@@ -1644,7 +1644,7 @@ Package: sudo-considered-harmful
 Provides: prevent-sudo
 Depends: ${misc:Depends}
 Architecture: all
-Important: yes
+XB-Important: yes
 Conflicts: calife,
            doas,
            gosu,
