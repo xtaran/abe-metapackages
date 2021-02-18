@@ -1,4 +1,4 @@
-abe-metapackages (19) UNRELEASED; urgency=medium
+abe-metapackages (19) unstable; urgency=medium
 
   * Introduce the new packages abe-hardware, abe-sbc,
     abe-rpf-raspbian-{lite,desktop}. (RPF = Raspberry Pi Foundation), and
@@ -56,7 +56,7 @@ abe-metapackages (19) UNRELEASED; urgency=medium
   * Drop alternative grep-dctrl to dctrl-tools everywhere. It's gone since
     Etch or so.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Sat, 29 Feb 2020 18:34:18 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Thu, 18 Feb 2021 05:14:03 +0100
 
 abe-metapackages (18.1) unstable; urgency=medium
 
