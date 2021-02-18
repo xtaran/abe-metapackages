@@ -1,7 +1,13 @@
+abe-metapackages (19.0.1) UNRELEASED; urgency=medium
+
+  * Fix punctuation and other minor issues in previous changelog entry.
+
+ -- Axel Beckert <abe@debian.org>  Thu, 18 Feb 2021 06:55:27 +0100
+
 abe-metapackages (19) unstable; urgency=medium
 
-  * Introduce the new packages abe-hardware, abe-sbc,
-    abe-rpf-raspbian-{lite,desktop}. (RPF = Raspberry Pi Foundation), and
+  * Introduce the new packages abe-rpf-raspbian-{lite,desktop} (RPF =
+    Raspberry Pi Foundation), abe-sbc, abe-hardware, and
     sudo-considered-harmful.
   * Add mmc-utils as Recommends to abe-partitioning and abe-laptop.
   * abe-games: Recommend klickety and gtkboard.
