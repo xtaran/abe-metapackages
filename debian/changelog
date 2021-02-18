@@ -34,7 +34,9 @@ abe-metapackages (19) UNRELEASED; urgency=medium
     + Replace qt4-qmake with qt5-qmake.
   * Move all XB-Important lines directly under the Package lines for
     easier review.
-  * Downgrade removed conkeror, dpatch and libperl5i-perl to Suggests.
+  * Downgrade seldomly needed dpatch to Suggests.
+  * Drop the removed packages conkeror (no more use it) and libperl5i-perl
+    (never really used).
   * Let abe-laptop-ubuntu recommend ubuntu-minimal.
   * Drop sole dh override in debian/rules as Wheezy is no more supported.
   * Bump debhelper compatibility level to 13.
