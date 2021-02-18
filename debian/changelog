@@ -23,6 +23,8 @@ abe-metapackages (19) UNRELEASED; urgency=medium
     + Suggest extrepo, git-quick-stats, hostsed, hostfiles, prettyping,
       ripgrep, rmlint, and [x]fonts-terminus.
     + Recommend maim, icdiff and s-tui.
+    + Provide a command list-installed-abe-metapackages. Make dctrl-tools
+      a hard dependency.
   * abe-laptop:
     + Recommend gnome-firmware.
     + Demote x11-xserver-utils and ppp from Depends to Recommends.

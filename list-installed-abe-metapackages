@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if which grep-status > /dev/null 2>&1; then
+    grep-status -S abe-metapackages -s Package -n
+else
+    echo "Package dctrl-tools must be installed to use this" 1>&2
+    exit 1;
+fi
