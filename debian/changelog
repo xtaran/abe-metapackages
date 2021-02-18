@@ -17,6 +17,8 @@ abe-metapackages (19) UNRELEASED; urgency=medium
     + Pull in kitty, fonts-jetbrains-mono, fonts-firacode, fonts-agave and
       powerline where possible.
     + Also suggest fonts-cascadia-code and fonts-hack.
+    + Suggest elpa-ligature if a recent enough GNU Emacs version is
+      available. (GNU Emacs 27.1 does not yet work properly with it.)
   * abe-commandline:
     + Suggest extrepo, git-quick-stats, hostsed, hostfiles, prettyping,
       ripgrep, rmlint, and [x]fonts-terminus.
