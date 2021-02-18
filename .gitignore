@@ -6,4 +6,5 @@
 /debian/debhelper-build-stamp
 /debian/abe-*/
 /debian/kiva-*/
+/debian/*-considered-harmful/
 /debian/files
