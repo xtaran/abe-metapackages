@@ -85,6 +85,7 @@ Suggests: ack (>> 2) | ack-grep,
           arping | iputils-arping,
           autossh,
           bar | cpipe | pipemeter | pv,
+          container-package-formats-considered-harmful,
           dctrl-tools,
           debconf-utils,
           debian-goodies,
@@ -1585,6 +1586,7 @@ Recommends: abe-archive-tools,
             prevent-ppckit,
             prevent-pulseaudio,
             prevent-systemd-completely,
+            container-package-formats-considered-harmful,
             sshguard | fail2ban
 Suggests: abe-console,
           abe-fun,
@@ -1651,3 +1653,40 @@ Description: Prevent installation of sudo and similar tools
  .
  This package prevents the installation of sudo, super, doas, calife,
  and similar tools.
+
+Package: container-package-formats-considered-harmful
+Provides: prevent-snap,
+          prevent-flatpak,
+          prevent-appimage,
+          xdg-desktop-portal,
+          xdg-desktop-portal-backend,
+          xdg-desktop-portal-gtk,
+          xdg-desktop-portal-kde,
+          xdg-desktop-portal-wlr,
+Depends: ${misc:Depends}
+Architecture: all
+XB-Important: yes
+Conflicts: appimage,
+           flatpak,
+           flatpak-xdg-utils,
+           gir1.2-snapd-1,
+           gnome-software-plugin-flatpak,
+           libappimage0,
+           libflatpak0,
+           libsnapd-glib1,
+           libsnapd-qt1,
+           plasma-discover-backend-flatpak,
+           qml-module-snapd,
+           qt5-flatpak-platformtheme,
+           snapd,
+           xdg-desktop-portal,
+           xdg-desktop-portal-gtk,
+           xdg-desktop-portal-kde,
+           xdg-desktop-portal-wlr,
+Description: Prevent installation of container-based package formats
+ This package prevents the installation of snapd, Flatpak and AppImage
+ tools which Axel considers to be a severe security threat to any
+ installation.
+ .
+ It also conflicts and provides xdg-desktop-portal-backend(s) and
+ xdg-desktop-portal since webkit2gtk started depending on them.
