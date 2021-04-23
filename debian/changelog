@@ -5,8 +5,11 @@ abe-metapackages (19.0.1) UNRELEASED; urgency=medium
   * abe-commandline:
     + Recommends installation-birthday.
     + Suggests jq.
+  * Remove the "Important: yes" flag from quite some not so important
+    packages (i.e. those I occasionally uninstall again) and add it to
+    abe-hardware. (Also drop/add according lintian overrides.)
 
- -- Axel Beckert <abe@debian.org>  Thu, 18 Feb 2021 06:55:27 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Thu, 18 Feb 2021 06:55:27 +0100
 
 abe-metapackages (19) unstable; urgency=medium
 

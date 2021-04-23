@@ -381,7 +381,6 @@ Description: Metapackage of commandline tools Axel usually installs
  his setups.
 
 Package: abe-archive-tools
-XB-Important: yes
 Depends: atool,
          zip,
          ${misc:Depends}
@@ -408,7 +407,6 @@ Description: Packages needed to read exotic archive formats
  file formats.
 
 Package: abe-commandline-media
-XB-Important: yes
 Depends: abe-commandline,
          abe-commandline-local,
          alsa-utils | gom | rexima | aumix,
@@ -495,7 +493,6 @@ Description: Common Emacs installation on Axel's systems
  wants Emacs to be usable.
 
 Package: abe-gnome
-XB-Important: yes
 Depends: baobab,
          gucharmap,
          mssh | clusterssh,
@@ -771,7 +768,6 @@ Description: Metapackage for computers Axel's wants to be monitored
  those computers he wants to have monitored.
 
 Package: abe-office
-XB-Important: yes
 Depends: catdoc | antiword | wv,
          libpaper-utils,
          libreoffice-calc | openoffice.org-calc | gnumeric,
@@ -826,7 +822,6 @@ Description: Common office applications on Axel's desktops
  wants basic office functionality.
 
 Package: abe-tex
-XB-Important: yes
 Depends: abe-emacs,
          auctex | yatex,
          texlive,
@@ -933,7 +928,6 @@ Description: Keeps some disk-wasting packages off the disk
  find waste of disk-space.
 
 Package: abe-window-managers
-XB-Important: yes
 Depends: awesome | i3-wm | i3-gaps-wm,
          flwm,
          ratpoison,
@@ -968,7 +962,6 @@ Description: Metapackage depending on a bunch of window managers
  people log in, too.
 
 Package: abe-joystick
-XB-Important: yes
 Depends: inputattach,
          joystick,
          ${misc:Depends}
@@ -1001,7 +994,6 @@ Description: Metapackage for computers with touchscreen or attached graphics tab
  a Wacom graphics tablet or a touchscreen working.
 
 Package: abe-x-browsers
-XB-Important: yes
 Depends: abe-text-browsers,
          dillo,
          links2,
@@ -1064,7 +1056,6 @@ Description: List of text-mode web browsers, Axel commonly has installed
  installed.
 
 Package: abe-games
-XB-Important: yes
 Depends: abe-fun,
          ${misc:Depends}
 Recommends: 2048-qt,
@@ -1176,7 +1167,6 @@ Description: Metapackage depending on Axel's collection of favourite games
  installed -- small and big ones, TUI and GUI ones, etc.
 
 Package: abe-fun
-XB-Important: yes
 Depends: cmatrix,
          fortunes,
          fortunes-bofh-excuses,
@@ -1335,7 +1325,6 @@ Description: Packages needed for hosts with users in the LUGS Kiva Xen Cluster
  login.
 
 Package: abe-packaging-dev
-XB-Important: yes
 Depends: abe-commandline,
          abe-commandline-local,
          abe-emacs,
@@ -1403,7 +1392,6 @@ Description: Packages for building Debian packages
  those boxes where he builds Debian packages.
 
 Package: abe-perl-dev
-XB-Important: yes
 Depends: abe-commandline,
          abe-commandline-local,
          abe-emacs,
@@ -1483,7 +1471,6 @@ Description: Packages for developing Perl applications and modules
  those boxes where he develops Perl stuff.
 
 Package: abe-desktop-extras
-XB-Important: yes
 Depends: abe-console,
          abe-emacs,
          abe-gnome,
@@ -1629,6 +1616,7 @@ Description: Axel's base package for pure servers
  consolekit, networkmanager or systemd installed.
 
 Package: abe-hardware
+XB-Important: yes
 Depends: ${misc:Depends}
 Recommends: abe-console,
             fwupd,

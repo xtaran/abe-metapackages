@@ -1,2 +1,1 @@
 abe-packaging-dev: depends-on-obsolete-package Suggests: dpatch
-abe-packaging-dev: unknown-field * Important
