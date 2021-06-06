@@ -5,6 +5,9 @@ abe-metapackages (19.0.1) UNRELEASED; urgency=medium
   * abe-commandline:
     + Recommends installation-birthday.
     + Suggests jq.
+  * Disk usage tools: Add duf, sort them by Installed-Size in
+    abe-commandline-tiny (Suggests) and by usability in abe-commandline
+    (Recommends). Suggest all of them in abe-commandline, too.
   * Remove the "Important: yes" flag from quite some not so important
     packages (i.e. those I occasionally uninstall again) and add it to
     abe-hardware. (Also drop/add according lintian overrides.)
