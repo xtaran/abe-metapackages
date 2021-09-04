@@ -692,10 +692,10 @@ Depends: abe-sbc,
          raspi-copies-and-fills,
          raspinfo,
          rpi-eeprom,
-         sysvinit-core | openrc | runit-sysv,
          ${misc:Depends}
 Recommends: libraspberrypi-bin,
             raspberrypi-net-mods,
+            sysvinit-core | openrc | runit-sysv,
             vl805fw
 Suggests: agnostics,
           gpio-utils,
@@ -715,7 +715,6 @@ Conflicts: gcc-4.9-base,
            libudev0,
            paxctld,
            rpi-chromium-mods,
-           systemd-sysv,
            triggerhappy,
            vim-tiny
 Architecture: all
