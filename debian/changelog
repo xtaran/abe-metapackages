@@ -12,6 +12,9 @@ abe-metapackages (20) UNRELEASED; urgency=medium
     packages (i.e. those I occasionally uninstall again) and add it to
     abe-hardware. (Also drop/add according lintian overrides.)
   * Introduce new package container-package-formats-considered-harmful.
+  * Split abe-rpf-raspbian off abe-rpf-raspbian-lite and let
+    abe-rpf-raspbian-desktop depend on the former while the latter
+    conflicts with systemd.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Thu, 18 Feb 2021 06:55:27 +0100
 

@@ -682,7 +682,7 @@ Description: Metapackage for Axel's Single Boarder installations
  SBCs like the Raspberry Pi, Banana Pi, Beagle Bone, Odroid, ASUS
  Tinkerboard, etc.
 
-Package: abe-rpf-raspbian-lite
+Package: abe-rpf-raspbian
 XB-Important: yes
 Depends: abe-sbc,
          raspberrypi-bootloader,
@@ -734,16 +734,33 @@ Description: Metapackage to fulfill some hard dependencies of raspberrypi-sys-mo
  packages from the Raspberry Pi Foundation.
  .
  It won't be installable on any other OS than the Raspberry Pi
- Foundation's Raspbian images..
+ Foundation's Raspbian images.
+
+Package: abe-rpf-raspbian-lite
+XB-Important: yes
+Depends: abe-rpf-raspbian,
+         sysvinit-core | openrc | runit-sysv,
+         ${misc:Depends}
+Provides: systemd (= 241-7)
+Conflicts: systemd-sysv
+Architecture: all
+Description: Axel's idea of an lean Rasberry Pi server
+ This metapackage pulls in everything Axel usually wants on a
+ Raspberry Pi without GUI. Also functions as metapackage for all the
+ relevant packages from the Raspberry Pi Foundation. It especially
+ replaces systemd with a leaner and less intrusive init system.
+ .
+ It won't be installable on any other platform.
 
 Package: abe-rpf-raspbian-desktop
 Depends: abe-laptop | abe-desktop | abe-desktop-ratpoison,
-         abe-rpf-raspbian-lite,
+         abe-rpf-raspbian,
          libraspberrypi-bin,
          wdm | nodm,
          ${misc:Depends}
 Recommends: abe-desktop,
-            abe-laptop
+            abe-laptop,
+            abe-rpf-raspbian-lite
 Suggests: chromium | chromium-browser,
           omxplayer,
           pi-bluetooth,
