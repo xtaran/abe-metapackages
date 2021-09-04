@@ -15,6 +15,7 @@ abe-metapackages (20) UNRELEASED; urgency=medium
   * Split abe-rpf-raspbian off abe-rpf-raspbian-lite and let
     abe-rpf-raspbian-desktop depend on the former while the latter
     conflicts with systemd.
+  * Declare compliance with Debian Policy 4.6.0. (No changes needed.)
 
  -- Axel Beckert <abe@deuxchevaux.org>  Thu, 18 Feb 2021 06:55:27 +0100
 
