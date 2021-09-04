@@ -1216,6 +1216,7 @@ Recommends: abe-games,
             toilet
 Suggests: beef,
           cheese,
+          inxi,
           filters
 Enhances: abe-commandline,
           abe-commandline-local,
