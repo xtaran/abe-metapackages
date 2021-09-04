@@ -1,4 +1,4 @@
-abe-metapackages (20) UNRELEASED; urgency=medium
+abe-metapackages (20) unstable; urgency=medium
 
   * Fix punctuation and other minor issues in previous changelog entry.
   * Don't suggest quicksynergy if barrier is installed.
@@ -18,7 +18,7 @@ abe-metapackages (20) UNRELEASED; urgency=medium
   * Declare compliance with Debian Policy 4.6.0. (No changes needed.)
   * abe-fun suggests inxi.
 
- -- Axel Beckert <abe@deuxchevaux.org>  Thu, 18 Feb 2021 06:55:27 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Sat, 04 Sep 2021 02:26:38 +0200
 
 abe-metapackages (19) unstable; urgency=medium
 
