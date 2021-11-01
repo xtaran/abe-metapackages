@@ -1,3 +1,10 @@
+abe-metapackages (20.1) UNRELEASED; urgency=medium
+
+  * Add grc as alternative to ccze, add gdu as alternative to ncdu.
+  * Recommend gdu and grc in abe-commandline as well.
+
+ -- Axel Beckert <abe@debian.org>  Mon, 01 Nov 2021 08:31:41 +0100
+
 abe-metapackages (20) unstable; urgency=medium
 
   * Fix punctuation and other minor issues in previous changelog entry.
