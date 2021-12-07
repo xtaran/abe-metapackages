@@ -279,6 +279,7 @@ Suggests: 2ping,
           chiark-scripts | polygen,
           clive,
           cpipe,
+          cpufetch,
           cpulimit,
           dc,
           debconf-utils,
@@ -1212,6 +1213,7 @@ Recommends: abe-games,
             caca-utils,
             chafa,
             cowsay,
+            cpufetch,
             figlet,
             funny-manpages,
             geekcode,
@@ -1661,7 +1663,8 @@ Depends: ${misc:Depends}
 Recommends: abe-console,
             fwupd,
             hddtemp
-Suggests: fwupd-signed | fwupd-amd64-signed | fwupd-i386-signed | fwupd-arm64-signed | fwupd-armhf-signed
+Suggests: cpufetch,
+          fwupd-signed | fwupd-amd64-signed | fwupd-i386-signed | fwupd-arm64-signed | fwupd-armhf-signed
 Architecture: all
 Description: Axel's base package for real hardware
  Metapackage taking care that all packages Axel wants to have
