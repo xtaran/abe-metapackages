@@ -1662,7 +1662,7 @@ XB-Important: yes
 Depends: ${misc:Depends}
 Recommends: abe-console,
             fwupd,
-            hddtemp
+            hddtemp | linux-image-generic (>= 5.6)
 Suggests: cpufetch,
           fwupd-signed | fwupd-amd64-signed | fwupd-i386-signed | fwupd-arm64-signed | fwupd-armhf-signed
 Architecture: all
