@@ -5,11 +5,15 @@ abe-metapackages (20.1) UNRELEASED; urgency=medium
   * Recommend bpfmon, nload, iptraf(-ng) and iftop in abe-commandline and
     abe-server. No more recommend trafshow.
   * Recommend some (usable) Matrix clients in abe-desktop-extras.
-  * Recomment cpufetch in abe-commandline, aber-hardware and abe-fun.
+  * Recommend cpufetch in abe-commandline, aber-hardware and abe-fun.
+  * Only recommend hddtemp for hosts without Linux kernel 5.6 or higher.
+  * Prefer scummvm ≥ 2.5.0 over residualvm.
+  * Update lintian overrides wrt. to changed tag listings.
+  * Prefer exfatprogs over exfat-utils. (c.f. #1002871)
   * Add pkexec to sudo-considered-harmful (i.e. to Conflicts).
   * Allow lsb-release-minimal to be used instead of lsb-release.
 
- -- Axel Beckert <abe@debian.org>  Mon, 01 Nov 2021 08:31:41 +0100
+ -- Axel Beckert <abe@deuxchevaux.org>  Mon, 01 Nov 2021 08:31:41 +0100
 
 abe-metapackages (20) unstable; urgency=medium
 
