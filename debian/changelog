@@ -15,6 +15,9 @@ abe-metapackages (20.1) UNRELEASED; urgency=medium
   * Allow lsb-release-minimal to be used instead of lsb-release.
   * Prefer inetutils-telnet over transitional package telnet.
   * Prefer lbreakouthd over lbreakout2 (which became transitional).
+  * container-package-formats-considered-harmful:
+    + Add packages handling Ubuntu's click format.
+    + Add more recent library package names.
 
  -- Axel Beckert <abe@deuxchevaux.org>  Mon, 01 Nov 2021 08:31:41 +0100
 
